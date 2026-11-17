@@ -1,0 +1,9 @@
+{
+  // Configuración para Cloudflare (Workers con archivos estáticos).
+  // Publica la carpeta public/ tal cual, sin paso de compilación.
+  "name": "noticierosma",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public"
+  }
+}

@@ -28,14 +28,16 @@ python3 -m http.server 8000 --directory public
 
 Luego abre <http://localhost:8000>.
 
-## Publicación en Cloudflare Pages
+## Publicación en Cloudflare
 
-1. En Cloudflare, ve a **Workers & Pages → Create → Pages → Connect to Git** y elige este repositorio.
-2. Configuración de compilación:
-   - Framework preset: **None**
-   - Build command: *(vacío)*
-   - Build output directory: `public`
-3. Para mantenerlo privado, ve a **Zero Trust → Access → Applications → Add application → Self-hosted**, usa el dominio `*.pages.dev` del proyecto y crea una política *Allow* que incluya solo tu correo. Es gratis hasta 50 usuarios.
+El repositorio incluye `wrangler.jsonc`, que le indica a Cloudflare que publique la carpeta `public/`.
+
+1. En Cloudflare, ve a **Compute (Workers) → Workers & Pages → Create application → Import a repository** y elige este repositorio.
+2. Nombre del proyecto: `noticierosma`. Debe coincidir con `name` en `wrangler.jsonc`.
+3. Deja los valores por defecto:
+   - Build command: vacío
+   - Deploy command: `npx wrangler deploy`
+4. Para mantenerlo privado, en el proyecto ve a **Settings → Domains & Routes** y activa **Cloudflare Access** en el dominio `workers.dev`. Luego, en **Zero Trust → Access → Applications**, deja una política que permita solo tu correo.
 
 El sitio incluye `noindex` y `robots.txt` para que no aparezca en buscadores mientras sea privado.
 
