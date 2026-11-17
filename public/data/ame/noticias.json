@@ -1,0 +1,472 @@
+[
+  {
+    "id": "2026-09-fda-aprueba-apitegromab",
+    "condicion": "ame",
+    "semana": "2026-W37",
+    "fecha_publicacion": "2026-09-11",
+    "categoria": "medicamentos",
+    "titulo": "La FDA aprueba apitegromab (Isembyld), la primera terapia dirigida al músculo en AME",
+    "titulo_original": "FDA approves first therapy to target muscle loss in spinal muscular atrophy",
+    "tipo_fuente": "regulatorio",
+    "certeza": "moderada",
+    "destacado": true,
+    "fuente": {
+      "nombre": "FDA (comunicado) · ensayo pivotal SAPPHIRE en The Lancet Neurology",
+      "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-therapy-target-muscle-loss-spinal-muscular-atrophy",
+      "doi": "10.1016/S1474-4422(25)00225-X",
+      "pmid": "40818473",
+      "nct": "NCT05156320"
+    },
+    "resumen_tecnico": "La FDA aprobó apitegromab (Isembyld, Scholar Rock), anticuerpo monoclonal que inhibe la activación de la miostatina, como terapia complementaria para personas con AME de 2 años o más que ya reciben una terapia dirigida a SMN2. La aprobación se apoya en SAPPHIRE, un ensayo de fase 3, doble ciego y controlado con placebo (n = 188; 2 a 21 años; AME tipo 2 o 3 no ambulante, en tratamiento con nusinersen o risdiplam). En el grupo de 2 a 12 años, la diferencia en el cambio de la HFMSE a 12 meses fue de 1,8 puntos a favor de apitegromab (IC 95 %: 0,30 a 3,32; p = 0,019; combinando 10 y 20 mg/kg cada 4 semanas). La dosis de 20 mg/kg por sí sola no alcanzó significación (1,4 puntos; p = 0,11). Los eventos adversos fueron similares entre grupos en el ensayo. Según la prensa especializada, la ficha técnica advierte sobre riesgo de fracturas, posible daño fetal y efectos sobre la función reproductiva.",
+    "puntos_clave": [
+      "Primer fármaco aprobado que actúa sobre el músculo y no sobre el gen SMN.",
+      "Es un tratamiento complementario: se suma a nusinersen o risdiplam, no los reemplaza.",
+      "Beneficio motor modesto (aproximadamente 1,8 puntos en la HFMSE frente a placebo a 12 meses).",
+      "Ficha técnica con advertencias de fracturas y riesgos reproductivos."
+    ],
+    "limitaciones": "El ensayo incluyó solo pacientes no ambulantes de 2 a 21 años; la extrapolación a otras edades o a pacientes ambulantes es limitada. El efecto es pequeño y la dosis alta por sí sola no fue significativa. El ensayo fue financiado por el fabricante.",
+    "resumen_familias": "En Estados Unidos se aprobó un nuevo medicamento para la AME llamado apitegromab (Isembyld). A diferencia de los tratamientos que ya existen, que ayudan a producir la proteína SMN que falta, este actúa directamente sobre el músculo para ayudarlo a mantenerse más fuerte. Se usa junto con el tratamiento que su hijo o hija ya recibe, no en lugar de él. En el estudio principal, los niños que lo recibieron mejoraron un poco su función motora en un año, mientras que los que recibieron placebo empeoraron un poco. Por ahora está aprobado solo en Estados Unidos.",
+    "pregunta_equipo": "¿Mi hijo o hija podría ser candidato a apitegromab y cuándo estaría disponible en nuestro país?",
+    "conflictos": "El ensayo SAPPHIRE fue financiado por Scholar Rock (fabricante).",
+    "verificacion": {
+      "estado": "parcial",
+      "fecha": "2026-11-17",
+      "nota": "Aprobación confirmada en al menos tres medios independientes (NeurologyLive, STAT News, Medical Dialogues). Ensayo pivotal verificado en PubMed. El comunicado oficial de la FDA no pudo leerse directamente desde el entorno de recopilación."
+    },
+    "etiquetas": ["apitegromab", "miostatina", "FDA", "SAPPHIRE"]
+  },
+  {
+    "id": "2026-09-nissen-robotico-ame2",
+    "condicion": "ame",
+    "semana": "2026-W39",
+    "fecha_publicacion": "2026-09-21",
+    "categoria": "cirugia",
+    "titulo": "Primera fundoplicatura de Nissen asistida por robot en un adulto con AME tipo 2",
+    "titulo_original": "Case Report: Robot-assisted nissen fundoplication in spinal muscular atrophy type 2—a tailored surgical and anaesthetic strategy",
+    "tipo_fuente": "reporte_caso",
+    "certeza": "muy_baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Frontiers in Surgery",
+      "autores": "Wong et al.",
+      "url": "https://doi.org/10.3389/fsurg.2026.1964655",
+      "doi": "10.3389/fsurg.2026.1964655",
+      "pmid": "42835421"
+    },
+    "resumen_tecnico": "Reporte de caso de una mujer de 23 años con AME tipo 2, reflujo gastroesofágico severo, disfunción bulbar, insuficiencia respiratoria restrictiva grave, una intubación fallida previa y deformidades musculoesqueléticas fijas. Con planificación multidisciplinaria se realizó una intubación nasotraqueal con fibroscopio bajo sedación profunda con sevoflurano, manteniendo la ventilación espontánea, y se completó una fundoplicatura de Nissen robótica con piloroplastía de Mikulicz, con posicionamiento y puertos adaptados. La paciente fue extubada directamente a ventilación no invasiva a las 2 h 43 min, no tuvo complicaciones y fue dada de alta al día 5. A los 4 meses no presentaba síntomas de reflujo y manejaba mejor las secreciones.",
+    "puntos_clave": [
+      "Cirugía antirreflujo mínimamente invasiva posible en AME tipo 2 con deformidades fijas.",
+      "El plan anestésico (vía aérea difícil y ventilación espontánea) fue clave.",
+      "Extubación directa a ventilación no invasiva y alta al quinto día."
+    ],
+    "limitaciones": "Es un solo caso, en un centro experto; no permite generalizar ni comparar con la técnica laparoscópica convencional. Existe una fe de erratas publicada (DOI 10.3389/fsurg.2026.2037484).",
+    "resumen_familias": "Un equipo médico describió la operación de una joven de 23 años con AME tipo 2 que tenía reflujo severo, es decir, el contenido del estómago le subía al esófago. Usaron cirugía con robot, que requiere cortes más pequeños, y prepararon la anestesia con mucho cuidado porque respirar le costaba. La operación salió bien, se fue a casa a los 5 días y meses después ya no tenía reflujo. Es una sola experiencia, pero muestra que estas cirugías son posibles con un equipo preparado.",
+    "pregunta_equipo": "Si mi hijo o hija necesita una cirugía, ¿qué plan de anestesia y de respiración se usaría en su caso?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42835421)." },
+    "etiquetas": ["reflujo", "cirugía robótica", "anestesia", "AME tipo 2", "partes blandas"]
+  },
+  {
+    "id": "2026-09-cadera-ame-era-terapias",
+    "condicion": "ame",
+    "semana": "2026-W39",
+    "fecha_publicacion": "2026-09-22",
+    "categoria": "cirugia",
+    "titulo": "Inestabilidad de cadera en la era de las terapias modificadoras: ¿cuándo y cómo intervenir?",
+    "titulo_original": "Management of Hip Instability in Spinal Muscular Atrophy in the Disease-Modifying Therapy Era: The \"Late Autumn\" or \"Early Spring\" of Neuro-Orthopedics?",
+    "tipo_fuente": "revision_consenso",
+    "certeza": "muy_baja",
+    "destacado": true,
+    "fuente": {
+      "nombre": "Biomedicines",
+      "autores": "Kenis V, Kurenkov A",
+      "url": "https://doi.org/10.3390/biomedicines14102138",
+      "doi": "10.3390/biomedicines14102138",
+      "pmid": "42939945"
+    },
+    "resumen_tecnico": "Revisión narrativa sobre la subluxación y luxación de cadera en la AME tras la llegada de las terapias modificadoras de la enfermedad. Con mayor supervivencia, muchos pacientes con AME tipo 1 no logran bipedestación ni marcha independientes, lo que los predispone a la migración de cadera. Los autores señalan que no hay terminología unificada, que la luxación neurogénica es adquirida y progresiva (requiere vigilancia dinámica, no una evaluación única) y que los criterios de cribado y tratamiento heredados de la parálisis cerebral, el mielomeningocele o la artrogriposis no se pueden trasladar directamente. Proponen considerar el porcentaje de migración (con umbrales posiblemente distintos a los de la parálisis cerebral), la función motora residual, las contracturas y la función de las extremidades superiores. Destacan que no existe ningún estudio prospectivo comparativo sobre cirugía reconstructiva de cadera en AME.",
+    "puntos_clave": [
+      "La cadera en AME necesita vigilancia radiográfica periódica, no un único control.",
+      "El porcentaje de migración sirve, pero los umbrales de la parálisis cerebral pueden no aplicar.",
+      "Falta evidencia prospectiva sobre cirugía reconstructiva: se piden estudios internacionales."
+    ],
+    "limitaciones": "Es una revisión narrativa y de opinión, sin búsqueda sistemática ni datos nuevos.",
+    "resumen_familias": "Gracias a los nuevos tratamientos, los niños con AME viven más y mejor, pero aparecen otros desafíos, como el riesgo de que la cadera se salga parcial o totalmente de su lugar en quienes no caminan. Este artículo explica que todavía no hay reglas claras sobre cuándo operar y que las que se usan en otras condiciones no siempre sirven para la AME. Lo más importante para las familias es que la cadera se controle con radiografías de forma periódica.",
+    "pregunta_equipo": "¿Cada cuánto deberíamos controlar la cadera con radiografía y qué valor de migración nos haría preocuparnos?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42939945)." },
+    "etiquetas": ["cadera", "luxación", "neuro-ortopedia", "porcentaje de migración"]
+  },
+  {
+    "id": "2026-09-densidad-osea-fusion-espinal",
+    "condicion": "ame",
+    "semana": "2026-W39",
+    "fecha_publicacion": "2026-09-21",
+    "categoria": "cirugia",
+    "titulo": "La baja densidad ósea se asocia a menor corrección de la escoliosis tras la artrodesis posterior",
+    "titulo_original": "Low bone mineral density in non-ambulatory adolescents relates to lower correction of neuromuscular scoliosis after posterior spinal fusion",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Spine Deformity",
+      "autores": "Tsaknakis K, … Hell AK",
+      "url": "https://doi.org/10.1007/s43390-026-01532-6",
+      "doi": "10.1007/s43390-026-01532-6",
+      "pmid": "42768187"
+    },
+    "resumen_tecnico": "Estudio de 169 adolescentes no ambulantes con escoliosis neuromuscular (Duchenne n = 55, AME n = 34, parálisis cerebral n = 52, Rett n = 28) sometidos a artrodesis espinal posterior, con 87 controles sanos de la misma edad. La densidad mineral ósea volumétrica se midió en TAC preoperatorias. Todos los grupos tuvieron una densidad significativamente menor que los controles; la AME fue el segundo grupo con valores más bajos. La curva pasó de 83 ± 31° a 33 ± 21° (corrección media de 60,8 %). Los pacientes con mala corrección (60 % o menos) tenían puntajes Z más bajos (−2,5 frente a −1,7).",
+    "puntos_clave": [
+      "Los adolescentes con AME tienen una densidad ósea muy baja antes de la cirugía de columna.",
+      "Menos densidad ósea se asocia a menor corrección de la curva.",
+      "Apoya optimizar la salud ósea (vitamina D, carga y evaluación) antes de operar."
+    ],
+    "limitaciones": "Diseño retrospectivo de un solo centro con diagnósticos mixtos; no reporta análisis separado de la AME ni ajuste completo de factores de confusión.",
+    "resumen_familias": "Cuando la columna se curva mucho (escoliosis), a veces es necesario operarla para enderezarla. Este estudio encontró que los jóvenes con huesos más frágiles lograron menos corrección con la cirugía, y los jóvenes con AME suelen tener huesos frágiles. Por eso es útil cuidar la salud de los huesos desde temprano con vitamina D, alimentación adecuada y estar de pie con apoyo cuando se pueda.",
+    "pregunta_equipo": "¿Deberíamos medir la densidad ósea y la vitamina D de mi hijo o hija antes de pensar en una cirugía de columna?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42768187)." },
+    "etiquetas": ["escoliosis", "artrodesis", "densidad ósea", "columna"]
+  },
+  {
+    "id": "2026-09-deglucion-ame1-revision",
+    "condicion": "ame",
+    "semana": "2026-W39",
+    "fecha_publicacion": "2026-09-23",
+    "categoria": "rehabilitacion",
+    "titulo": "Cómo se evalúa y trata la disfagia en niños con AME tipo 1: revisión de 38 estudios",
+    "titulo_original": "The Management of Swallowing Disorders in Children With Spinal Muscular Atrophy Type 1: A Scoping Review",
+    "tipo_fuente": "revision_consenso",
+    "certeza": "baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "American Journal of Speech-Language Pathology",
+      "autores": "Rocca S, … Schindler A",
+      "url": "https://doi.org/10.1044/2026_AJSLP-25-00460",
+      "doi": "10.1044/2026_AJSLP-25-00460",
+      "pmid": "42776174"
+    },
+    "resumen_tecnico": "Revisión de alcance según PRISMA (PubMed, Embase, CINAHL y Cochrane) con 38 estudios y 1.784 pacientes con AME tipo 1. La deglución se evaluó con métodos instrumentales (evaluación endoscópica con fibra óptica y videofluoroscopía) y con evaluación clínica; solo se identificó un protocolo validado para AME pediátrica, el Oral and Swallowing Abilities Tool (OrSAT). Los hallazgos frecuentes fueron retraso en el inicio de la deglución, compromiso oral, residuos faríngeos y aspiración. La gastrostomía endoscópica percutánea se usó en disfagia severa, desnutrición o falla de medro. Pocos estudios describen estrategias compensatorias o rehabilitadoras.",
+    "puntos_clave": [
+      "Retraso del disparo deglutorio, residuos y aspiración son hallazgos frecuentes en la AME tipo 1.",
+      "El OrSAT es el único protocolo validado identificado para AME pediátrica.",
+      "Gran vacío de evidencia sobre terapia de deglución activa."
+    ],
+    "limitaciones": "Las revisiones de alcance mapean la evidencia, pero no evalúan la efectividad. Los estudios incluidos son heterogéneos.",
+    "resumen_familias": "Muchos niños con AME tipo 1 tienen dificultad para tragar, lo que puede hacer que la comida o la saliva pasen hacia los pulmones. Esta revisión reunió 38 estudios y encontró que se sabe bastante sobre cómo evaluar la deglución, pero muy poco sobre qué ejercicios o estrategias ayudan más. Cuando tragar no es seguro, a menudo se usa una gastrostomía, que es una sonda directa al estómago.",
+    "pregunta_equipo": "¿Le corresponde a mi hijo o hija una evaluación de deglución con fonoaudiología, y cada cuánto?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42776174)." },
+    "etiquetas": ["disfagia", "deglución", "fonoaudiología", "AME tipo 1", "gastrostomía"]
+  },
+  {
+    "id": "2026-09-escoliosis-tono-bajo-alto",
+    "condicion": "ame",
+    "semana": "2026-W39",
+    "fecha_publicacion": "2026-09-27",
+    "categoria": "cirugia",
+    "titulo": "Escoliosis neuromuscular de tono bajo frente a tono alto: por qué la AME se maneja distinto",
+    "titulo_original": "Current concepts review: Low- vs high-tone neuromuscular spinal deformities: An evolving distinction with clinical implications",
+    "tipo_fuente": "revision_consenso",
+    "certeza": "muy_baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Journal of Children's Orthopaedics",
+      "autores": "Cetik RM, Studer D, Yazici M",
+      "url": "https://doi.org/10.1177/18632521261492971",
+      "doi": "10.1177/18632521261492971",
+      "pmid": "42807138"
+    },
+    "resumen_tecnico": "Revisión de conceptos actuales que propone clasificar la escoliosis neuromuscular según el tono muscular. En las deformidades de tono bajo (AME, distrofias), la hipotonía y la debilidad del tronco generan curvas largas y flexibles, a menudo con cifosis importante, y hay mayor riesgo de insuficiencia respiratoria. Las de tono alto (parálisis cerebral) son más rígidas y espásticas. Se recomienda una evaluación preoperatoria respiratoria y nutricional en todos los casos. Los autores señalan evidencia reciente de que la cirugía puede reducir la mortalidad y ayudar a preservar la función pulmonar.",
+    "puntos_clave": [
+      "La AME produce curvas largas y flexibles con cifosis: la estrategia quirúrgica debe adaptarse.",
+      "La optimización respiratoria y nutricional previa es esencial.",
+      "La cirugía mejora la calidad de vida y podría preservar la función pulmonar."
+    ],
+    "limitaciones": "Revisión narrativa de expertos; no aporta datos originales.",
+    "resumen_familias": "No todas las escoliosis son iguales. En la AME los músculos del tronco son débiles y blandos, por eso la columna se curva de forma larga y flexible. Esto cambia cómo se planifica una cirugía. Antes de operar es muy importante revisar bien la respiración y la nutrición. Los expertos señalan que, cuando está indicada, la cirugía puede mejorar la calidad de vida.",
+    "pregunta_equipo": "¿Qué evaluaciones respiratorias y nutricionales necesitaríamos antes de una eventual cirugía de columna?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42807138)." },
+    "etiquetas": ["escoliosis", "columna", "cifosis", "tono muscular"]
+  },
+  {
+    "id": "2026-10-nusinersen-mundo-real-largo-plazo",
+    "condicion": "ame",
+    "semana": "2026-W41",
+    "fecha_publicacion": "2026-10-05",
+    "categoria": "medicamentos",
+    "titulo": "Nusinersen a largo plazo en la práctica real: mejoría inicial y estabilización en AME 2 y 3",
+    "titulo_original": "Long-term real-world outcomes of nusinersen treatment in patients with spinal muscular atrophy types I–III",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "muy_baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Brain & Development",
+      "autores": "Aliyeva, Mergen Kılıç, Yapıcı et al.",
+      "url": "https://doi.org/10.1016/j.braindev.2026.104601",
+      "doi": "10.1016/j.braindev.2026.104601",
+      "pmid": "42833105"
+    },
+    "resumen_tecnico": "Cohorte retrospectiva de pacientes con AME tipos 1 a 3 tratados con nusinersen entre 2017 y 2024. En la AME tipo 2 (n = 11; 17,8 ± 5,7 años), la HFMSE pasó de 11,3 a 14,1 tras la cuarta dosis; en la AME tipo 3 (n = 9; 20,2 ± 6,4 años), de 38,8 a 43,0. Un modelo de efectos mixtos mostró una asociación entre la dosis acumulada y la mejoría motora (p < 0,001). El 75 % de los pacientes con AME 2 y 3 mantuvo una mejoría clínicamente significativa al final del seguimiento. Los resultados en la AME tipo 1 fueron heterogéneos por el tamaño muestral, el inicio tardío y la severidad.",
+    "puntos_clave": [
+      "Mejoría motora temprana y estabilización sostenida en adolescentes y adultos jóvenes con AME 2 y 3.",
+      "Asociación dosis–respuesta con la dosis acumulada.",
+      "Datos de AME tipo 1 no concluyentes."
+    ],
+    "limitaciones": "Muestra pequeña, diseño retrospectivo y unicéntrico, sin grupo control.",
+    "resumen_familias": "Este estudio siguió durante varios años a jóvenes con AME tipo 2 y 3 que recibían nusinersen (Spinraza). La mayoría mejoró un poco al principio y luego se mantuvo estable. Que la AME no avance ya es un logro, porque sin tratamiento suele empeorar con el tiempo. Es un estudio pequeño, pero coincide con lo observado en otros países.",
+    "pregunta_equipo": "¿Cómo medimos si el tratamiento actual está funcionando y qué escalas usamos para seguirlo?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42833105)." },
+    "etiquetas": ["nusinersen", "Spinraza", "mundo real", "HFMSE"]
+  },
+  {
+    "id": "2026-10-astrocitos-forskolina",
+    "condicion": "ame",
+    "semana": "2026-W42",
+    "fecha_publicacion": "2026-10-12",
+    "categoria": "descubrimientos",
+    "titulo": "Los astrocitos también fallan en la AME: restaurar SMN y estimular el citoesqueleto mejora las sinapsis",
+    "titulo_original": "Astrocyte SMN Restoration and Forskolin Treatment Improve SMA Synaptic Pathology",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "no_aplica",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Annals of Neurology",
+      "autores": "Welby, Liu, Wojtkiewicz et al.",
+      "url": "https://doi.org/10.1002/ana.78390",
+      "doi": "10.1002/ana.78390",
+      "pmid": "42861773"
+    },
+    "resumen_tecnico": "Estudio preclínico con cultivos derivados de células iPSC de pacientes con AME y de controles sanos. Los astrocitos con AME mostraron defectos intrínsecos de actina en sus filopodios (menos glicoproteínas de superficie asociadas a actina, menor densidad de filopodios, menor CDC42-GTP y reducción de las proteínas pERM). En cocultivos con motoneuronas hubo menos sinapsis y menor expresión de sinapsina I. La combinación de terapia génica con SMN1 y forskolina (que aumenta el AMPc para estimular la dinámica de la actina) mejoró la ramificación de los astrocitos y la formación y función sinápticas de las motoneuronas.",
+    "puntos_clave": [
+      "La AME no es solo de las motoneuronas: los astrocitos tienen defectos propios.",
+      "Proponen una estrategia doble: restaurar SMN y actuar sobre la actina.",
+      "Resultado de laboratorio, aún sin aplicación clínica."
+    ],
+    "limitaciones": "Modelo celular in vitro; no hay datos en animales ni en humanos.",
+    "resumen_familias": "Investigadores estudiaron en el laboratorio unas células del sistema nervioso llamadas astrocitos, que ayudan a las neuronas del movimiento a comunicarse. Descubrieron que en la AME estas células también funcionan peor. Cuando corrigieron el gen y agregaron una sustancia llamada forskolina, la comunicación entre neuronas mejoró. Es ciencia básica: falta mucho para que se convierta en tratamiento, pero abre nuevas ideas.",
+    "pregunta_equipo": null,
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42861773)." },
+    "etiquetas": ["astrocitos", "sinapsis", "iPSC", "terapia combinada"]
+  },
+  {
+    "id": "2026-10-cribado-neonatal-canada",
+    "condicion": "ame",
+    "semana": "2026-W42",
+    "fecha_publicacion": "2026-10-15",
+    "categoria": "estudios",
+    "titulo": "Canadá completa el cribado neonatal de AME: 1 de cada 12.524 recién nacidos, con inequidades entre provincias",
+    "titulo_original": "Nationwide Implementation of Newborn Screening for Spinal Muscular Atrophy in Canada",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "moderada",
+    "destacado": true,
+    "fuente": {
+      "nombre": "Neurology: Genetics",
+      "autores": "McMillan, Osman, Kernohan et al.",
+      "url": "https://doi.org/10.1212/NXG.0000000000200451",
+      "doi": "10.1212/NXG.0000000000200451",
+      "pmid": "42899123"
+    },
+    "resumen_tecnico": "Encuesta transversal a los programas provinciales de cribado neonatal, validada con fuentes gubernamentales (corte: 31-12-2025). Desde 2020 (Ontario) hasta la cobertura nacional completa (agosto de 2024) se cribaron 1.502.890 recién nacidos y se identificaron 120 con deleción homocigota del exón 7 de SMN1: prevalencia al nacer de 1/12.524 (IC 95 %: 1/10.554 a 1/15.245). Distribución de copias de SMN2: 1 copia en 1,7 %, 2 copias en 42,5 %, 3 copias en 34,2 %, 4 copias en 19,2 % y 5 copias en 2,5 %. La metodología, la confirmación y el momento de informar el número de copias variaron entre provincias, y el reembolso de terapias para los lactantes con 4 copias no está armonizado.",
+    "puntos_clave": [
+      "Primera prevalencia nacional al nacer en Canadá: 1 de cada 12.524 recién nacidos.",
+      "Casi 1 de cada 5 recién nacidos detectados tiene 4 copias de SMN2.",
+      "La desigualdad en el acceso al tratamiento para quienes tienen 4 copias es un problema de política sanitaria."
+    ],
+    "limitaciones": "Estudio descriptivo de programas; no evalúa resultados clínicos de los niños detectados.",
+    "resumen_familias": "Canadá ya revisa a todos sus recién nacidos para detectar la AME con la prueba del talón. En casi 5 años detectó 120 bebés, aproximadamente 1 de cada 12.500 nacimientos. Detectarla al nacer permite tratar antes de que aparezcan síntomas, que es cuando los tratamientos funcionan mejor. El estudio también muestra que, según la provincia donde nazca, un bebé puede tener distinto acceso al tratamiento, sobre todo si tiene 4 copias del gen SMN2.",
+    "pregunta_equipo": "¿Nuestro país o región incluye la AME en la prueba del talón?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42899123)." },
+    "etiquetas": ["cribado neonatal", "prueba del talón", "SMN2", "equidad", "Canadá"]
+  },
+  {
+    "id": "2026-10-delphi-ventilacion-permanente",
+    "condicion": "ame",
+    "semana": "2026-W43",
+    "fecha_publicacion": "2026-10-24",
+    "categoria": "evidencia",
+    "titulo": "Consenso británico: la ventilación permanente no debería excluir del acceso a terapias modificadoras",
+    "titulo_original": "Defining the clinical benefits of disease-modifying therapy in people living with spinal muscular atrophy who require permanent ventilation: a UK-based modified Delphi consensus process",
+    "tipo_fuente": "revision_consenso",
+    "certeza": "baja",
+    "destacado": true,
+    "fuente": {
+      "nombre": "eClinicalMedicine",
+      "autores": "Scoto M, Marini-Bettolo C, … Raslan Z",
+      "url": "https://doi.org/10.1016/j.eclinm.2026.104278",
+      "doi": "10.1016/j.eclinm.2026.104278",
+      "pmid": "42964537"
+    },
+    "resumen_tecnico": "Proceso Delphi modificado (abril a junio de 2025) con 18 expertos multidisciplinarios del Reino Unido y un panel asesor de pacientes sin voto. Las 22 afirmaciones (sobre acceso, inicio, monitorización, definición del beneficio clínico, función, calidad de vida e investigación) alcanzaron consenso (≥75 %) en dos rondas, con un acuerdo del 89 al 100 %. Conclusiones principales: la ventilación permanente por sí sola no debe impedir el acceso a terapias modificadoras; puede ser apropiado un tratamiento de prueba con objetivos personalizados; y el beneficio clínico debe definirse de forma amplia, incluyendo cambios sutiles en la función y la calidad de vida, medidos con herramientas sensibles y armonizadas.",
+    "puntos_clave": [
+      "22 de 22 recomendaciones con consenso.",
+      "Propone un tratamiento de prueba con metas individuales en personas con ventilación permanente.",
+      "Amplía la definición de beneficio: pequeños cambios funcionales y de calidad de vida cuentan."
+    ],
+    "limitaciones": "Consenso de expertos (nivel bajo en la jerarquía de evidencia), centrado en el Reino Unido y no registrado prospectivamente. Financiado por Roche, que fabrica risdiplam.",
+    "resumen_familias": "Hasta hace poco, en el Reino Unido algunas personas con AME que necesitan un ventilador permanente no podían recibir los nuevos tratamientos. Un grupo de expertos, escuchando también a pacientes, acordó que usar ventilador no debería ser motivo para negar el tratamiento. También acordaron que pequeñas mejoras, como mover mejor un dedo o comunicarse con más facilidad, sí cuentan como beneficio real.",
+    "pregunta_equipo": "¿Qué metas pequeñas y concretas podríamos fijar para evaluar si el tratamiento le está ayudando?",
+    "conflictos": "Financiado por Roche Products Ltd.; uno de los autores es empleado de Roche.",
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42964537)." },
+    "etiquetas": ["ventilación permanente", "Delphi", "acceso", "calidad de vida"]
+  },
+  {
+    "id": "2026-10-estimulacion-epidural-marcha",
+    "condicion": "ame",
+    "semana": "2026-W44",
+    "fecha_publicacion": "2026-10-26",
+    "categoria": "estudios",
+    "titulo": "Estimulación epidural de la médula: mejoras en la cinemática de la marcha en dos personas con AME",
+    "titulo_original": "Epidural Spinal Cord Stimulation Reduces Intrinsic Gait Abnormalities in Spinal Muscular Atrophy",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "muy_baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Muscle & Nerve",
+      "autores": "Donadio, Magun, Kanner et al.",
+      "url": "https://doi.org/10.1002/mus.70437",
+      "doi": "10.1002/mus.70437",
+      "pmid": "42934999"
+    },
+    "resumen_tecnico": "Análisis cinemático secundario (captura de movimiento 3D y análisis de componentes principales) de la prueba de marcha de 6 minutos en 2 adultos ambulantes con AME, antes y después de 4 semanas de estimulación epidural de la médula espinal. Tras la intervención caminaron más distancia, más rápido y con una velocidad más constante. Las mejoras se asociaron a cambios en la velocidad y movilidad de las articulaciones proximales: el rango de movimiento, la velocidad y la aceleración de la cadera aumentaron hasta 48 %, 44 % y 28 %, respectivamente, sin aumentar las compensaciones.",
+    "puntos_clave": [
+      "La neuromodulación espinal podría reactivar vías motoras subutilizadas en la AME.",
+      "Las mejoras se concentraron en la cadera (control proximal).",
+      "Solo 2 participantes: es hipótesis, no recomendación."
+    ],
+    "limitaciones": "n = 2, sin grupo control, análisis secundario y seguimiento corto. Requiere confirmación en cohortes más grandes.",
+    "resumen_familias": "Un grupo de investigación probó en 2 adultos con AME que caminan un dispositivo que estimula la médula espinal con pequeñas corrientes eléctricas. Después de 4 semanas caminaron más lejos y mejor, sobre todo moviendo las caderas. Es un resultado muy preliminar con solo dos personas y todavía no es un tratamiento disponible, pero es una línea de investigación interesante.",
+    "pregunta_equipo": null,
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42934999)." },
+    "etiquetas": ["neuromodulación", "estimulación medular", "marcha", "adultos"]
+  },
+  {
+    "id": "2026-10-miostatina-biomarcador",
+    "condicion": "ame",
+    "semana": "2026-W44",
+    "fecha_publicacion": "2026-10-26",
+    "categoria": "descubrimientos",
+    "titulo": "La miostatina en sangre como posible biomarcador de gravedad y respuesta al tratamiento",
+    "titulo_original": "Myostatin/Smad3 in Spinal Muscular Atrophy: Biomarkers of Disease Severity and Treatment Response",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Annals of Clinical and Translational Neurology",
+      "autores": "Riolo, Dosi, Parravicini et al.",
+      "url": "https://doi.org/10.1002/acn3.70564",
+      "doi": "10.1002/acn3.70564",
+      "pmid": "42929233"
+    },
+    "resumen_tecnico": "Se midieron miostatina (MSTN) y Smad3 séricas por ELISA en pacientes pediátricos y adultos tratados con nusinersen (n = 15) o risdiplam (n = 15), y en participantes de ensayos anti-miostatina (n = 7, solo basal). La MSTN basal fue mayor en hombres, en la AME tipo 3 frente a la tipo 2 y en caminantes frente a no sedentes (1.047,6 frente a 374,6 pg/mL). En adultos, la MSTN se correlacionó con la HFMSE basal (p = 0,01) y postratamiento (p = 0,003). En niños, el cambio de MSTN se correlacionó negativamente con el cambio en la HFMSE (p = 0,008). La Smad3 no cambió con el tratamiento.",
+    "puntos_clave": [
+      "Más miostatina circulante se asocia a mayor masa y función muscular.",
+      "Podría servir para seleccionar o monitorizar terapias anti-miostatina, como apitegromab.",
+      "Necesita validación en cohortes independientes."
+    ],
+    "limitaciones": "Muestra pequeña, sin cohorte de validación, con edades y tratamientos heterogéneos.",
+    "resumen_familias": "La miostatina es una sustancia que el cuerpo produce para frenar el crecimiento del músculo. Este estudio midió sus niveles en sangre y vio que se relacionan con cuánta fuerza y función tiene la persona. En el futuro podría ayudar a decidir quién se beneficia más de los nuevos medicamentos que bloquean la miostatina, como apitegromab.",
+    "pregunta_equipo": null,
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42929233)." },
+    "etiquetas": ["miostatina", "biomarcador", "risdiplam", "nusinersen"]
+  },
+  {
+    "id": "2026-10-consenso-terapia-genica-intratecal",
+    "condicion": "ame",
+    "semana": "2026-W44",
+    "fecha_publicacion": "2026-10-27",
+    "categoria": "evidencia",
+    "titulo": "Nuevo protocolo de consenso para la terapia génica intratecal: vigilar los ganglios de la raíz dorsal",
+    "titulo_original": "Consensus on the Use of Intrathecal Gene Therapy for Spinal Muscular Atrophy",
+    "tipo_fuente": "revision_consenso",
+    "certeza": "baja",
+    "destacado": true,
+    "fuente": {
+      "nombre": "Neuropediatrics",
+      "autores": "Blaschek, Schara-Schmidt, Petri et al.",
+      "url": "https://doi.org/10.1055/a-2976-6524",
+      "doi": "10.1055/a-2976-6524",
+      "pmid": "42869088"
+    },
+    "resumen_tecnico": "Protocolo de consenso que amplía las guías de monitorización de onasemnogén abeparvovec intravenoso a la nueva vía intratecal, cuyo perfil de seguridad es distinto e incluye toxicidad de los ganglios de la raíz dorsal. Define la evaluación pretratamiento, el manejo periprocedimiento y el seguimiento longitudinal clínico, de laboratorio, electrofisiológico y por imágenes, con vigilancia proactiva de la función de esos ganglios. También establece la transición estructurada de los adolescentes tratados hacia equipos multidisciplinarios de neurología de adultos.",
+    "puntos_clave": [
+      "La vía intratecal tiene riesgos propios: toxicidad de los ganglios de la raíz dorsal (neuropatía sensitiva).",
+      "Recomienda un seguimiento multimodal que incluya estudios electrofisiológicos.",
+      "Planifica la transición de la atención pediátrica a la de adultos."
+    ],
+    "limitaciones": "Consenso de expertos (germanoparlantes), no basado en una revisión sistemática formal.",
+    "resumen_familias": "La terapia génica para la AME ahora también se puede administrar por punción lumbar (vía intratecal), sobre todo en niños mayores. Esta forma tiene un riesgo particular: puede afectar unos nervios que llevan la sensibilidad. Expertos acordaron cómo hacer los controles antes, durante y después del tratamiento, incluidos exámenes de los nervios, y cómo continuar el seguimiento cuando el niño pase a la atención de adultos.",
+    "pregunta_equipo": "Si recibe terapia génica intratecal, ¿qué controles de sensibilidad y de nervios le harán y por cuánto tiempo?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42869088)." },
+    "etiquetas": ["terapia génica", "intratecal", "Itvisma", "seguridad", "transición"]
+  },
+  {
+    "id": "2026-11-movilidad-motorizada-temprana",
+    "condicion": "ame",
+    "semana": "2026-W45",
+    "fecha_publicacion": "2026-11-01",
+    "categoria": "rehabilitacion",
+    "titulo": "Movilidad motorizada temprana en niños con enfermedades neuromusculares graves: beneficios funcionales y familiares",
+    "titulo_original": "Early Independent Powered Mobility in Children With Severe Neuromuscular Disorders: A Scoping Review",
+    "tipo_fuente": "revision_consenso",
+    "certeza": "baja",
+    "destacado": true,
+    "fuente": {
+      "nombre": "Child: Care, Health and Development",
+      "autores": "Díaz-López, Palomo-Carrión, Coello et al.",
+      "url": "https://doi.org/10.1111/cch.70373",
+      "doi": "10.1111/cch.70373",
+      "pmid": "42989499"
+    },
+    "resumen_tecnico": "Revisión de alcance (guía JBI, PRISMA-ScR; búsqueda hasta noviembre de 2025 en 6 bases de datos) sobre movilidad motorizada independiente temprana (sillas de ruedas eléctricas y autos adaptados) en niños menores de 6 años con enfermedades neuromusculares graves, incluida la AME. Se incluyeron 12 estudios: 2 ensayos aleatorizados, 2 cualitativos, 2 observacionales, 2 series de casos y 4 estudios longitudinales de caso único. Se asoció a ganancias en habilidades funcionales e independencia, más exploración y juego, y experiencias familiares positivas (más autonomía del niño y más confianza del cuidador). La participación mejoró más en el hogar que en la comunidad, donde las barreras de accesibilidad limitaron el uso. Los cambios en la calidad de vida fueron modestos.",
+    "puntos_clave": [
+      "Introducir la silla eléctrica antes de los 6 años favorece la exploración, el juego y la autonomía.",
+      "Las familias reportan más confianza y experiencias positivas.",
+      "La accesibilidad del entorno comunitario es una barrera clave."
+    ],
+    "limitaciones": "Solo 12 estudios, heterogéneos y mayoritariamente de baja calidad metodológica, con medidas de resultado no estandarizadas.",
+    "resumen_familias": "Muchos padres se preguntan si una silla de ruedas eléctrica a edad temprana le quita al niño la motivación para moverse. Esta revisión sugiere lo contrario: los niños pequeños con AME que pueden manejar una silla eléctrica o un autito adaptado exploran más, juegan más y ganan independencia, y las familias lo viven de forma positiva. La mayor dificultad suele estar fuera de casa, en lugares poco accesibles.",
+    "pregunta_equipo": "¿Desde qué edad podríamos probar una silla de ruedas eléctrica o un auto adaptado para mi hijo o hija?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42989499)." },
+    "etiquetas": ["movilidad motorizada", "silla de ruedas eléctrica", "participación", "ayudas técnicas"]
+  },
+  {
+    "id": "2026-11-comparacion-indirecta-nusinersen-oav101it",
+    "condicion": "ame",
+    "semana": "2026-W46",
+    "fecha_publicacion": "2026-11-12",
+    "categoria": "medicamentos",
+    "titulo": "Comparación indirecta entre nusinersen y terapia génica intratecal: diferencias numéricas no significativas",
+    "titulo_original": "Indirect treatment comparisons of nusinersen versus onasemnogene abeparvovec-brve in treatment-naïve and -experienced spinal muscular atrophy patients",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "muy_baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Journal of Medical Economics",
+      "autores": "Owen J, Mak C, … Woodsmith C",
+      "url": "https://doi.org/10.1080/13696998.2026.2757445",
+      "doi": "10.1080/13696998.2026.2757445",
+      "pmid": "43016315"
+    },
+    "resumen_tecnico": "Comparaciones indirectas ajustadas por emparejamiento (MAIC) entre nusinersen y onasemnogén abeparvovec intratecal (OAV101 IT), con datos individuales de CHERISH y DEVOTE (nusinersen) frente a STEER y STRENGTH (OAV101 IT). En pacientes sin tratamiento previo de 2 a menos de 5 años, la diferencia en la HFMSE fue de 1,86 (IC 95 %: −1,08 a 4,80) y en el RULM de 1,52 (IC 95 %: −0,57 a 3,61), numéricamente a favor de nusinersen 12 mg. En pacientes con tratamiento previo (comparación no anclada), la HFMSE fue de 1,02 (IC 95 %: −1,31 a 3,34), con un tamaño muestral efectivo de solo 3 a 5. Todos los intervalos de confianza cruzan el cero.",
+    "puntos_clave": [
+      "No demuestra superioridad: todos los intervalos de confianza incluyen el cero.",
+      "Tamaños muestrales efectivos muy pequeños (3 a 58).",
+      "Estudio realizado y financiado por el fabricante de nusinersen."
+    ],
+    "limitaciones": "Comparación indirecta, no aleatorizada, con muestras efectivas mínimas. Conflicto de interés relevante: varios autores son empleados de Biogen.",
+    "resumen_familias": "Este estudio intentó comparar dos tratamientos (nusinersen y la terapia génica por punción lumbar) sin que existiera un ensayo que los enfrentara directamente. Los resultados no muestran que uno sea mejor que el otro, y fue hecho por la empresa que fabrica uno de ellos. Por eso no debería influir en la elección de tratamiento: esa decisión se toma con el equipo médico según cada caso.",
+    "pregunta_equipo": null,
+    "conflictos": "Autoría y financiamiento de Biogen (fabricante de nusinersen) junto a una consultora.",
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 43016315)." },
+    "etiquetas": ["nusinersen", "terapia génica intratecal", "comparación indirecta", "conflicto de interés"]
+  }
+]

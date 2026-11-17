@@ -1,0 +1,74 @@
+[
+  {
+    "semana": "2026-W46",
+    "desde": "2026-11-09",
+    "hasta": "2026-11-15",
+    "titular": "Una comparación entre tratamientos que no cambia nada",
+    "resumen_tecnico": "Semana con poca actividad. Se publicó una comparación indirecta (MAIC) entre nusinersen y OAV101 intratecal, financiada por Biogen, con diferencias numéricas en HFMSE y RULM que no alcanzan significación (todos los IC cruzan el cero) y muestras efectivas mínimas. No modifica la práctica.",
+    "resumen_familias": "Esta semana no hubo noticias que cambien el tratamiento. Se publicó un estudio que intentó comparar dos tratamientos, pero no encontró diferencias claras.",
+    "destacados": ["2026-11-comparacion-indirecta-nusinersen-oav101it"]
+  },
+  {
+    "semana": "2026-W45",
+    "desde": "2026-11-02",
+    "hasta": "2026-11-08",
+    "titular": "Silla eléctrica temprana: más juego, más autonomía",
+    "resumen_tecnico": "Una revisión de alcance (12 estudios) respalda la movilidad motorizada independiente antes de los 6 años en enfermedades neuromusculares graves, con ganancias funcionales, más exploración y experiencias familiares positivas. Las barreras comunitarias de accesibilidad limitan la participación. La evidencia es de certeza baja y heterogénea.",
+    "resumen_familias": "Una revisión de estudios sugiere que darles a los niños pequeños con AME una silla eléctrica o un auto adaptado les ayuda a explorar, jugar y ser más independientes.",
+    "destacados": ["2026-11-movilidad-motorizada-temprana"]
+  },
+  {
+    "semana": "2026-W44",
+    "desde": "2026-10-26",
+    "hasta": "2026-11-01",
+    "titular": "Consenso sobre terapia génica intratecal y nuevas pistas sobre el músculo",
+    "resumen_tecnico": "Lo más relevante fue un protocolo de consenso para la monitorización de OAV101 intratecal que incorpora la vigilancia de la toxicidad de los ganglios de la raíz dorsal y la transición a la atención de adultos. Además, la miostatina sérica se propuso como biomarcador de gravedad y respuesta, y la estimulación epidural de la médula mostró mejoras cinemáticas de cadera en 2 adultos con AME (evidencia muy preliminar).",
+    "resumen_familias": "Expertos acordaron cómo controlar a los niños que reciben terapia génica por punción lumbar. También se estudió una sustancia en la sangre que podría ayudar a saber cómo responde el músculo, y se probó en 2 adultos un estimulador de la médula que mejoró su forma de caminar.",
+    "destacados": ["2026-10-consenso-terapia-genica-intratecal", "2026-10-miostatina-biomarcador", "2026-10-estimulacion-epidural-marcha"]
+  },
+  {
+    "semana": "2026-W43",
+    "desde": "2026-10-19",
+    "hasta": "2026-10-25",
+    "titular": "La ventilación permanente no debería excluir del tratamiento",
+    "resumen_tecnico": "Un Delphi modificado del Reino Unido (18 expertos y un panel de pacientes, financiado por Roche) logró consenso en 22 de 22 afirmaciones: la ventilación permanente por sí sola no debe impedir el acceso a terapias modificadoras, se propone un tratamiento de prueba con metas personalizadas y se amplía la definición del beneficio clínico.",
+    "resumen_familias": "Expertos británicos acordaron que las personas con AME que usan ventilador permanente también deberían poder acceder a los tratamientos, y que pequeñas mejoras también cuentan.",
+    "destacados": ["2026-10-delphi-ventilacion-permanente"]
+  },
+  {
+    "semana": "2026-W42",
+    "desde": "2026-10-12",
+    "hasta": "2026-10-18",
+    "titular": "Cribado neonatal universal en Canadá y el papel de los astrocitos",
+    "resumen_tecnico": "Canadá reportó su primera prevalencia nacional al nacer (1/12.524; 120 casos en 1,5 millones de recién nacidos) y evidenció inequidad en el acceso a tratamiento para los lactantes con 4 copias de SMN2. En ciencia básica, se describieron defectos de actina en astrocitos con AME, revertidos parcialmente con SMN1 y forskolina in vitro.",
+    "resumen_familias": "Canadá ya detecta la AME en todos los recién nacidos: aproximadamente 1 de cada 12.500 bebés la tiene. En el laboratorio se descubrió que otras células del sistema nervioso, además de las neuronas, también se ven afectadas.",
+    "destacados": ["2026-10-cribado-neonatal-canada", "2026-10-astrocitos-forskolina"]
+  },
+  {
+    "semana": "2026-W41",
+    "desde": "2026-10-05",
+    "hasta": "2026-10-11",
+    "titular": "Nusinersen a largo plazo en la vida real",
+    "resumen_tecnico": "Una cohorte retrospectiva turca de adolescentes y adultos jóvenes con AME 2 y 3 mostró mejoría inicial en la HFMSE y estabilización sostenida con nusinersen, con asociación dosis–respuesta. La certeza es muy baja por el tamaño muestral y la ausencia de grupo control.",
+    "resumen_familias": "Un estudio mostró que jóvenes con AME tipo 2 y 3 tratados con nusinersen mejoraron un poco y luego se mantuvieron estables durante años.",
+    "destacados": ["2026-10-nusinersen-mundo-real-largo-plazo"]
+  },
+  {
+    "semana": "2026-W39",
+    "desde": "2026-09-21",
+    "hasta": "2026-09-27",
+    "titular": "Semana quirúrgica: cadera, columna, densidad ósea y reflujo",
+    "resumen_tecnico": "Semana concentrada en neuro-ortopedia y cirugía. Una revisión plantea que la inestabilidad de cadera en la AME tratada requiere nuevos marcos de vigilancia (sin estudios prospectivos de cirugía reconstructiva). Otra propone clasificar la escoliosis neuromuscular por tono (la AME es de tono bajo). La baja densidad ósea se asoció a menor corrección tras la artrodesis posterior, y se publicó la primera fundoplicatura de Nissen robótica en AME 2. Además, una revisión de alcance mapeó el manejo de la disfagia en la AME tipo 1.",
+    "resumen_familias": "Esta semana se publicaron varios estudios sobre cirugías en la AME: cómo vigilar la cadera, por qué la escoliosis de la AME es distinta, la importancia de tener huesos fuertes antes de operar la columna y una cirugía con robot para el reflujo. También se revisó cómo ayudar a los niños con AME tipo 1 que tienen problemas para tragar.",
+    "destacados": ["2026-09-cadera-ame-era-terapias", "2026-09-densidad-osea-fusion-espinal", "2026-09-escoliosis-tono-bajo-alto", "2026-09-nissen-robotico-ame2", "2026-09-deglucion-ame1-revision"]
+  },
+  {
+    "semana": "2026-W37",
+    "desde": "2026-09-07",
+    "hasta": "2026-09-13",
+    "titular": "Aprobado el primer fármaco dirigido al músculo",
+    "resumen_tecnico": "La FDA aprobó apitegromab (Isembyld), un inhibidor de la activación de la miostatina, como tratamiento complementario a las terapias dirigidas a SMN2 en personas con AME de 2 años o más. Se basa en el ensayo de fase 3 SAPPHIRE (diferencia de 1,8 puntos en la HFMSE a 12 meses en el grupo de 2 a 12 años). La ficha técnica advierte sobre fracturas y riesgos reproductivos.",
+    "resumen_familias": "En Estados Unidos se aprobó apitegromab, el primer medicamento para la AME que actúa directamente sobre el músculo. Se usa junto con el tratamiento actual.",
+    "destacados": ["2026-09-fda-aprueba-apitegromab"]
+  }
+]

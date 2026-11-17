@@ -1,0 +1,36 @@
+{
+  "id": "ame",
+  "nombre": "Atrofia muscular espinal",
+  "sigla": "AME",
+  "sigla_en": "SMA",
+  "activa": true,
+  "descripcion": "Enfermedad neuromuscular genética causada por la falta de la proteína SMN, que afecta a las motoneuronas de la médula espinal.",
+  "busqueda": {
+    "pubmed": [
+      "\"spinal muscular atrophy\"[Title/Abstract]",
+      "\"Muscular Atrophy, Spinal\"[MeSH Terms]",
+      "nusinersen OR risdiplam OR \"onasemnogene abeparvovec\" OR apitegromab OR taldefgrobep",
+      "\"spinal muscular atrophy\" AND (scoliosis OR \"spinal fusion\" OR \"growing rods\" OR hip OR contracture OR orthopedic OR surgery)",
+      "\"spinal muscular atrophy\" AND (physiotherapy OR rehabilitation OR exercise OR orthosis OR \"powered mobility\" OR dysphagia)"
+    ],
+    "clinicaltrials_gov": "spinal muscular atrophy",
+    "web": [
+      "spinal muscular atrophy FDA OR EMA approval",
+      "atrofia muscular espinal noticias",
+      "SMA clinical trial results"
+    ],
+    "fuentes_web_preferidas": [
+      "fda.gov",
+      "ema.europa.eu",
+      "curesma.org",
+      "smaeurope.eu",
+      "treat-nmd.org",
+      "fundame.net",
+      "clinicaltrials.gov"
+    ]
+  },
+  "terminos_clave": [
+    "nusinersen", "Spinraza", "risdiplam", "Evrysdi", "onasemnogén abeparvovec", "Zolgensma", "Itvisma",
+    "apitegromab", "Isembyld", "taldefgrobep", "SMN2", "cribado neonatal", "escoliosis", "cadera"
+  ]
+}

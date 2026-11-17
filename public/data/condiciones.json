@@ -1,0 +1,35 @@
+{
+  "categorias": [
+    { "id": "medicamentos", "nombre": "Medicamentos", "icono": "💊" },
+    { "id": "estudios", "nombre": "Estudios y ensayos", "icono": "🧪" },
+    { "id": "descubrimientos", "nombre": "Descubrimientos", "icono": "🔬" },
+    { "id": "rehabilitacion", "nombre": "Rehabilitación", "icono": "🦾" },
+    { "id": "evidencia", "nombre": "Guías y revisiones", "icono": "📚" },
+    { "id": "cirugia", "nombre": "Cirugía y casos", "icono": "🩺" }
+  ],
+  "tipos_fuente": {
+    "regulatorio": { "nombre": "Decisión regulatoria", "orden": 1 },
+    "ensayo_aleatorizado": { "nombre": "Ensayo aleatorizado", "orden": 2 },
+    "revision_consenso": { "nombre": "Revisión o consenso", "orden": 3 },
+    "revisado_por_pares": { "nombre": "Revisado por pares", "orden": 4 },
+    "reporte_caso": { "nombre": "Reporte de caso", "orden": 5 },
+    "preprint": { "nombre": "Preprint (sin revisión)", "orden": 6 },
+    "solo_prensa": { "nombre": "Solo prensa", "orden": 7 }
+  },
+  "certeza": {
+    "alta": "Alta",
+    "moderada": "Moderada",
+    "baja": "Baja",
+    "muy_baja": "Muy baja",
+    "no_aplica": "No aplica"
+  },
+  "condiciones": [
+    {
+      "id": "ame",
+      "nombre": "Atrofia muscular espinal",
+      "sigla": "AME",
+      "noticias": "data/ame/noticias.json",
+      "semanas": "data/ame/semanas.json"
+    }
+  ]
+}

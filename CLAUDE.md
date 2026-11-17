@@ -1,0 +1,82 @@
+# Protocolo editorial del Noticiero AME
+
+Este archivo guía a Claude Code en cada **edición semanal automática** y en cualquier sesión de trabajo sobre el repositorio.
+
+## Misión
+
+Recopilar, revisar, verificar y resumir en español las novedades mundiales sobre cada condición activa (hoy: **atrofia muscular espinal, AME/SMA**), con dos capas de lectura:
+
+1. una capa técnica para profesionales de la salud;
+2. una capa en lenguaje simple para padres y cuidadores.
+
+## Estructura
+
+- `condiciones/<id>.json`: búsquedas y términos de cada condición. Para agregar una condición nueva, crea este archivo, agrega una entrada en `public/data/condiciones.json` y crea `public/data/<id>/noticias.json` y `public/data/<id>/semanas.json`, que parten como `[]`.
+- `public/`: sitio estático, publicado tal cual en Cloudflare Pages, sin paso de compilación.
+- `public/data/<id>/noticias.json`: una entrada por noticia (ver el esquema más abajo).
+- `public/data/<id>/semanas.json`: un resumen de highlights por semana ISO.
+- `scripts/validar.py`: validador. **Debe terminar en `OK` antes de cada commit.**
+
+## Edición semanal (paso a paso)
+
+La semana a cubrir es la **semana ISO anterior completa**, de lunes a domingo. Por ejemplo, si hoy es lunes 23-11-2026, se cubre la semana 2026-W47, del 16 al 22 de noviembre.
+
+1. **Recopilar**
+   - En PubMed (herramienta MCP), ejecuta cada consulta de `condiciones/ame.json` → `busqueda.pubmed` con `datetype: "edat"`, limitada a la semana. Obtén los metadatos y el resumen.
+   - En la web (WebSearch), busca aprobaciones regulatorias (FDA, EMA, ISP, ANMAT, COFEPRIS y otras agencias), resultados de ensayos y comunicados de organizaciones de pacientes de esa semana.
+2. **Filtrar**
+   - Descarta duplicados: compara el DOI, el PMID y el `id` con `noticias.json`. Descarta también las fe de erratas, los textos fuera de tema y los estudios en que la AME es solo una mención menor.
+   - Prioriza el impacto clínico en este orden: regulatorio > ensayos aleatorizados > guías, consensos y revisiones sistemáticas > cohortes > cirugía y reportes de caso > ciencia básica.
+   - Siempre incluye lo relacionado con cirugía de **columna, cadera o partes blandas** y con **rehabilitación**, aunque el nivel de evidencia sea bajo.
+3. **Verificar**
+   - Cada dato numérico del resumen debe provenir del resumen o del texto de la fuente primaria. **Nunca inventes cifras.**
+   - Si una noticia proviene de prensa, busca la fuente primaria: el paper, el registro en ClinicalTrials.gov o el comunicado de la agencia.
+     - Si no la encuentras, pero la noticia aparece en al menos 3 medios independientes, usa `verificacion.estado = "parcial"` y explícalo en `nota`.
+     - Si aparece en un solo medio, no la publiques.
+   - Registra los conflictos de interés que aparezcan en el resumen (financiamiento de la industria o autores empleados).
+4. **Clasificar**
+   - Asigna `categoria`, `tipo_fuente` y `certeza`. Para la certeza usa un enfoque inspirado en GRADE: parte de "alta" en ensayos aleatorizados y de "baja" en estudios observacionales, y baja un nivel por cada limitación seria. Usa `no_aplica` para estudios preclínicos.
+5. **Resumir**
+   - `resumen_tecnico`: entre 80 y 160 palabras, con el diseño, la n, la población, los resultados principales con sus cifras y el contexto clínico.
+   - `resumen_familias`: entre 60 y 120 palabras, sin jerga (o explicándola) y con un tono cálido y honesto. No generes falsas expectativas: si es preclínico o tiene n muy pequeña, dilo claramente.
+   - `pregunta_equipo`: una pregunta concreta que la familia pueda llevar a su equipo tratante, o `null` si no aplica.
+   - Escribe en español neutro, usando "su hijo o hija".
+6. **Highlights de la semana**
+   - Agrega una entrada en `semanas.json` con un `titular`, un `resumen_tecnico` y un `resumen_familias` de 2 a 4 frases cada uno, y los `destacados` (ids, máximo 5).
+   - Marca con `"destacado": true` las 1 a 3 noticias más relevantes.
+   - Si no hubo novedades, crea igualmente la semana con el titular "Semana sin novedades relevantes" y `destacados: []`.
+7. **Validar y publicar**
+   - Ejecuta `python3 scripts/validar.py` y corrige los errores que aparezcan.
+   - Haz commit con el mensaje `Edición semanal AAAA-Www` en la rama `main` y luego push. Cloudflare Pages despliega automáticamente.
+
+## Esquema de una noticia
+
+```json
+{
+  "id": "AAAA-MM-slug-corto",
+  "condicion": "ame",
+  "semana": "AAAA-Www",
+  "fecha_publicacion": "AAAA-MM-DD",
+  "categoria": "medicamentos | estudios | descubrimientos | rehabilitacion | evidencia | cirugia",
+  "titulo": "Título en español, informativo",
+  "titulo_original": "Título original",
+  "tipo_fuente": "regulatorio | ensayo_aleatorizado | revision_consenso | revisado_por_pares | reporte_caso | preprint | solo_prensa",
+  "certeza": "alta | moderada | baja | muy_baja | no_aplica",
+  "destacado": false,
+  "fuente": { "nombre": "", "autores": "", "url": "", "doi": "", "pmid": "", "nct": "" },
+  "resumen_tecnico": "",
+  "puntos_clave": ["", ""],
+  "limitaciones": "",
+  "resumen_familias": "",
+  "pregunta_equipo": null,
+  "conflictos": null,
+  "verificacion": { "estado": "verificado | parcial", "fecha": "AAAA-MM-DD", "nota": "" },
+  "etiquetas": []
+}
+```
+
+## Reglas
+
+- Nunca publiques consejos médicos individuales. El sitio informa y no indica tratamientos.
+- Nunca borres noticias antiguas: el archivo es histórico. Si una noticia se corrige, edítala y explica el cambio en `verificacion.nota`.
+- Los preprints siempre se marcan como `preprint`.

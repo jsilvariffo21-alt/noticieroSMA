@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Noticiero AME</title>
+  <meta name="description" content="Noticias verificadas y resumidas sobre atrofia muscular espinal: medicamentos, estudios, rehabilitación y cirugía.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230B1F33'/><path d='M14 40 L24 24 L32 36 L40 18 L50 40' stroke='%231AA7C4' stroke-width='6' fill='none' stroke-linecap='round' stroke-linejoin='round'/><circle cx='50' cy='40' r='5' fill='%23F57C0D'/></svg>">
+</head>
+<body>
+  <header class="barra">
+    <div class="contenedor barra-interior">
+      <a class="marca" href="./">
+        <span class="marca-icono" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><path d="M14 40 L24 24 L32 36 L40 18 L50 40" stroke="currentColor" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="50" cy="40" r="5" fill="var(--naranja)"/></svg>
+        </span>
+        <span>
+          <span class="marca-nombre">Noticiero <strong id="sigla">AME</strong></span>
+          <span class="marca-sub" id="nombre-condicion">Atrofia muscular espinal</span>
+        </span>
+      </a>
+      <div class="vista" role="group" aria-label="Tipo de resumen">
+        <button type="button" data-vista="tecnico" aria-pressed="true">Profesional</button>
+        <button type="button" data-vista="familias" aria-pressed="false">Familias</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <section class="semana" aria-labelledby="semana-titulo">
+      <div class="semana-cabecera">
+        <p class="eyebrow">Resumen semanal</p>
+        <div class="semana-nav">
+          <button type="button" id="semana-ant" aria-label="Semana anterior">‹</button>
+          <span id="semana-rango"></span>
+          <button type="button" id="semana-sig" aria-label="Semana siguiente">›</button>
+        </div>
+      </div>
+      <h1 id="semana-titulo"></h1>
+      <p id="semana-texto" class="semana-texto"></p>
+      <ul id="semana-destacados" class="semana-destacados"></ul>
+    </section>
+
+    <section class="filtros" aria-label="Filtros">
+      <div class="chips" id="chips-categoria" role="group" aria-label="Categoría"></div>
+      <div class="filtros-fila">
+        <label class="buscar">
+          <span class="sr">Buscar</span>
+          <input type="search" id="buscar" placeholder="Buscar: escoliosis, risdiplam, cadera…" autocomplete="off">
+        </label>
+        <label class="select">
+          <span class="sr">Tipo de fuente</span>
+          <select id="tipo-fuente"><option value="">Todas las fuentes</option></select>
+        </label>
+        <label class="check">
+          <input type="checkbox" id="solo-destacados"> Solo destacados
+        </label>
+      </div>
+      <p class="contador" id="contador" aria-live="polite"></p>
+    </section>
+
+    <section id="feed" class="feed" aria-label="Noticias"></section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p><strong>Aviso:</strong> este sitio resume publicaciones científicas y noticias con fines informativos y no reemplaza la indicación de su equipo de salud. Cada noticia enlaza a su fuente original. Los resúmenes se generan con ayuda de inteligencia artificial y se verifican contra la fuente primaria. Cuando esa verificación no es completa, la noticia lo indica.</p>
+      <p class="pie-meta">Noticiero AME · inspirado en la línea gráfica de NeuroRehab Academy · <span id="actualizado"></span></p>
+    </div>
+  </footer>
+
+  <template id="tpl-tarjeta">
+    <article class="tarjeta">
+      <div class="tarjeta-meta">
+        <span class="cat"></span>
+        <time></time>
+        <span class="destacado-badge" hidden>★ Destacado</span>
+      </div>
+      <h2 class="tarjeta-titulo"></h2>
+      <p class="tarjeta-original"></p>
+      <div class="insignias">
+        <span class="insignia fuente-tipo"></span>
+        <span class="insignia certeza"></span>
+        <span class="insignia verif"></span>
+      </div>
+      <p class="resumen"></p>
+      <p class="pregunta" hidden></p>
+      <details>
+        <summary>Ver detalle y fuente</summary>
+        <div class="detalle">
+          <h3>Puntos clave</h3>
+          <ul class="puntos"></ul>
+          <h3>Limitaciones</h3>
+          <p class="limitaciones"></p>
+          <div class="conflictos-bloque" hidden>
+            <h3>Conflictos de interés</h3>
+            <p class="conflictos"></p>
+          </div>
+          <h3>Verificación</h3>
+          <p class="verif-nota"></p>
+          <h3>Fuente</h3>
+          <p class="fuente-nombre"></p>
+          <p class="enlaces"></p>
+        </div>
+      </details>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
