@@ -17,11 +17,11 @@
       "pmid": "40818473",
       "nct": "NCT05156320"
     },
-    "resumen_tecnico": "La FDA aprobó apitegromab (Isembyld, Scholar Rock), anticuerpo monoclonal que inhibe la activación de la miostatina, como terapia complementaria para personas con AME de 2 años o más que ya reciben una terapia dirigida a SMN2. La aprobación se apoya en SAPPHIRE, un ensayo de fase 3, doble ciego y controlado con placebo (n = 188; 2 a 21 años; AME tipo 2 o 3 no ambulante, en tratamiento con nusinersen o risdiplam). En el grupo de 2 a 12 años, la diferencia en el cambio de la HFMSE a 12 meses fue de 1,8 puntos a favor de apitegromab (IC 95 %: 0,30 a 3,32; p = 0,019; combinando 10 y 20 mg/kg cada 4 semanas). La dosis de 20 mg/kg por sí sola no alcanzó significación (1,4 puntos; p = 0,11). Los eventos adversos fueron similares entre grupos en el ensayo. Según la prensa especializada, la ficha técnica advierte sobre riesgo de fracturas, posible daño fetal y efectos sobre la función reproductiva.",
+    "resumen_tecnico": "La FDA aprobó Isembyld (apitegromab-mstn, Scholar Rock), un anticuerpo monoclonal que inhibe la activación de la miostatina, para adultos y niños de 2 años o más con AME que ya reciben una terapia dirigida a SMN2. Es la primera terapia aprobada que actúa directamente sobre la pérdida muscular. Se administra por infusión intravenosa cada 4 semanas. La aprobación se basa en SAPPHIRE, un ensayo de fase 3 aleatorizado, doble ciego y controlado con placebo, de 52 semanas (n = 188; 2 a 21 años; AME no ambulante, en tratamiento con nusinersen o risdiplam). El análisis primario incluyó a 156 pacientes de 2 a 12 años. Según la FDA, la dosis de 10 mg/kg mostró una diferencia significativa en la HFMSE frente a placebo, y una mejoría clínicamente significativa fue más del doble de frecuente que con placebo (34,2 % frente a 13,5 %). En la publicación del ensayo, la diferencia combinando ambas dosis fue de 1,8 puntos en la HFMSE (IC 95 %: 0,30 a 3,32), y la dosis de 20 mg/kg por sí sola no fue significativa. Las reacciones adversas más frecuentes fueron infecciones respiratorias altas, vómitos, tos y cefalea. La ficha técnica advierte sobre un mayor riesgo de fracturas, incluidas fracturas graves, posible daño fetal y efectos sobre la función reproductiva.",
     "puntos_clave": [
       "Primer fármaco aprobado que actúa sobre el músculo y no sobre el gen SMN.",
       "Es un tratamiento complementario: se suma a nusinersen o risdiplam, no los reemplaza.",
-      "Beneficio motor modesto (aproximadamente 1,8 puntos en la HFMSE frente a placebo a 12 meses).",
+      "Beneficio motor modesto pero clínicamente relevante: 34,2 % frente a 13,5 % con mejoría significativa a 1 año.",
       "Ficha técnica con advertencias de fracturas y riesgos reproductivos."
     ],
     "limitaciones": "El ensayo incluyó solo pacientes no ambulantes de 2 a 21 años; la extrapolación a otras edades o a pacientes ambulantes es limitada. El efecto es pequeño y la dosis alta por sí sola no fue significativa. El ensayo fue financiado por el fabricante.",
@@ -29,11 +29,16 @@
     "pregunta_equipo": "¿Mi hijo o hija podría ser candidato a apitegromab y cuándo estaría disponible en nuestro país?",
     "conflictos": "El ensayo SAPPHIRE fue financiado por Scholar Rock (fabricante).",
     "verificacion": {
-      "estado": "parcial",
+      "estado": "verificado",
       "fecha": "2026-11-17",
-      "nota": "Aprobación confirmada en al menos tres medios independientes (NeurologyLive, STAT News, Medical Dialogues). Ensayo pivotal verificado en PubMed. El comunicado oficial de la FDA no pudo leerse directamente desde el entorno de recopilación."
+      "nota": "Verificado en el comunicado oficial de la FDA (11-09-2026) y en la publicación del ensayo SAPPHIRE en PubMed (PMID 40818473)."
     },
-    "etiquetas": ["apitegromab", "miostatina", "FDA", "SAPPHIRE"]
+    "etiquetas": [
+      "apitegromab",
+      "miostatina",
+      "FDA",
+      "SAPPHIRE"
+    ]
   },
   {
     "id": "2026-09-nissen-robotico-ame2",
@@ -63,8 +68,18 @@
     "resumen_familias": "Un equipo médico describió la operación de una joven de 23 años con AME tipo 2 que tenía reflujo severo, es decir, el contenido del estómago le subía al esófago. Usaron cirugía con robot, que requiere cortes más pequeños, y prepararon la anestesia con mucho cuidado porque respirar le costaba. La operación salió bien, se fue a casa a los 5 días y meses después ya no tenía reflujo. Es una sola experiencia, pero muestra que estas cirugías son posibles con un equipo preparado.",
     "pregunta_equipo": "Si mi hijo o hija necesita una cirugía, ¿qué plan de anestesia y de respiración se usaría en su caso?",
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42835421)." },
-    "etiquetas": ["reflujo", "cirugía robótica", "anestesia", "AME tipo 2", "partes blandas"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-17",
+      "nota": "Resumen verificado en PubMed (PMID 42835421)."
+    },
+    "etiquetas": [
+      "reflujo",
+      "cirugía robótica",
+      "anestesia",
+      "AME tipo 2",
+      "partes blandas"
+    ]
   },
   {
     "id": "2026-09-cadera-ame-era-terapias",
@@ -94,8 +109,17 @@
     "resumen_familias": "Gracias a los nuevos tratamientos, los niños con AME viven más y mejor, pero aparecen otros desafíos, como el riesgo de que la cadera se salga parcial o totalmente de su lugar en quienes no caminan. Este artículo explica que todavía no hay reglas claras sobre cuándo operar y que las que se usan en otras condiciones no siempre sirven para la AME. Lo más importante para las familias es que la cadera se controle con radiografías de forma periódica.",
     "pregunta_equipo": "¿Cada cuánto deberíamos controlar la cadera con radiografía y qué valor de migración nos haría preocuparnos?",
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42939945)." },
-    "etiquetas": ["cadera", "luxación", "neuro-ortopedia", "porcentaje de migración"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-17",
+      "nota": "Resumen verificado en PubMed (PMID 42939945)."
+    },
+    "etiquetas": [
+      "cadera",
+      "luxación",
+      "neuro-ortopedia",
+      "porcentaje de migración"
+    ]
   },
   {
     "id": "2026-09-densidad-osea-fusion-espinal",
@@ -125,8 +149,17 @@
     "resumen_familias": "Cuando la columna se curva mucho (escoliosis), a veces es necesario operarla para enderezarla. Este estudio encontró que los jóvenes con huesos más frágiles lograron menos corrección con la cirugía, y los jóvenes con AME suelen tener huesos frágiles. Por eso es útil cuidar la salud de los huesos desde temprano con vitamina D, alimentación adecuada y estar de pie con apoyo cuando se pueda.",
     "pregunta_equipo": "¿Deberíamos medir la densidad ósea y la vitamina D de mi hijo o hija antes de pensar en una cirugía de columna?",
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42768187)." },
-    "etiquetas": ["escoliosis", "artrodesis", "densidad ósea", "columna"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-17",
+      "nota": "Resumen verificado en PubMed (PMID 42768187)."
+    },
+    "etiquetas": [
+      "escoliosis",
+      "artrodesis",
+      "densidad ósea",
+      "columna"
+    ]
   },
   {
     "id": "2026-09-deglucion-ame1-revision",
@@ -156,8 +189,18 @@
     "resumen_familias": "Muchos niños con AME tipo 1 tienen dificultad para tragar, lo que puede hacer que la comida o la saliva pasen hacia los pulmones. Esta revisión reunió 38 estudios y encontró que se sabe bastante sobre cómo evaluar la deglución, pero muy poco sobre qué ejercicios o estrategias ayudan más. Cuando tragar no es seguro, a menudo se usa una gastrostomía, que es una sonda directa al estómago.",
     "pregunta_equipo": "¿Le corresponde a mi hijo o hija una evaluación de deglución con fonoaudiología, y cada cuánto?",
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42776174)." },
-    "etiquetas": ["disfagia", "deglución", "fonoaudiología", "AME tipo 1", "gastrostomía"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-17",
+      "nota": "Resumen verificado en PubMed (PMID 42776174)."
+    },
+    "etiquetas": [
+      "disfagia",
+      "deglución",
+      "fonoaudiología",
+      "AME tipo 1",
+      "gastrostomía"
+    ]
   },
   {
     "id": "2026-09-escoliosis-tono-bajo-alto",
@@ -187,8 +230,17 @@
     "resumen_familias": "No todas las escoliosis son iguales. En la AME los músculos del tronco son débiles y blandos, por eso la columna se curva de forma larga y flexible. Esto cambia cómo se planifica una cirugía. Antes de operar es muy importante revisar bien la respiración y la nutrición. Los expertos señalan que, cuando está indicada, la cirugía puede mejorar la calidad de vida.",
     "pregunta_equipo": "¿Qué evaluaciones respiratorias y nutricionales necesitaríamos antes de una eventual cirugía de columna?",
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42807138)." },
-    "etiquetas": ["escoliosis", "columna", "cifosis", "tono muscular"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-17",
+      "nota": "Resumen verificado en PubMed (PMID 42807138)."
+    },
+    "etiquetas": [
+      "escoliosis",
+      "columna",
+      "cifosis",
+      "tono muscular"
+    ]
   },
   {
     "id": "2026-10-nusinersen-mundo-real-largo-plazo",
@@ -218,8 +270,17 @@
     "resumen_familias": "Este estudio siguió durante varios años a jóvenes con AME tipo 2 y 3 que recibían nusinersen (Spinraza). La mayoría mejoró un poco al principio y luego se mantuvo estable. Que la AME no avance ya es un logro, porque sin tratamiento suele empeorar con el tiempo. Es un estudio pequeño, pero coincide con lo observado en otros países.",
     "pregunta_equipo": "¿Cómo medimos si el tratamiento actual está funcionando y qué escalas usamos para seguirlo?",
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42833105)." },
-    "etiquetas": ["nusinersen", "Spinraza", "mundo real", "HFMSE"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-17",
+      "nota": "Resumen verificado en PubMed (PMID 42833105)."
+    },
+    "etiquetas": [
+      "nusinersen",
+      "Spinraza",
+      "mundo real",
+      "HFMSE"
+    ]
   },
   {
     "id": "2026-10-astrocitos-forskolina",
@@ -249,8 +310,17 @@
     "resumen_familias": "Investigadores estudiaron en el laboratorio unas células del sistema nervioso llamadas astrocitos, que ayudan a las neuronas del movimiento a comunicarse. Descubrieron que en la AME estas células también funcionan peor. Cuando corrigieron el gen y agregaron una sustancia llamada forskolina, la comunicación entre neuronas mejoró. Es ciencia básica: falta mucho para que se convierta en tratamiento, pero abre nuevas ideas.",
     "pregunta_equipo": null,
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42861773)." },
-    "etiquetas": ["astrocitos", "sinapsis", "iPSC", "terapia combinada"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-17",
+      "nota": "Resumen verificado en PubMed (PMID 42861773)."
+    },
+    "etiquetas": [
+      "astrocitos",
+      "sinapsis",
+      "iPSC",
+      "terapia combinada"
+    ]
   },
   {
     "id": "2026-10-cribado-neonatal-canada",
@@ -280,8 +350,18 @@
     "resumen_familias": "Canadá ya revisa a todos sus recién nacidos para detectar la AME con la prueba del talón. En casi 5 años detectó 120 bebés, aproximadamente 1 de cada 12.500 nacimientos. Detectarla al nacer permite tratar antes de que aparezcan síntomas, que es cuando los tratamientos funcionan mejor. El estudio también muestra que, según la provincia donde nazca, un bebé puede tener distinto acceso al tratamiento, sobre todo si tiene 4 copias del gen SMN2.",
     "pregunta_equipo": "¿Nuestro país o región incluye la AME en la prueba del talón?",
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42899123)." },
-    "etiquetas": ["cribado neonatal", "prueba del talón", "SMN2", "equidad", "Canadá"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-17",
+      "nota": "Resumen verificado en PubMed (PMID 42899123)."
+    },
+    "etiquetas": [
+      "cribado neonatal",
+      "prueba del talón",
+      "SMN2",
+      "equidad",
+      "Canadá"
+    ]
   },
   {
     "id": "2026-10-delphi-ventilacion-permanente",
@@ -311,8 +391,17 @@
     "resumen_familias": "Hasta hace poco, en el Reino Unido algunas personas con AME que necesitan un ventilador permanente no podían recibir los nuevos tratamientos. Un grupo de expertos, escuchando también a pacientes, acordó que usar ventilador no debería ser motivo para negar el tratamiento. También acordaron que pequeñas mejoras, como mover mejor un dedo o comunicarse con más facilidad, sí cuentan como beneficio real.",
     "pregunta_equipo": "¿Qué metas pequeñas y concretas podríamos fijar para evaluar si el tratamiento le está ayudando?",
     "conflictos": "Financiado por Roche Products Ltd.; uno de los autores es empleado de Roche.",
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42964537)." },
-    "etiquetas": ["ventilación permanente", "Delphi", "acceso", "calidad de vida"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-17",
+      "nota": "Resumen verificado en PubMed (PMID 42964537)."
+    },
+    "etiquetas": [
+      "ventilación permanente",
+      "Delphi",
+      "acceso",
+      "calidad de vida"
+    ]
   },
   {
     "id": "2026-10-estimulacion-epidural-marcha",
@@ -342,8 +431,17 @@
     "resumen_familias": "Un grupo de investigación probó en 2 adultos con AME que caminan un dispositivo que estimula la médula espinal con pequeñas corrientes eléctricas. Después de 4 semanas caminaron más lejos y mejor, sobre todo moviendo las caderas. Es un resultado muy preliminar con solo dos personas y todavía no es un tratamiento disponible, pero es una línea de investigación interesante.",
     "pregunta_equipo": null,
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42934999)." },
-    "etiquetas": ["neuromodulación", "estimulación medular", "marcha", "adultos"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-17",
+      "nota": "Resumen verificado en PubMed (PMID 42934999)."
+    },
+    "etiquetas": [
+      "neuromodulación",
+      "estimulación medular",
+      "marcha",
+      "adultos"
+    ]
   },
   {
     "id": "2026-10-miostatina-biomarcador",
@@ -373,8 +471,17 @@
     "resumen_familias": "La miostatina es una sustancia que el cuerpo produce para frenar el crecimiento del músculo. Este estudio midió sus niveles en sangre y vio que se relacionan con cuánta fuerza y función tiene la persona. En el futuro podría ayudar a decidir quién se beneficia más de los nuevos medicamentos que bloquean la miostatina, como apitegromab.",
     "pregunta_equipo": null,
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42929233)." },
-    "etiquetas": ["miostatina", "biomarcador", "risdiplam", "nusinersen"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-17",
+      "nota": "Resumen verificado en PubMed (PMID 42929233)."
+    },
+    "etiquetas": [
+      "miostatina",
+      "biomarcador",
+      "risdiplam",
+      "nusinersen"
+    ]
   },
   {
     "id": "2026-10-consenso-terapia-genica-intratecal",
@@ -404,8 +511,18 @@
     "resumen_familias": "La terapia génica para la AME ahora también se puede administrar por punción lumbar (vía intratecal), sobre todo en niños mayores. Esta forma tiene un riesgo particular: puede afectar unos nervios que llevan la sensibilidad. Expertos acordaron cómo hacer los controles antes, durante y después del tratamiento, incluidos exámenes de los nervios, y cómo continuar el seguimiento cuando el niño pase a la atención de adultos.",
     "pregunta_equipo": "Si recibe terapia génica intratecal, ¿qué controles de sensibilidad y de nervios le harán y por cuánto tiempo?",
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42869088)." },
-    "etiquetas": ["terapia génica", "intratecal", "Itvisma", "seguridad", "transición"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-17",
+      "nota": "Resumen verificado en PubMed (PMID 42869088)."
+    },
+    "etiquetas": [
+      "terapia génica",
+      "intratecal",
+      "Itvisma",
+      "seguridad",
+      "transición"
+    ]
   },
   {
     "id": "2026-11-movilidad-motorizada-temprana",
@@ -435,8 +552,17 @@
     "resumen_familias": "Muchos padres se preguntan si una silla de ruedas eléctrica a edad temprana le quita al niño la motivación para moverse. Esta revisión sugiere lo contrario: los niños pequeños con AME que pueden manejar una silla eléctrica o un autito adaptado exploran más, juegan más y ganan independencia, y las familias lo viven de forma positiva. La mayor dificultad suele estar fuera de casa, en lugares poco accesibles.",
     "pregunta_equipo": "¿Desde qué edad podríamos probar una silla de ruedas eléctrica o un auto adaptado para mi hijo o hija?",
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 42989499)." },
-    "etiquetas": ["movilidad motorizada", "silla de ruedas eléctrica", "participación", "ayudas técnicas"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-17",
+      "nota": "Resumen verificado en PubMed (PMID 42989499)."
+    },
+    "etiquetas": [
+      "movilidad motorizada",
+      "silla de ruedas eléctrica",
+      "participación",
+      "ayudas técnicas"
+    ]
   },
   {
     "id": "2026-11-comparacion-indirecta-nusinersen-oav101it",
@@ -466,7 +592,16 @@
     "resumen_familias": "Este estudio intentó comparar dos tratamientos (nusinersen y la terapia génica por punción lumbar) sin que existiera un ensayo que los enfrentara directamente. Los resultados no muestran que uno sea mejor que el otro, y fue hecho por la empresa que fabrica uno de ellos. Por eso no debería influir en la elección de tratamiento: esa decisión se toma con el equipo médico según cada caso.",
     "pregunta_equipo": null,
     "conflictos": "Autoría y financiamiento de Biogen (fabricante de nusinersen) junto a una consultora.",
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-17", "nota": "Resumen verificado en PubMed (PMID 43016315)." },
-    "etiquetas": ["nusinersen", "terapia génica intratecal", "comparación indirecta", "conflicto de interés"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-17",
+      "nota": "Resumen verificado en PubMed (PMID 43016315)."
+    },
+    "etiquetas": [
+      "nusinersen",
+      "terapia génica intratecal",
+      "comparación indirecta",
+      "conflicto de interés"
+    ]
   }
 ]
