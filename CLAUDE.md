@@ -17,6 +17,18 @@ Recopilar, revisar, verificar y resumir en español las novedades mundiales sobr
 - `public/data/<id>/semanas.json`: un resumen de highlights por semana ISO.
 - `scripts/validar.py`: validador. **Debe terminar en `OK` antes de cada commit.**
 
+## Acceso a fuentes desde la tarea automática
+
+Las sesiones programadas pueden no tener el conector MCP de PubMed. En ese caso, usa las API públicas con `curl` (los dominios están permitidos en el entorno):
+
+- **PubMed (E-utilities):**
+  - `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=<consulta>&mindate=AAAA/MM/DD&maxdate=AAAA/MM/DD&datetype=edat&retmax=100&retmode=json`
+  - Luego obtén los resúmenes con `efetch.fcgi?db=pubmed&id=<pmids>&retmode=xml`.
+  - Espera al menos 0,4 s entre llamadas.
+- **ClinicalTrials.gov:** `https://clinicaltrials.gov/api/v2/studies?query.cond=spinal+muscular+atrophy&filter.advanced=AREA[LastUpdatePostDate]RANGE[AAAA-MM-DD,AAAA-MM-DD]&pageSize=50`
+- **FDA y EMA:** usa `curl -A "Mozilla/5.0" <url>` sobre `www.fda.gov` o `www.ema.europa.eu`. WebFetch puede fallar en esos dominios, pero `curl` funciona.
+- **Prensa general:** usa WebSearch.
+
 ## Edición semanal (paso a paso)
 
 La semana a cubrir es la **semana ISO anterior completa**, de lunes a domingo. Por ejemplo, si hoy es lunes 23-11-2026, se cubre la semana 2026-W47, del 16 al 22 de noviembre.
