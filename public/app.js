@@ -23,12 +23,42 @@
 
   async function iniciar() {
     config = await (await fetch('data/condiciones.json')).json();
-    const params = new URLSearchParams(location.search);
-    const cond = config.condiciones.find((c) => c.id === params.get('c')) || config.condiciones[0];
-    $('#sigla').textContent = cond.sigla;
-    $('#nombre-condicion').textContent = cond.nombre;
-    document.title = `Noticiero ${cond.sigla}`;
+    construirPestanas();
+    construirFiltros();
+    enlazarEventos();
+    aplicarVista();
+    window.addEventListener('popstate', () => cargarCondicion(condicionInicial(true), false));
+    await cargarCondicion(condicionInicial(), false);
+  }
 
+  function condicionInicial(desdeHistorial = false) {
+    const ids = config.condiciones.map((c) => c.id);
+    const url = new URLSearchParams(location.search).get('c');
+    if (ids.includes(url)) return url;
+    if (desdeHistorial) return ids[0];
+    const guardada = leer('condicion');
+    return ids.includes(guardada) ? guardada : ids[0];
+  }
+
+  function construirPestanas() {
+    const cont = $('#pestanas');
+    for (const c of config.condiciones) {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'pestana';
+      b.setAttribute('role', 'tab');
+      b.dataset.cond = c.id;
+      const s = document.createElement('span'); s.className = 'sigla'; s.textContent = c.sigla;
+      const nom = document.createElement('span'); nom.className = 'nombre'; nom.textContent = c.nombre;
+      b.title = c.nombre;
+      b.append(s, nom);
+      b.addEventListener('click', () => cargarCondicion(c.id, true));
+      cont.append(b);
+    }
+  }
+
+  async function cargarCondicion(id, cambiarUrl) {
+    const cond = config.condiciones.find((c) => c.id === id);
     [noticias, semanas] = await Promise.all([
       fetch(cond.noticias).then((r) => r.json()),
       fetch(cond.semanas).then((r) => r.json()),
@@ -36,14 +66,27 @@
     noticias.sort((a, b) => b.fecha_publicacion.localeCompare(a.fecha_publicacion));
     semanas.sort((a, b) => b.semana.localeCompare(a.semana));
 
-    const ult = noticias.map((n) => n.verificacion?.fecha).filter(Boolean).sort().pop();
-    if (ult) $('#actualizado').textContent = `Última revisión: ${fmtFecha(ult)}`;
+    guardar('condicion', id);
+    if (cambiarUrl) history.pushState(null, '', `?c=${id}`);
+    $('#sigla').textContent = cond.sigla;
+    $('#nombre-condicion').textContent = cond.nombre;
+    $('#cond-desc').textContent = cond.descripcion || '';
+    document.title = `Noticiero ${cond.sigla} · ${cond.nombre}`;
+    document.querySelectorAll('.pestana').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.cond === id)));
 
-    construirFiltros();
-    enlazarEventos();
-    aplicarVista();
+    const ult = noticias.map((n) => n.verificacion?.fecha).filter(Boolean).sort().pop();
+    $('#actualizado').textContent = ult ? `Última revisión: ${fmtFecha(ult)}` : '';
+
+    limpiarFiltros();
+    estado.semanaIdx = 0;
     pintarSemana();
     pintarFeed();
+  }
+
+  function limpiarFiltros() {
+    estado.categoria = ''; estado.texto = ''; estado.tipoFuente = ''; estado.soloDestacados = false;
+    $('#buscar').value = ''; $('#tipo-fuente').value = ''; $('#solo-destacados').checked = false;
+    document.querySelectorAll('.chip').forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.cat === '')));
   }
 
   function construirFiltros() {
@@ -89,7 +132,8 @@
 
   function pintarSemana() {
     const s = semanas[estado.semanaIdx];
-    if (!s) { $('.semana').hidden = true; return; }
+    $('.semana').hidden = !s;
+    if (!s) return;
     $('#semana-rango').textContent = `${fmtFecha(s.desde)} – ${fmtFecha(s.hasta)}`;
     $('#semana-titulo').textContent = s.titular;
     $('#semana-texto').textContent = estado.vista === 'familias' ? s.resumen_familias : s.resumen_tecnico;
@@ -101,9 +145,7 @@
       a.href = `#${n.id}`; a.textContent = n.titulo;
       a.addEventListener('click', () => {
         // Asegura que la tarjeta sea visible aunque haya filtros activos.
-        estado.categoria = ''; estado.texto = ''; estado.tipoFuente = ''; estado.soloDestacados = false;
-        $('#buscar').value = ''; $('#tipo-fuente').value = ''; $('#solo-destacados').checked = false;
-        document.querySelectorAll('.chip').forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.cat === '')));
+        limpiarFiltros();
         pintarFeed();
       });
       li.append(a); ul.append(li);
@@ -147,7 +189,7 @@
       tf.dataset.v = n.tipo_fuente; tf.textContent = config.tipos_fuente[n.tipo_fuente]?.nombre || n.tipo_fuente;
       const ce = el.querySelector('.certeza');
       ce.dataset.v = n.certeza; ce.textContent = `Certeza: ${config.certeza[n.certeza] || n.certeza}`;
-      if (n.certeza === 'no_aplica') ce.textContent = 'Preclínico';
+      if (n.certeza === 'no_aplica') ce.textContent = n.categoria === 'descubrimientos' ? 'Preclínico' : 'Opinión de experto';
       const ve = el.querySelector('.verif');
       ve.dataset.v = n.verificacion?.estado;
       ve.textContent = n.verificacion?.estado === 'verificado' ? '✓ Verificado en la fuente' : '◐ Verificación parcial';

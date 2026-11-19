@@ -71,9 +71,28 @@ a { color: var(--enlace); }
 }
 .vista button[aria-pressed="true"] { background: var(--naranja); color: #fff; }
 
+/* Pestañas de condición */
+.pestanas { background: var(--superficie); border-bottom: 1px solid var(--borde); }
+.pestanas-interior { display: flex; align-items: center; gap: 10px; min-height: 52px; }
+.pestanas-etiqueta { font-size: .8rem; color: var(--texto-suave); flex: none; }
+.pestanas-lista { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+.pestana {
+  flex: none; border: 0; border-bottom: 3px solid transparent; background: transparent; color: var(--texto-suave);
+  font: inherit; font-size: .92rem; font-weight: 600; padding: 14px 10px 11px; cursor: pointer; white-space: nowrap;
+}
+.pestana:hover { color: var(--texto); }
+.pestana[aria-selected="true"] { color: var(--texto); border-bottom-color: var(--naranja); }
+.pestana .sigla { color: var(--enlace); margin-right: 4px; }
+@media (max-width: 600px) {
+  .pestana .nombre { display: none; }
+  .pestana .sigla { margin-right: 0; }
+  .pestana { padding-left: 14px; padding-right: 14px; }
+}
+.cond-desc { margin: 18px 0 0; font-size: .9rem; color: var(--texto-suave); }
+
 /* Resumen semanal */
 .semana {
-  margin: 24px 0 20px; padding: 22px; border-radius: var(--radio);
+  margin: 14px 0 20px; padding: 22px; border-radius: var(--radio);
   background: var(--azul-noche); color: #F5E9CF; box-shadow: var(--sombra);
   border-left: 6px solid var(--verde);
 }

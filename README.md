@@ -1,6 +1,6 @@
-# Noticiero AME
+# Noticiero
 
-Noticiero personal sobre **atrofia muscular espinal (AME/SMA)**. Recopila, verifica y resume en español las novedades mundiales sobre medicamentos, ensayos clínicos, descubrimientos, rehabilitación, guías y cirugía (columna, cadera y partes blandas).
+Noticiero sobre condiciones neuromusculares. Hoy cubre **atrofia muscular espinal (AME/SMA)** y **Charcot-Marie-Tooth (CMT)**, y el lector elige la condición en una pestaña. Recopila, verifica y resume en español las novedades mundiales sobre medicamentos, ensayos clínicos, descubrimientos, rehabilitación, guías y cirugía (columna, cadera, pie y partes blandas).
 
 - **Dos capas de lectura:** cada noticia tiene un resumen técnico para profesionales y una versión en lenguaje simple para familias y cuidadores.
 - **Transparencia:** cada noticia indica el tipo de fuente, la certeza de la evidencia (enfoque inspirado en GRADE), el estado de verificación, los conflictos de interés y los enlaces a la fuente original (DOI, PubMed y ClinicalTrials.gov).
@@ -10,12 +10,12 @@ Noticiero personal sobre **atrofia muscular espinal (AME/SMA)**. Recopila, verif
 ## Estructura
 
 ```
-condiciones/ame.json        búsquedas y términos de la condición
+condiciones/<id>.json       búsquedas y términos de cada condición (ame, cmt)
 public/                     sitio estático (Cloudflare Pages)
   index.html, estilos.css, app.js
   data/condiciones.json     categorías, tipos de fuente y condiciones activas
-  data/ame/noticias.json    noticias
-  data/ame/semanas.json     resúmenes semanales
+  data/<id>/noticias.json   noticias de cada condición
+  data/<id>/semanas.json    resúmenes semanales de cada condición
 scripts/validar.py          validador de datos
 CLAUDE.md                   protocolo editorial
 ```

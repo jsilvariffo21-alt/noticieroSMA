@@ -38,6 +38,12 @@ def main() -> int:
     certezas = set(config["certeza"])
 
     for cond in config["condiciones"]:
+        ruta_cfg = RAIZ / "condiciones" / f"{cond['id']}.json"
+        if not ruta_cfg.exists():
+            err(f"[{cond['id']}] falta {ruta_cfg.relative_to(RAIZ)}")
+        for c in ("id", "nombre", "sigla", "descripcion", "noticias", "semanas"):
+            if not cond.get(c):
+                err(f"[{cond.get('id', '?')}] falta '{c}' en condiciones.json")
         ruta_n = DATA.parent / cond["noticias"]
         ruta_s = DATA.parent / cond["semanas"]
         noticias = json.loads(ruta_n.read_text(encoding="utf-8"))

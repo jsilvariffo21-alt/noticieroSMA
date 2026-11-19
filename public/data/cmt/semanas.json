@@ -1,0 +1,74 @@
+[
+  {
+    "semana": "2026-W46",
+    "desde": "2026-11-09",
+    "hasta": "2026-11-15",
+    "titular": "Las manos también importan en la CMT infantil",
+    "resumen_tecnico": "Un estudio transversal (n = 39) mostró menor destreza manual y fuerza de prensión que los valores normativos en niños y adolescentes con CMT, con una asociación débil entre ambas. Esto apoya evaluar y entrenar la función de la mano más allá de la fuerza.",
+    "resumen_familias": "Los niños con CMT pueden tener más dificultad para usar las manos en tareas finas, y no solo por falta de fuerza. Una evaluación con terapia ocupacional puede ayudar.",
+    "destacados": ["2026-11-destreza-manual-ninos-cmt"]
+  },
+  {
+    "semana": "2026-W44",
+    "desde": "2026-10-26",
+    "hasta": "2026-11-01",
+    "titular": "Ejercicios en casa con una cartilla validada",
+    "resumen_tecnico": "Se validó en Brasil una cartilla de ejercicios domiciliarios (fortalecimiento, elongación y equilibrio) para la CMT pediátrica, con un índice de validez de contenido ≥ 0,9 y una adherencia del 66 % a los 45 días. Su eficacia clínica aún no se ha evaluado.",
+    "resumen_familias": "Fisioterapeutas crearon y validaron una guía de ejercicios para hacer en casa con niños y adolescentes con CMT. Es una herramienta práctica para complementar la terapia.",
+    "destacados": ["2026-10-cartilla-ejercicios-casa-cmt"]
+  },
+  {
+    "semana": "2026-W43",
+    "desde": "2026-10-19",
+    "hasta": "2026-10-25",
+    "titular": "Cirugía del pie cavovaro: beneficios sostenidos a 2 años",
+    "resumen_tecnico": "En una cohorte retrospectiva (n = 109), la cirugía funcional más rehabilitación del pie cavovaro mantuvo la mejoría en la 10MWT y redujo las caídas, las callosidades y el uso de ayudas a 2 años, frente al ejercicio solo. Además, la fracción grasa muscular por resonancia automatizada se correlacionó con la gravedad y la función en la CMT1A.",
+    "resumen_familias": "Operar el pie de arco alto y luego hacer rehabilitación se asoció a menos caídas y a menos uso de bastones a 2 años, comparado con hacer solo ejercicios. También se probó una forma de medir con resonancia cuánto músculo se ha perdido.",
+    "destacados": ["2026-10-cirugia-funcional-vs-ejercicio-pie-cavo", "2026-10-resonancia-grasa-muscular-cmt1a"]
+  },
+  {
+    "semana": "2026-W42",
+    "desde": "2026-10-12",
+    "hasta": "2026-10-18",
+    "titular": "Las órtesis estabilizan, pero no corrigen el pie",
+    "resumen_tecnico": "Con TAC con carga y modelado 3D en 20 adultos, el pie quedó más cavovaro con órtesis tobillo-pie que descalzo. Las bases personalizadas lo empeoraron menos que las planas. Esto sugiere que el beneficio funcional de las órtesis se debe a la estabilización y no a la corrección de la deformidad.",
+    "resumen_familias": "Las órtesis tobillo-pie ayudan a estabilizar y a caminar más seguro, pero no corrigen la forma del pie. Conviene que tengan una plantilla hecha a medida.",
+    "destacados": ["2026-10-ortesis-tobillo-pie-cavovaro"]
+  },
+  {
+    "semana": "2026-W40",
+    "desde": "2026-09-28",
+    "hasta": "2026-10-04",
+    "titular": "PXT3003 en contexto y la carga de los cuidadores",
+    "resumen_tecnico": "Un comentario experto en iScience sitúa el ensayo positivo de PXT3003 dentro de una historia de resultados mixtos y llama a la transparencia en los datos. Un estudio brasileño (n = 58) documentó sobrecarga en los cuidadores de niños con CMT, independiente del nivel socioeconómico.",
+    "resumen_familias": "Un experto explicó por qué aún hay dudas sobre el medicamento PXT3003. Otro estudio mostró que quienes cuidan a niños con CMT, en su mayoría madres, también necesitan apoyo.",
+    "destacados": ["2026-10-pxt3003-lecciones-desarrollo", "2026-10-carga-cuidadores-cmt-pediatrica"]
+  },
+  {
+    "semana": "2026-W39",
+    "desde": "2026-09-21",
+    "hasta": "2026-09-27",
+    "titular": "CRISPR para bajar la dosis de PMP22",
+    "resumen_tecnico": "La edición del promotor P1 de PMP22 en células iPSC de un paciente con CMT1A redujo la sobreexpresión y mejoró el fenotipo de las células de Schwann in vitro, conservando la expresión basal. Es una prueba de concepto preclínica.",
+    "resumen_familias": "En el laboratorio, una técnica de edición genética logró bajar el exceso del gen que causa la CMT1A sin apagarlo. Todavía no se ha probado en animales ni en personas.",
+    "destacados": ["2026-09-crispr-promotor-pmp22"]
+  },
+  {
+    "semana": "2026-W37",
+    "desde": "2026-09-07",
+    "hasta": "2026-09-13",
+    "titular": "Diagnóstico genético y clasificación del pie cavovaro",
+    "resumen_tecnico": "Una guía en Muscle & Nerve recomienda paneles NGS guiados por el fenotipo como primera línea en las neuropatías hereditarias, con atención a las variantes en el número de copias, las expansiones de repeticiones y SORD. Otro estudio mostró que los morfotipos del antepié cavovaro se clasifican de forma fiable con el examen clínico (concordancia de 0,94 con el TAC con carga).",
+    "resumen_familias": "Una guía explica cómo buscar el gen que causa la CMT, algo clave para el pronóstico y para acceder a estudios clínicos. Además, se mostró que el tipo de pie de arco alto puede reconocerse con un buen examen físico.",
+    "destacados": ["2026-09-guia-estudio-genetico-neuropatias", "2026-09-morfotipos-antepie-cavovaro"]
+  },
+  {
+    "semana": "2026-W36",
+    "desde": "2026-08-31",
+    "hasta": "2026-09-06",
+    "titular": "Ensayo de fase 3 positivo para PXT3003 en CMT1A",
+    "resumen_tecnico": "Un ensayo de fase 3 en China mostró una reducción pequeña pero significativa de la limitación funcional (ONLS −0,249 frente a placebo a 15 meses) con PXT3003, con mejoría en las piernas y en la dorsiflexión del tobillo. Un ensayo confirmatorio previo había sido negativo. También se publicó el primer caso de inestabilidad cervical C2-C3 operada en una niña con CMT.",
+    "resumen_familias": "Un medicamento en estudio para la CMT1A, PXT3003, mostró una pequeña mejoría en el uso de las piernas, pero aún no está aprobado y faltan más pruebas. También se describió el caso de una niña con CMT que mejoró tras una cirugía del cuello.",
+    "destacados": ["2026-09-pxt3003-fase3-china", "2026-09-inestabilidad-c2c3-nina-cmt"]
+  }
+]

@@ -1,0 +1,375 @@
+[
+  {
+    "id": "2026-09-pxt3003-fase3-china",
+    "condicion": "cmt",
+    "semana": "2026-W36",
+    "fecha_publicacion": "2026-08-26",
+    "categoria": "medicamentos",
+    "titulo": "Ensayo de fase 3 en China: PXT3003 mejora levemente la limitación funcional en CMT1A",
+    "titulo_original": "A phase III clinical trial of PXT3003 in Chinese patients with Charcot-Marie-Tooth disease type 1A",
+    "tipo_fuente": "ensayo_aleatorizado",
+    "certeza": "moderada",
+    "destacado": true,
+    "fuente": {
+      "nombre": "iScience",
+      "autores": "Liu X, Cao W, Li H, … Zhang R",
+      "url": "https://doi.org/10.1016/j.isci.2026.117284",
+      "doi": "10.1016/j.isci.2026.117284",
+      "pmid": "42699772"
+    },
+    "resumen_tecnico": "Ensayo de fase 3 aleatorizado y controlado con placebo, en 25 centros de China, con personas de 16 a 65 años con CMT1A leve a moderada confirmada genéticamente. Los participantes recibieron PXT3003 oral (combinación en dosis bajas de baclofeno, naltrexona y D-sorbitol, dirigida a la sobreexpresión de PMP22) o placebo, dos veces al día durante 15 meses. En el objetivo primario, el cambio en la escala ONLS fue de −0,268 con PXT3003 frente a 0,013 con placebo: diferencia de −0,249 (IC 95 %: −0,467 a −0,030; p = 0,0257). También hubo mejoras significativas en la subescala de piernas de la ONLS y en la fuerza de dorsiflexión del tobillo. Un ensayo confirmatorio previo, realizado en otra población, no alcanzó sus objetivos primarios de eficacia.",
+    "puntos_clave": [
+      "Primer ensayo de fase 3 positivo para PXT3003 en población china.",
+      "El efecto es pequeño: aproximadamente 0,25 puntos en la ONLS a 15 meses.",
+      "Mejoría específica en las piernas y en la dorsiflexión del tobillo.",
+      "Resultados inconsistentes con un ensayo confirmatorio previo que fue negativo."
+    ],
+    "limitaciones": "El resumen no informa el tamaño de la muestra ni la relevancia clínica mínima de la diferencia en la ONLS. La certeza baja por la inconsistencia con un ensayo confirmatorio previo negativo. Aún no está aprobado por la FDA ni por la EMA.",
+    "resumen_familias": "La CMT1A, el tipo más frecuente de Charcot-Marie-Tooth, todavía no tiene un medicamento que frene la enfermedad. PXT3003 es una pastilla que combina tres fármacos conocidos en dosis bajas. En este estudio en China, las personas que lo tomaron durante 15 meses tuvieron una pequeña mejoría en el uso de las piernas, mientras que las que recibieron placebo se mantuvieron igual. Es una buena señal, pero otro estudio anterior no mostró beneficio, por lo que aún no está aprobado y faltan más pruebas.",
+    "pregunta_equipo": "¿Hay ensayos clínicos con PXT3003 u otros tratamientos para CMT1A en los que mi hijo o hija pudiera participar?",
+    "conflictos": "Los autores declaran no tener conflictos de interés. El resumen no informa la fuente de financiamiento.",
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42699772). El número de centros (25) proviene del comentario de Burns J en iScience (PMID 42828127)." },
+    "etiquetas": ["PXT3003", "CMT1A", "PMP22", "ONLS", "ensayo de fase 3"]
+  },
+  {
+    "id": "2026-09-inestabilidad-c2c3-nina-cmt",
+    "condicion": "cmt",
+    "semana": "2026-W36",
+    "fecha_publicacion": "2026-08-25",
+    "categoria": "cirugia",
+    "titulo": "Inestabilidad cervical C2-C3 con mielopatía en una niña de 22 meses con CMT: primer caso descrito",
+    "titulo_original": "C2-C3 anterolisthesis with myelopathy in a toddler with Charcot-Marie-Tooth disease: a rare case and review of syndromic pediatric C2-C3 instability",
+    "tipo_fuente": "reporte_caso",
+    "certeza": "muy_baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "International Journal of Surgery Case Reports",
+      "autores": "Bagherzadeh S, Roohollahi F, Hartnett SM, … Rostami M",
+      "url": "https://doi.org/10.1097/RC9.0000000000000855",
+      "doi": "10.1097/RC9.0000000000000855",
+      "pmid": "42699920"
+    },
+    "resumen_tecnico": "Reporte de caso de una niña de 22 meses con CMT y retraso motor, inicialmente diagnosticada como parálisis cerebral. Las imágenes avanzadas mostraron anomalías cervicales congénitas, anterolistesis e inestabilidad C2-C3 con compresión medular significativa. Se realizó una descompresión y una artrodesis posterior C1-C3, con mejoría neurológica y motora progresiva. Los autores revisan la literatura de inestabilidad C2-C3 pediátrica, asociada sobre todo a síndromes como Down o acondroplasia, que suele responder bien a la fusión.",
+    "puntos_clave": [
+      "Primer caso descrito de inestabilidad C2-C3 en CMT.",
+      "El retraso motor se atribuyó erróneamente a parálisis cerebral.",
+      "Un déficit motor que no calza con el diagnóstico de base justifica estudiar la columna cervical."
+    ],
+    "limitaciones": "Es un caso único: no permite estimar la frecuencia ni recomendar un cribado cervical rutinario en CMT.",
+    "resumen_familias": "Se describe a una niña pequeña con CMT que tardaba en moverse y caminar. Al principio se pensó que era parálisis cerebral, pero los estudios mostraron que dos vértebras del cuello estaban inestables y apretaban la médula espinal. Después de operarla para estabilizar el cuello, fue mejorando poco a poco. Es un caso muy poco común, pero recuerda que, si un niño tiene dificultades que no se explican bien por su diagnóstico, vale la pena seguir investigando.",
+    "pregunta_equipo": "Si mi hijo o hija tiene un retraso motor mayor al esperado para su tipo de CMT, ¿convendría estudiar la columna cervical?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42699920)." },
+    "etiquetas": ["columna cervical", "mielopatía", "artrodesis", "neurocirugía", "infancia"]
+  },
+  {
+    "id": "2026-09-morfotipos-antepie-cavovaro",
+    "condicion": "cmt",
+    "semana": "2026-W37",
+    "fecha_publicacion": "2026-09-06",
+    "categoria": "cirugia",
+    "titulo": "El tipo de antepié en el pie cavovaro de la CMT se puede identificar con el examen clínico",
+    "titulo_original": "Clinical determination of forefoot morphotypes in flexible Charcot-Marie-Tooth cavovarus feet - A novel system of clinical examination",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Foot and Ankle Surgery",
+      "autores": "Malhotra K, Matheron G, Aggarwal A, … Welck M",
+      "url": "https://doi.org/10.1016/j.fas.2026.08.012",
+      "doi": "10.1016/j.fas.2026.08.012",
+      "pmid": "42722603"
+    },
+    "resumen_tecnico": "Estudio retrospectivo de un solo centro con 60 pies cavovaros flexibles por CMT, clasificados clínicamente por dos clínicos en cuatro morfotipos de antepié descritos previamente. En 30 pies se comparó con la clasificación por software en TAC con carga. La concordancia fue de 0,943 entre la evaluación clínica y el software, y de 0,938 entre clínicos. La distribución fue: tipo 1 en 60 %, tipo 2 en 21,7 %, tipo 3 en 10 % y tipo 0 en 8,3 %. Se describieron tres subtipos del tipo 3 (balanceado, en flexión plantar y en pronación) y un subtipo en aducción en 11 pies de tipo 1 o 2.",
+    "puntos_clave": [
+      "La morfología del antepié cavovaro se clasifica de forma fiable con el examen clínico.",
+      "Útil para planificar la cirugía cuando no hay TAC con carga disponible.",
+      "La variabilidad entre morfotipos apoya una cirugía a medida."
+    ],
+    "limitaciones": "Diseño retrospectivo y unicéntrico; la comparación con TAC se hizo solo en la mitad de los pies. No evalúa si usar la clasificación mejora los resultados quirúrgicos.",
+    "resumen_familias": "Muchas personas con CMT desarrollan un pie con el arco muy alto y el talón hacia adentro (pie cavovaro). No todos estos pies son iguales, sobre todo en la parte delantera, y eso cambia el tipo de cirugía. Este estudio muestra que un especialista puede reconocer el tipo de pie solo examinándolo, sin necesitar un escáner especial. Eso puede ayudar a planificar mejor una operación.",
+    "pregunta_equipo": "¿Qué tipo de pie cavovaro tiene mi hijo o hija y cómo influye en las opciones de tratamiento?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42722603)." },
+    "etiquetas": ["pie cavovaro", "antepié", "cirugía de pie", "examen clínico", "TAC con carga"]
+  },
+  {
+    "id": "2026-09-guia-estudio-genetico-neuropatias",
+    "condicion": "cmt",
+    "semana": "2026-W37",
+    "fecha_publicacion": "2026-09-09",
+    "categoria": "evidencia",
+    "titulo": "Guía para el estudio genético de las neuropatías hereditarias: los paneles NGS como primera línea",
+    "titulo_original": "Guidelines for Genetic Testing of Peripheral Nerve Disorders",
+    "tipo_fuente": "revision_consenso",
+    "certeza": "baja",
+    "destacado": true,
+    "fuente": {
+      "nombre": "Muscle & Nerve",
+      "autores": "Saporta MA",
+      "url": "https://doi.org/10.1002/mus.70394",
+      "doi": "10.1002/mus.70394",
+      "pmid": "42717552"
+    },
+    "resumen_tecnico": "Revisión y guía práctica sobre el estudio genético de las neuropatías periféricas hereditarias, que afectan aproximadamente a 1 de cada 2.500 personas. Plantea que, en Estados Unidos, los paneles multigénicos por secuenciación de nueva generación (NGS) son la primera línea más costo-efectiva, y que el estudio dirigido de un solo gen sigue siendo útil en casos seleccionados o donde el acceso a la secuenciación es limitado. Describe desafíos: variantes de significado incierto, detección de variantes en el número de copias y de expansiones de repeticiones, regiones homólogas como SORD y diferencias entre laboratorios. Recomienda integrar el fenotipo, la electrofisiología, la historia familiar y los datos moleculares. El diagnóstico preciso mejora el pronóstico y el consejo genético, detecta neuropatías tratables (como la amiloidosis por transtiretina) y facilita el acceso a ensayos específicos por gen.",
+    "puntos_clave": [
+      "Panel NGS multigénico como primera línea, guiado por el fenotipo.",
+      "Atención a las variantes en el número de copias (como la duplicación de PMP22), las expansiones de repeticiones y SORD.",
+      "El diagnóstico genético preciso abre la puerta a ensayos clínicos específicos."
+    ],
+    "limitaciones": "Guía de un solo autor centrada en el sistema de salud de Estados Unidos; no describe un proceso formal de consenso ni una gradación de la evidencia.",
+    "resumen_familias": "Existen más de 100 genes que pueden causar Charcot-Marie-Tooth. Esta guía explica cómo los médicos pueden buscar la causa genética de forma ordenada, generalmente con un examen que estudia muchos genes a la vez. Conocer el gen exacto ayuda a saber cómo podría evolucionar la condición, a orientar a otros familiares y a acceder a estudios clínicos de nuevos tratamientos, que cada vez más se diseñan para un gen específico.",
+    "pregunta_equipo": "¿Conocemos el gen exacto que causa la CMT de mi hijo o hija? Si no, ¿qué estudio genético nos recomiendan?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42717552)." },
+    "etiquetas": ["genética", "NGS", "diagnóstico", "PMP22", "SORD", "consejo genético"]
+  },
+  {
+    "id": "2026-09-crispr-promotor-pmp22",
+    "condicion": "cmt",
+    "semana": "2026-W39",
+    "fecha_publicacion": "2026-09-27",
+    "categoria": "descubrimientos",
+    "titulo": "Edición con CRISPR del promotor de PMP22: reducir la dosis del gen corrige células de Schwann de CMT1A en el laboratorio",
+    "titulo_original": "Promoter-Targeted CRISPR Correction of PMP22 Gene Dosage Restores Schwann Cell Homeostasis in Charcot-Marie-Tooth Disease Type 1A",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "no_aplica",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Tissue Engineering and Regenerative Medicine",
+      "autores": "Doo HM, Nam SH, Kim H, … Kim JH",
+      "url": "https://doi.org/10.1007/s13770-026-00837-x",
+      "doi": "10.1007/s13770-026-00837-x",
+      "pmid": "42801440"
+    },
+    "resumen_tecnico": "Estudio preclínico con células iPSC de un paciente con CMT1A (duplicación de 1,4 Mb que incluye PMP22). Con una microdeleción del promotor guiada por sgRNA se interrumpieron las tres cajas TATA del promotor P1 de PMP22. En células derivadas hacia el linaje de Schwann, la edición atenuó la sobreexpresión de PMP22, aumentó SOX9 y AP2α y mejoró la morfología celular, con una reducción de alrededor del 50 % del índice de coexpresión PMP22/S100β (p < 0,01). La expresión basal se mantuvo gracias al promotor P2. El efecto se reprodujo en células de Schwann primarias humanas maduras (reducción de PMP22 por qPCR, p < 0,05).",
+    "puntos_clave": [
+      "La estrategia busca normalizar la dosis de PMP22, no eliminar el gen.",
+      "La expresión basal se conserva gracias al promotor P2.",
+      "Prueba de concepto in vitro; falta validarla en animales."
+    ],
+    "limitaciones": "Solo en modelos celulares, a partir de un único paciente; sin datos en animales, de entrega in vivo ni de seguridad (efectos fuera de objetivo).",
+    "resumen_familias": "En la CMT1A, las personas tienen una copia extra de un gen llamado PMP22, y ese exceso daña la cubierta de los nervios. Investigadores en Corea usaron una técnica de edición genética (CRISPR) en células de laboratorio para bajar la actividad de ese gen sin apagarlo por completo, y las células mejoraron. Es un primer paso: todavía no se ha probado en animales ni en personas, así que falta bastante para que sea un tratamiento.",
+    "pregunta_equipo": null,
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42801440)." },
+    "etiquetas": ["CRISPR", "PMP22", "CMT1A", "células de Schwann", "terapia génica"]
+  },
+  {
+    "id": "2026-10-pxt3003-lecciones-desarrollo",
+    "condicion": "cmt",
+    "semana": "2026-W40",
+    "fecha_publicacion": "2026-09-22",
+    "categoria": "evidencia",
+    "titulo": "PXT3003: qué enseña su accidentada historia sobre el desarrollo de terapias en CMT1A",
+    "titulo_original": "PXT3003: Lessons for therapeutic development in Charcot-Marie-Tooth disease type 1A and related neuropathies",
+    "tipo_fuente": "revision_consenso",
+    "certeza": "no_aplica",
+    "destacado": false,
+    "fuente": {
+      "nombre": "iScience",
+      "autores": "Burns J",
+      "url": "https://doi.org/10.1016/j.isci.2026.117568",
+      "doi": "10.1016/j.isci.2026.117568",
+      "pmid": "42828127"
+    },
+    "resumen_tecnico": "Comentario experto que acompaña el ensayo de fase 3 chino de PXT3003 (baclofeno, naltrexona y D-sorbitol frente a placebo durante 15 meses; 16 a 65 años; CMT1A leve a moderada; 25 centros). Repasa más de una década de desarrollo marcada por la inestabilidad de la formulación, la interrupción del programa clínico, la incertidumbre regulatoria y la controversia sobre la eficacia. Subraya que la interpretación de la evidencia depende de cuánto de ella es públicamente accesible. Usa el caso para discutir los desafíos científicos, metodológicos, operativos y de reporte de los ensayos en neuropatías hereditarias de progresión lenta.",
+    "puntos_clave": [
+      "Pone en contexto el ensayo positivo dentro de una historia de resultados mixtos.",
+      "Las enfermedades de progresión lenta exigen ensayos largos y medidas de resultado sensibles.",
+      "La transparencia en la publicación de los datos es clave para interpretar la eficacia."
+    ],
+    "limitaciones": "Comentario de opinión de un solo autor, sin datos nuevos. El autor declara actividad de asesoría para varias compañías farmacéuticas.",
+    "resumen_familias": "Un experto internacional en CMT comenta el estudio chino de PXT3003. Explica que este medicamento lleva más de 10 años en investigación, con altos y bajos, y que todavía hay dudas sobre cuánto ayuda realmente. Su mensaje es que, en condiciones que avanzan lentamente como la CMT, los estudios deben ser largos y sus resultados, públicos y transparentes, para poder confiar en ellos.",
+    "pregunta_equipo": null,
+    "conflictos": "El autor declara financiamiento de NIH, MDA, NHMRC y CMTA, y actividad de asesoría para empresas farmacéuticas.",
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen y declaración de conflictos verificados en PubMed (PMID 42828127)." },
+    "etiquetas": ["PXT3003", "CMT1A", "desarrollo de fármacos", "transparencia"]
+  },
+  {
+    "id": "2026-10-carga-cuidadores-cmt-pediatrica",
+    "condicion": "cmt",
+    "semana": "2026-W40",
+    "fecha_publicacion": "2026-10-02",
+    "categoria": "estudios",
+    "titulo": "La sobrecarga de quienes cuidan a niños y adolescentes con CMT: un estudio en Brasil",
+    "titulo_original": "Burden and social context of caregivers of children and adolescents with Charcot-Marie-Tooth disease",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Arquivos de Neuro-Psiquiatria",
+      "autores": "de Paula CS, Cardoso J, Marques Junior W, … Mattiello-Sverzut AC",
+      "url": "https://doi.org/10.1055/s-0046-1829046",
+      "doi": "10.1055/s-0046-1829046",
+      "pmid": "42826735"
+    },
+    "resumen_tecnico": "Estudio transversal con 58 pacientes de 3 a 18 años (mediana: 13 años) y sus cuidadores principales (mediana: 41 años). La mediana del CMTPedS-Br fue 22,5 (compromiso moderado) y la de la Caregiver Burden Scale, 31,5. El 85,2 % de los cuidadores eran madres y el 59,6 % no tenía diagnóstico de CMT. La sobrecarga no difirió según el ingreso ni la escolaridad, y solo mostró una correlación débil y no significativa con la edad del cuidador. Los autores apoyan intervenciones multidisciplinarias centradas también en el cuidador.",
+    "puntos_clave": [
+      "Las madres son la gran mayoría de los cuidadores principales.",
+      "Existe sobrecarga incluso con un compromiso moderado.",
+      "Los factores socioeconómicos no explicaron las diferencias en la sobrecarga."
+    ],
+    "limitaciones": "Diseño transversal, unicéntrico y con una muestra modesta; no explora factores psicológicos ni de apoyo social.",
+    "resumen_familias": "Cuidar a un hijo o hija con CMT también puede cansar y preocupar. Este estudio en Brasil preguntó a 58 cuidadores, en su mayoría madres, cómo se sentían, y encontró que muchos viven una carga importante, sin importar su nivel de ingresos o de estudios. Los autores recomiendan que los equipos de salud también acompañen y apoyen a quienes cuidan.",
+    "pregunta_equipo": "¿Qué apoyos existen para nosotros como familia y cuidadores (psicología, trabajo social, grupos de padres)?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42826735)." },
+    "etiquetas": ["cuidadores", "familia", "calidad de vida", "pediatría", "Brasil"]
+  },
+  {
+    "id": "2026-10-ortesis-tobillo-pie-cavovaro",
+    "condicion": "cmt",
+    "semana": "2026-W42",
+    "fecha_publicacion": "2026-10-12",
+    "categoria": "rehabilitacion",
+    "titulo": "Las órtesis tobillo-pie no corrigen el pie cavovaro en CMT: estabilizan, pero no realinean",
+    "titulo_original": "Do Ankle-Foot Orthoses Reduce Cavovarus Deformity in Individuals With Charcot-Marie-Tooth Disease?",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "baja",
+    "destacado": true,
+    "fuente": {
+      "nombre": "Clinical Orthopaedics and Related Research",
+      "autores": "Requist MR, Peterson AC, Crowe L, … Chrea B",
+      "url": "https://doi.org/10.1097/CORR.0000000000004137",
+      "doi": "10.1097/CORR.0000000000004137",
+      "pmid": "42861874"
+    },
+    "resumen_tecnico": "Estudio prospectivo con 20 adultos con CMT (edad media: 49 ± 17 años) que usaban órtesis tobillo-pie (OTP) bilaterales. Se tomaron TAC con carga descalzos y con OTP y zapatos, y se analizaron con mediciones 2D y con modelado estadístico de forma 3D. Con OTP, el ángulo de Meary sagital aumentó en promedio 3,8° y el ángulo calcáneo–primer metatarsiano disminuyó 3,3°, lo que indica un pie más cavovaro (p < 0,001). El modelado 3D mostró, con OTP, un aumento del 27 % en la posición cavovara, del 54 % en la flexión plantar y del 42 % en la elevación del mediopié. Las OTP con plantilla personalizada empeoraron menos la posición que las de base plana (p = 0,04).",
+    "puntos_clave": [
+      "Las OTP no reducen la deformidad cavovara; con ellas el pie queda más cavovaro.",
+      "Su beneficio funcional se explicaría por la estabilización, no por la corrección.",
+      "Las plantillas personalizadas en la base de la OTP son preferibles a las bases planas."
+    ],
+    "limitaciones": "Muestra pequeña de adultos, con órtesis de diseño heterogéneo elegidas por cada participante; no mide la función ni la marcha. No es extrapolable directamente a niños.",
+    "resumen_familias": "Muchas personas con CMT usan órtesis tobillo-pie (las «valvas» o «AFO») para caminar mejor. Este estudio con escáneres mostró que estas órtesis no corrigen la forma del pie con arco alto; incluso, dentro de la órtesis el pie quedaba algo más arqueado. Eso no significa que no sirvan: ayudan a estabilizar el tobillo y a evitar caídas. Lo que sugiere es que las órtesis hechas a medida, con plantilla adaptada al pie, son mejor opción que las de base plana.",
+    "pregunta_equipo": "¿La órtesis de mi hijo o hija tiene una plantilla adaptada a su pie? ¿Debemos revisarla?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42861874)." },
+    "etiquetas": ["órtesis tobillo-pie", "AFO", "pie cavovaro", "TAC con carga", "ortesis"]
+  },
+  {
+    "id": "2026-10-cirugia-funcional-vs-ejercicio-pie-cavo",
+    "condicion": "cmt",
+    "semana": "2026-W43",
+    "fecha_publicacion": "2026-10-21",
+    "categoria": "cirugia",
+    "titulo": "Cirugía funcional más rehabilitación frente a ejercicio solo en el pie cavovaro de la CMT: menos caídas a 2 años",
+    "titulo_original": "Functional surgery plus rehabilitation versus physical exercise alone for Charcot-Marie-Tooth cavovarus foot deformity: a retrospective cohort study",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "muy_baja",
+    "destacado": true,
+    "fuente": {
+      "nombre": "Foot and Ankle Surgery",
+      "autores": "Wei Z, Cui Z, Cao Y, … Lv Y",
+      "url": "https://doi.org/10.1016/j.fas.2026.10.012",
+      "doi": "10.1016/j.fas.2026.10.012",
+      "pmid": "42919750"
+    },
+    "resumen_tecnico": "Cohorte retrospectiva pareada de 109 pacientes con pie cavovaro por CMT, seguidos durante 2 años: 55 recibieron cirugía funcional más rehabilitación y 54 solo ejercicio físico. Los objetivos primarios fueron la prueba de marcha de 10 metros (10MWT) y la de 6 minutos (6MWT). En el grupo quirúrgico, la 10MWT mejoró de forma significativa a los 6 meses, 1 año y 2 años; en el grupo de ejercicio, solo a los 6 meses. La 6MWT mejoró en ambos grupos en todos los controles. A los 2 años, el grupo quirúrgico redujo las caídas (−21,8 %; p = 0,019), las callosidades (−16,4 %; p = 0,026) y el uso de ayudas para la marcha (−25,4 %; p = 0,002), sin cambios en el grupo de ejercicio. El CMTES no cambió en ninguno de los dos grupos.",
+    "puntos_clave": [
+      "Ambos enfoques mejoran la marcha a corto plazo.",
+      "La cirugía más rehabilitación mantiene la mejoría de velocidad y reduce caídas, callosidades y ayudas a 2 años.",
+      "La progresión de la neuropatía (CMTES) no cambia con ninguno de los dos enfoques."
+    ],
+    "limitaciones": "Diseño retrospectivo no aleatorizado, con riesgo de sesgo de selección. El resumen no describe los procedimientos quirúrgicos específicos.",
+    "resumen_familias": "En personas con CMT y pie de arco alto, este estudio comparó dos caminos: operar el pie y luego hacer rehabilitación, o hacer solo ejercicios. Ambos ayudaron a caminar mejor al principio. Pero a los 2 años, quienes se operaron seguían caminando más rápido y tenían menos caídas, menos callos y usaban menos bastones o andadores. La operación no detiene la CMT; mejora la forma y la función del pie. La decisión de operar siempre debe tomarse caso a caso con el equipo tratante.",
+    "pregunta_equipo": "¿Mi hijo o hija podría beneficiarse de una evaluación por un cirujano especialista en pie neuromuscular? ¿En qué momento?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42919750)." },
+    "etiquetas": ["pie cavovaro", "cirugía de pie", "rehabilitación", "caídas", "marcha"]
+  },
+  {
+    "id": "2026-10-resonancia-grasa-muscular-cmt1a",
+    "condicion": "cmt",
+    "semana": "2026-W43",
+    "fecha_publicacion": "2026-10-21",
+    "categoria": "estudios",
+    "titulo": "La grasa en los músculos de la pierna medida por resonancia refleja la gravedad de la CMT1A",
+    "titulo_original": "MRI-Derived Muscle Fat Fraction Reflects Disease Severity and Functional Impairment in Charcot-Marie-Tooth Disease Type 1A",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Muscle & Nerve",
+      "autores": "Kim JH, Lee JH, Yoon YC, … Kim HS",
+      "url": "https://doi.org/10.1002/mus.70430",
+      "doi": "10.1002/mus.70430",
+      "pmid": "42908170"
+    },
+    "resumen_tecnico": "Estudio retrospectivo de 69 pacientes con CMT1A confirmada genéticamente, con resonancia Dixon 3D de la pierna. Un modelo de aprendizaje profundo segmentó cuatro compartimentos musculares y calculó la fracción grasa volumétrica. Todas las fracciones grasas se correlacionaron con el CMTNSv2 y la escala de discapacidad funcional (r = 0,39 a 0,49; p < 0,05). La fracción grasa del compartimento anterior se correlacionó con el tiempo de subir escaleras (r = 0,68) y con la distancia en la prueba de 6 minutos (r = −0,66), ambas con p < 0,001. El compartimento lateral tuvo la mayor fracción grasa (mediana: 33,2 %), coherente con el patrón peroneo de la CMT1A.",
+    "puntos_clave": [
+      "La fracción grasa por resonancia automatizada es un biomarcador objetivo de gravedad.",
+      "Se correlaciona con las pruebas funcionales de marcha y escaleras.",
+      "Podría usarse como medida de resultado en futuros ensayos clínicos."
+    ],
+    "limitaciones": "Estudio retrospectivo y transversal de un solo centro; no evalúa los cambios en el tiempo ni la respuesta a tratamientos.",
+    "resumen_familias": "Con el tiempo, en la CMT1A los músculos de la pierna van siendo reemplazados por grasa. Este estudio midió esa grasa con resonancia magnética, usando un programa de inteligencia artificial, y vio que coincide con cuánta dificultad tiene la persona para caminar o subir escaleras. Esto podría ayudar en el futuro a saber si un tratamiento nuevo está funcionando.",
+    "pregunta_equipo": null,
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42908170)." },
+    "etiquetas": ["resonancia magnética", "biomarcador", "CMT1A", "inteligencia artificial"]
+  },
+  {
+    "id": "2026-10-cartilla-ejercicios-casa-cmt",
+    "condicion": "cmt",
+    "semana": "2026-W44",
+    "fecha_publicacion": "2026-10-26",
+    "categoria": "rehabilitacion",
+    "titulo": "Validan una cartilla de ejercicios en casa para niños y adolescentes con CMT",
+    "titulo_original": "Development and validation of the booklet \"Home Exercise for Children and Adolescents with Charcot-Marie-Tooth Disease\"",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "muy_baja",
+    "destacado": true,
+    "fuente": {
+      "nombre": "Revista Paulista de Pediatria",
+      "autores": "Cardoso J, Jordão BR, Marques Júnior W, … Mattiello-Sverzut AC",
+      "url": "https://doi.org/10.1590/1984-0462/2026/44/2026002",
+      "doi": "10.1590/1984-0462/2026/44/2026002",
+      "pmid": "42961295"
+    },
+    "resumen_tecnico": "Estudio metodológico (Brasil) para desarrollar y validar una cartilla de ejercicios domiciliarios para niños y adolescentes con CMT, basada en la experiencia clínica y la literatura. Tiene seis secciones: fortalecimiento, elongación y equilibrio. Fue evaluada por 9 jueces expertos (fisioterapeutas en neurología infantil), con un índice de validez de contenido mínimo de 0,9 en todos los aspectos, y por 15 cuidadores, que respondieron mayoritariamente «de acuerdo» o «muy de acuerdo». La adherencia a los ejercicios fue del 53 % a los 15 días y del 66 % a los 45 días.",
+    "puntos_clave": [
+      "Material educativo validado con alto acuerdo entre expertos (índice de validez de contenido ≥ 0,9).",
+      "Incluye fortalecimiento, elongación y equilibrio.",
+      "La adherencia mejoró con el tiempo, pero no se midió su efecto clínico."
+    ],
+    "limitaciones": "Valida el contenido y la aceptabilidad, no la eficacia: no se midieron fuerza, función ni progresión. Muestra pequeña.",
+    "resumen_familias": "Un equipo de fisioterapeutas de Brasil creó una cartilla con ejercicios para que niños y adolescentes con CMT practiquen en casa: ejercicios para fortalecer, estirar y mejorar el equilibrio. Otros expertos y familias la revisaron y la encontraron clara y útil. Todavía no se sabe cuánto mejora la fuerza o la marcha, pero es una herramienta práctica para apoyar la terapia entre sesiones.",
+    "pregunta_equipo": "¿Qué ejercicios de fortalecimiento, elongación y equilibrio podemos hacer en casa, y con qué frecuencia?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42961295)." },
+    "etiquetas": ["ejercicio en casa", "fisioterapia", "pediatría", "material educativo", "equilibrio"]
+  },
+  {
+    "id": "2026-11-destreza-manual-ninos-cmt",
+    "condicion": "cmt",
+    "semana": "2026-W46",
+    "fecha_publicacion": "2026-11-12",
+    "categoria": "rehabilitacion",
+    "titulo": "Los niños con CMT tienen menos destreza manual y fuerza de prensión, y no solo por debilidad",
+    "titulo_original": "Reduced manual dexterity and muscle strength relative to normative data in children and adolescents with Charcot-Marie-Tooth disease: Limited association with distal and proximal strength",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Journal of Hand Therapy",
+      "autores": "Cruz KLT, de Almeida VA, Martins EJ, … Mattiello-Sverzut AC",
+      "url": "https://doi.org/10.1016/j.jht.2026.09.030",
+      "doi": "10.1016/j.jht.2026.09.030",
+      "pmid": "43020755"
+    },
+    "resumen_tecnico": "Estudio transversal con 39 niños y adolescentes con CMT (edad media: 13,2 ± 4,2 años). La destreza manual (Nine-Hole Peg Test), la fuerza de prensión y el torque isométrico de flexores y extensores del codo fueron significativamente inferiores a los valores normativos ajustados por edad y sexo. Solo hubo una correlación negativa baja entre el Nine-Hole Peg Test y la prensión en el grupo total (ρ = −0,37; p = 0,02), sin correlación en los subgrupos CMT1A ni otros tipos de CMT, ni con la fuerza del codo.",
+    "puntos_clave": [
+      "La destreza y la fuerza de la mano están reducidas desde la infancia.",
+      "La destreza depende de factores más allá de la fuerza máxima (sensibilidad, coordinación).",
+      "Apoya evaluar y entrenar la función de la mano, no solo la fuerza."
+    ],
+    "limitaciones": "Diseño transversal con una muestra pequeña y heterogénea en el tipo de CMT.",
+    "resumen_familias": "La CMT no solo afecta los pies: también puede afectar las manos. Este estudio midió a 39 niños y adolescentes con CMT y encontró que tienen menos fuerza en la mano y más dificultad para tareas finas, como tomar objetos pequeños, que otros niños de su edad. Curiosamente, la dificultad no se explicaba solo por la falta de fuerza, lo que sugiere trabajar también la coordinación y la sensibilidad con terapia ocupacional.",
+    "pregunta_equipo": "¿Le corresponde a mi hijo o hija una evaluación de la función de la mano con terapia ocupacional?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 43020755)." },
+    "etiquetas": ["mano", "destreza", "terapia ocupacional", "pediatría", "fuerza de prensión"]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "cmt",
+  "nombre": "Charcot-Marie-Tooth",
+  "sigla": "CMT",
+  "sigla_en": "CMT",
+  "activa": true,
+  "descripcion": "Grupo de neuropatías hereditarias que afectan a los nervios periféricos y producen debilidad y atrofia distal, pie cavo y alteraciones de la sensibilidad.",
+  "busqueda": {
+    "pubmed": [
+      "\"Charcot-Marie-Tooth Disease\"[MeSH Terms] OR \"Charcot-Marie-Tooth\"[Title/Abstract]",
+      "\"hereditary motor and sensory neuropathy\"[Title/Abstract] OR \"inherited peripheral neuropathy\"[Title/Abstract]",
+      "(\"Charcot-Marie-Tooth\" OR CMT1A OR PMP22) AND (trial OR therapy OR PXT3003 OR \"gene therapy\" OR antisense OR govorestat OR SORD)",
+      "\"Charcot-Marie-Tooth\" AND (cavovarus OR \"pes cavus\" OR foot OR ankle OR scoliosis OR hip OR tendon OR osteotomy OR arthrodesis OR surgery)",
+      "\"Charcot-Marie-Tooth\" AND (physiotherapy OR rehabilitation OR exercise OR orthosis OR \"ankle-foot orthosis\" OR gait OR \"hand function\")"
+    ],
+    "clinicaltrials_gov": "Charcot-Marie-Tooth",
+    "web": [
+      "Charcot-Marie-Tooth FDA OR EMA approval",
+      "Charcot-Marie-Tooth clinical trial results",
+      "enfermedad de Charcot-Marie-Tooth noticias"
+    ],
+    "fuentes_web_preferidas": [
+      "fda.gov",
+      "ema.europa.eu",
+      "cmtausa.org",
+      "hnf-cure.org",
+      "inc.rarediseasesnetwork.org",
+      "clinicaltrials.gov"
+    ]
+  },
+  "terminos_clave": [
+    "CMT1A", "PMP22", "CMT2A", "MFN2", "CMTX1", "GJB1", "SORD", "PXT3003", "govorestat",
+    "pie cavo", "cavovaro", "órtesis tobillo-pie", "osteotomía", "transferencia tendinosa"
+  ]
+}

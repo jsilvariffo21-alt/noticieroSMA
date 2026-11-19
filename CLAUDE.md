@@ -1,18 +1,19 @@
-# Protocolo editorial del Noticiero AME
+# Protocolo editorial del Noticiero
 
 Este archivo guía a Claude Code en cada **edición semanal automática** y en cualquier sesión de trabajo sobre el repositorio.
 
 ## Misión
 
-Recopilar, revisar, verificar y resumir en español las novedades mundiales sobre cada condición activa (hoy: **atrofia muscular espinal, AME/SMA**), con dos capas de lectura:
+Recopilar, revisar, verificar y resumir en español las novedades mundiales sobre cada condición activa (hoy: **atrofia muscular espinal (AME/SMA)** y **Charcot-Marie-Tooth (CMT)**), con dos capas de lectura:
 
 1. una capa técnica para profesionales de la salud;
 2. una capa en lenguaje simple para padres y cuidadores.
 
 ## Estructura
 
-- `condiciones/<id>.json`: búsquedas y términos de cada condición. Para agregar una condición nueva, crea este archivo, agrega una entrada en `public/data/condiciones.json` y crea `public/data/<id>/noticias.json` y `public/data/<id>/semanas.json`, que parten como `[]`.
-- `public/`: sitio estático, publicado tal cual en Cloudflare Pages, sin paso de compilación.
+- `condiciones/<id>.json`: búsquedas y términos de cada condición. Solo se procesan las que tienen `"activa": true`.
+- `public/data/condiciones.json`: categorías comunes, tipos de fuente y lista de condiciones que muestra el selector de la web.
+- `public/`: sitio estático, publicado tal cual en Cloudflare, sin paso de compilación.
 - `public/data/<id>/noticias.json`: una entrada por noticia (ver el esquema más abajo).
 - `public/data/<id>/semanas.json`: un resumen de highlights por semana ISO.
 - `scripts/validar.py`: validador. **Debe terminar en `OK` antes de cada commit.**
@@ -25,21 +26,21 @@ Las sesiones programadas pueden no tener el conector MCP de PubMed. En ese caso,
   - `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=<consulta>&mindate=AAAA/MM/DD&maxdate=AAAA/MM/DD&datetype=edat&retmax=100&retmode=json`
   - Luego obtén los resúmenes con `efetch.fcgi?db=pubmed&id=<pmids>&retmode=xml`.
   - Espera al menos 0,4 s entre llamadas.
-- **ClinicalTrials.gov:** `https://clinicaltrials.gov/api/v2/studies?query.cond=spinal+muscular+atrophy&filter.advanced=AREA[LastUpdatePostDate]RANGE[AAAA-MM-DD,AAAA-MM-DD]&pageSize=50`
+- **ClinicalTrials.gov:** `https://clinicaltrials.gov/api/v2/studies?query.cond=<busqueda.clinicaltrials_gov de la condición>&filter.advanced=AREA[LastUpdatePostDate]RANGE[AAAA-MM-DD,AAAA-MM-DD]&pageSize=50`
 - **FDA y EMA:** usa `curl -A "Mozilla/5.0" <url>` sobre `www.fda.gov` o `www.ema.europa.eu`. WebFetch puede fallar en esos dominios, pero `curl` funciona.
 - **Prensa general:** usa WebSearch.
 
 ## Edición semanal (paso a paso)
 
-La semana a cubrir es la **semana ISO anterior completa**, de lunes a domingo. Por ejemplo, si hoy es lunes 23-11-2026, se cubre la semana 2026-W47, del 16 al 22 de noviembre.
+Repite los pasos 1 a 6 **para cada condición activa** y luego valida y publica una sola vez (paso 7). La semana a cubrir es la **semana ISO anterior completa**, de lunes a domingo. Por ejemplo, si hoy es lunes 23-11-2026, se cubre la semana 2026-W47, del 16 al 22 de noviembre.
 
 1. **Recopilar**
-   - En PubMed (herramienta MCP), ejecuta cada consulta de `condiciones/ame.json` → `busqueda.pubmed` con `datetype: "edat"`, limitada a la semana. Obtén los metadatos y el resumen.
+   - En PubMed (herramienta MCP), ejecuta cada consulta de `condiciones/<id>.json` → `busqueda.pubmed` con `datetype: "edat"`, limitada a la semana. Obtén los metadatos y el resumen.
    - En la web (WebSearch), busca aprobaciones regulatorias (FDA, EMA, ISP, ANMAT, COFEPRIS y otras agencias), resultados de ensayos y comunicados de organizaciones de pacientes de esa semana.
 2. **Filtrar**
-   - Descarta duplicados: compara el DOI, el PMID y el `id` con `noticias.json`. Descarta también las fe de erratas, los textos fuera de tema y los estudios en que la AME es solo una mención menor.
+   - Descarta duplicados: compara el DOI, el PMID y el `id` con `noticias.json`. Descarta también las fe de erratas, los textos fuera de tema y los estudios en que la condición es solo una mención menor. Un mismo artículo puede publicarse en dos condiciones solo si es relevante para ambas (por ejemplo, una guía de cirugía neuromuscular); en ese caso usa un `id` distinto en cada una.
    - Prioriza el impacto clínico en este orden: regulatorio > ensayos aleatorizados > guías, consensos y revisiones sistemáticas > cohortes > cirugía y reportes de caso > ciencia básica.
-   - Siempre incluye lo relacionado con cirugía de **columna, cadera o partes blandas** y con **rehabilitación**, aunque el nivel de evidencia sea bajo.
+   - Siempre incluye lo relacionado con cirugía de **columna, cadera, pie o partes blandas** y con **rehabilitación**, aunque el nivel de evidencia sea bajo.
 3. **Verificar**
    - Cada dato numérico del resumen debe provenir del resumen o del texto de la fuente primaria. **Nunca inventes cifras.**
    - Si una noticia proviene de prensa, busca la fuente primaria: el paper, el registro en ClinicalTrials.gov o el comunicado de la agencia.
@@ -59,14 +60,24 @@ La semana a cubrir es la **semana ISO anterior completa**, de lunes a domingo. P
    - Si no hubo novedades, crea igualmente la semana con el titular "Semana sin novedades relevantes" y `destacados: []`.
 7. **Validar y publicar**
    - Ejecuta `python3 scripts/validar.py` y corrige los errores que aparezcan.
-   - Haz commit con el mensaje `Edición semanal AAAA-Www` en la rama `main` y luego push. Cloudflare Pages despliega automáticamente.
+   - Haz un solo commit para todas las condiciones con el mensaje `Edición semanal AAAA-Www` en la rama `main` y luego push. Cloudflare Pages despliega automáticamente.
+
+## Agregar una condición nueva
+
+Para mantener el mismo rigor en todas las condiciones:
+
+1. Crea `condiciones/<id>.json` copiando la estructura de `ame.json`. Define consultas de PubMed que cubran: la condición (MeSH y texto libre), las terapias en desarrollo, la cirugía relevante para esa condición y la rehabilitación.
+2. Agrega la condición a `public/data/condiciones.json` con `id`, `nombre`, `sigla`, `descripcion` (una frase en lenguaje simple) y las rutas de datos.
+3. Crea `public/data/<id>/noticias.json` y `semanas.json`.
+4. **Carga inicial:** cubre al menos las últimas 8 a 12 semanas, con el mismo proceso de verificación que la edición semanal, para que la pestaña no parta vacía.
+5. Ejecuta `python3 scripts/validar.py` y revisa la web localmente (`python3 -m http.server 8000 --directory public`) antes de publicar.
 
 ## Esquema de una noticia
 
 ```json
 {
   "id": "AAAA-MM-slug-corto",
-  "condicion": "ame",
+  "condicion": "<id de la condición>",
   "semana": "AAAA-Www",
   "fecha_publicacion": "AAAA-MM-DD",
   "categoria": "medicamentos | estudios | descubrimientos | rehabilitacion | evidencia | cirugia",
