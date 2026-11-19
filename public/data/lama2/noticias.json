@@ -1,0 +1,218 @@
+[
+  {
+    "id": "2026-06-corse-toracolumbar-lama2",
+    "condicion": "lama2",
+    "semana": "2026-W25",
+    "fecha_publicacion": "2026-06-15",
+    "categoria": "rehabilitacion",
+    "titulo": "Corsé toracolumbar en una niña con distrofia LAMA2: mejoras motoras y respiratorias en 6 semanas",
+    "titulo_original": "The Effect of Trunk Brace Use on Motor and Pulmonary Functions in a Patient with LAMA2-Related Congenital Muscular Dystrophy: A Case Report",
+    "tipo_fuente": "reporte_caso",
+    "certeza": "muy_baja",
+    "destacado": true,
+    "fuente": {
+      "nombre": "Studies in Health Technology and Informatics",
+      "autores": "Uğur F, Aydin Yağcioğlu G, Bulut N, … Tunca Ö",
+      "url": "https://doi.org/10.3233/SHTI260763",
+      "doi": "10.3233/SHTI260763",
+      "pmid": "42290440"
+    },
+    "resumen_tecnico": "Reporte de caso de una niña de 6 años con deleción homocigota de LAMA2 y escoliosis toracolumbar izquierda de 37°, a quien se indicó una órtesis toracolumbosacra (TLSO) en sedestación (promedio: 4 horas al día), además de fisioterapia estándar dos veces por semana. Se evaluó al inicio, al día 20 y a la semana 6. La MFM aumentó de 27 a 42 puntos y la HFMSE de 5 a 9. La función pulmonar mejoró: VEF1 del 39 % al 54 % y CVF del 40 % al 64 % del predicho. La escala de control de tronco (TCMS) se mantuvo estable (7 puntos) y no hubo efectos adversos. La eficacia del corsé en la escoliosis neuromuscular sigue siendo controvertida.",
+    "puntos_clave": [
+      "Mejoras en la función motora (MFM y HFMSE) y en la espirometría con el corsé en sedestación.",
+      "El control de tronco medido no cambió.",
+      "Un solo caso y seguimiento de 6 semanas: es una hipótesis para estudiar, no una recomendación."
+    ],
+    "limitaciones": "Paciente único, sin grupo control y con seguimiento muy corto. La fisioterapia concomitante y la variabilidad de la espirometría en niños pequeños pueden explicar parte del cambio. No informa la evolución del ángulo de la curva.",
+    "resumen_familias": "Muchos niños con distrofia LAMA2 desarrollan escoliosis, es decir, una curva en la columna. En este caso, una niña de 6 años usó un corsé de tronco unas 4 horas al día mientras estaba sentada, junto con su kinesiología habitual. A las 6 semanas se movía mejor y respiraba mejor en las pruebas de pulmón. Es una sola niña y por poco tiempo, así que no se puede asegurar que funcione igual para todos, pero es una idea útil para conversar con el equipo.",
+    "pregunta_equipo": "¿Podría un corsé de tronco en posición sentada ayudar a mi hijo o hija con su postura y su respiración?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42290440)." },
+    "etiquetas": ["escoliosis", "corsé", "TLSO", "función pulmonar", "órtesis"]
+  },
+  {
+    "id": "2026-07-terapia-genica-triple-aav-inteinas",
+    "condicion": "lama2",
+    "semana": "2026-W31",
+    "fecha_publicacion": "2026-07-29",
+    "categoria": "descubrimientos",
+    "titulo": "Terapia génica con tres virus AAV reconstruye la laminina α2 completa en ratones con distrofia LAMA2",
+    "titulo_original": "Triple-AAV intein-mediated gene therapy ameliorates dystrophic phenotype in MDC1A mice",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "no_aplica",
+    "destacado": true,
+    "fuente": {
+      "nombre": "Molecular Therapy",
+      "autores": "Rafel-Millan N, Bayod-Girón C, Pallarès-Masmitjà M, … Güell M",
+      "url": "https://doi.org/10.1016/j.ymthe.2026.07.045",
+      "doi": "10.1016/j.ymthe.2026.07.045",
+      "pmid": "42528140"
+    },
+    "resumen_tecnico": "La secuencia codificante de LAMA2 (9,3 kb) supera la capacidad de los vectores AAV (menos de 4,7 kb), lo que ha impedido la terapia génica de reemplazo. Los autores dividieron la laminina α2 en tres fragmentos, cada uno en un AAV distinto y flanqueado por inteínas divididas cortas, que unen los fragmentos sin dejar cicatriz. En el modelo murino dy2J, la combinación reconstituyó la laminina α2 completa y mejoró las características histopatológicas del músculo distrófico. Es una prueba de concepto para genes grandes que exceden la capacidad de un solo AAV.",
+    "puntos_clave": [
+      "Resuelve el problema del tamaño del gen LAMA2 dividiéndolo en tres vectores.",
+      "Se obtuvo la proteína completa y hubo mejoría histológica en ratones.",
+      "Faltan datos de función, de seguridad y de dosis antes de pensar en ensayos en humanos."
+    ],
+    "limitaciones": "Estudio en ratones con un modelo leve (dy2J). El resumen informa mejoría histológica, no funcional. Hay patentes registradas y dos autores son cofundadores de SpliceBio.",
+    "resumen_familias": "El gen LAMA2 es demasiado grande para caber en los «vehículos» que se usan en terapia génica (virus AAV). Investigadores en España lo dividieron en tres partes, cada una en un vehículo distinto, que dentro de la célula se unen y forman la proteína completa. En ratones, el músculo mejoró. Es un avance importante en el laboratorio, pero todavía falta mucho camino (seguridad, dosis, estudios en animales más grandes) antes de probarlo en niños.",
+    "pregunta_equipo": null,
+    "conflictos": "Hay patentes registradas sobre parte de este trabajo; dos autores son cofundadores de SpliceBio.",
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen y declaración de intereses verificados en PubMed (PMID 42528140). Existe una fe de erratas publicada (PMID 42805186)." },
+    "etiquetas": ["terapia génica", "AAV", "inteínas", "modelo murino", "laminina α2"]
+  },
+  {
+    "id": "2026-08-historia-natural-last-strong",
+    "condicion": "lama2",
+    "semana": "2026-W31",
+    "fecha_publicacion": "2026-08-01",
+    "categoria": "estudios",
+    "titulo": "Estudio LAST STRONG: la distrofia LAMA2 se mantuvo mayormente estable en 1,5 años de seguimiento",
+    "titulo_original": "Clinical and functional outcome measures in LAMA2-related muscular dystrophy and SELENON-related myopathy; a 1.5-year natural history study",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "baja",
+    "destacado": true,
+    "fuente": {
+      "nombre": "Journal of Neuromuscular Diseases",
+      "autores": "de Laat ECM, Groothuis JT, Bouman K, … Voermans NC",
+      "url": "https://doi.org/10.1177/22143602261465467",
+      "doi": "10.1177/22143602261465467",
+      "pmid": "42541386"
+    },
+    "resumen_tecnico": "Estudio de historia natural (Países Bajos) con 27 pacientes con distrofia muscular LAMA2 (mediana: 21 años; rango: 3 a 50; 9 varones) y 11 con miopatía SELENON, evaluados en cuatro visitas durante 1,5 años. Incluyó dinamometría manual, MFM-20/32, pruebas funcionales cronometradas, acelerometría y cuestionarios. En la distrofia LAMA2 aumentó la fuerza de los extensores del cuello, el bíceps, el cuádriceps, los flexores plantares y la prensión (todos p < 0,02), probablemente por el desarrollo propio de la edad. Las evaluaciones funcionales no cambiaron, y la acelerometría mostró un cambio en la actividad moderada (p < 0,01). Su objetivo es identificar medidas de resultado y preparar el terreno para futuros ensayos clínicos.",
+    "puntos_clave": [
+      "En 1,5 años, la distrofia LAMA2 se mantuvo mayormente estable en las medidas funcionales.",
+      "La mayoría de las escalas no detectaron progresión: es un desafío para diseñar ensayos.",
+      "Es parte de la preparación para ensayos clínicos (trial readiness) en LAMA2."
+    ],
+    "limitaciones": "Muestra pequeña y con un rango de edad amplio; incluye sobre todo formas de inicio más tardío o más leves, lo que limita la extrapolación a la forma congénita grave. Seguimiento corto.",
+    "resumen_familias": "Para poder probar tratamientos nuevos, primero hay que saber cómo evoluciona la condición sin tratamiento y con qué pruebas medirla. Este estudio en Países Bajos siguió durante un año y medio a 27 personas con distrofia LAMA2. En ese tiempo, la mayoría se mantuvo estable. Esto ayuda a los investigadores a elegir las mejores pruebas para futuros ensayos clínicos.",
+    "pregunta_equipo": "¿Existe algún registro o estudio de historia natural de LAMA2 en el que podamos participar?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42541386)." },
+    "etiquetas": ["historia natural", "medidas de resultado", "preparación para ensayos", "SELENON"]
+  },
+  {
+    "id": "2026-08-fenotipos-distrofias-congenitas-revision",
+    "condicion": "lama2",
+    "semana": "2026-W35",
+    "fecha_publicacion": "2026-08-27",
+    "categoria": "evidencia",
+    "titulo": "Revisión en español: fenotipos de las distrofias musculares congénitas, incluida la deficiencia de laminina α2",
+    "titulo_original": "Fenotipos de las distrofias musculares congénitas (Congenital muscular dystrophy phenotypes)",
+    "tipo_fuente": "revision_consenso",
+    "certeza": "baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Medicina (Buenos Aires)",
+      "autores": "Nascimento A, Ortez C, Expósito J, … Natera De Benito D",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42659544/",
+      "pmid": "42659544"
+    },
+    "resumen_tecnico": "Revisión narrativa en español, escrita por especialistas en enfermedades neuromusculares pediátricas, sobre las distrofias musculares congénitas. Las presenta como un continuo fenotípico que se superpone con las distrofias de cinturas y otras miopatías hereditarias. Describe complicaciones frecuentes (contracturas, deformidades de columna, insuficiencia respiratoria y, en algunos genotipos, compromiso cardíaco) y repasa los principales grupos: deficiencia de laminina α2, enfermedades por colágeno VI, miopatía SEPN1, laminopatías y alteraciones de la glicosilación de la α-distroglicano. Subraya que el diagnóstico genético preciso orienta la vigilancia respiratoria y cardíaca y facilita el acceso a ensayos clínicos.",
+    "puntos_clave": [
+      "Material de referencia en español, útil para equipos clínicos de Latinoamérica.",
+      "El diagnóstico genético guía la vigilancia respiratoria y cardíaca.",
+      "Aún no hay tratamientos curativos; el manejo es multidisciplinario."
+    ],
+    "limitaciones": "Revisión narrativa sin búsqueda sistemática. El registro de PubMed no incluye DOI.",
+    "resumen_familias": "Especialistas en enfermedades neuromusculares infantiles escribieron, en español, una revisión sobre las distrofias musculares congénitas, el grupo al que pertenece la distrofia LAMA2. Explican cómo se presentan, qué complicaciones vigilar (contracturas, columna, respiración, corazón) y por qué es tan importante conocer el gen exacto: ayuda a planificar los controles y a acceder a estudios de nuevos tratamientos.",
+    "pregunta_equipo": "¿Qué controles respiratorios y cardíacos le corresponden a mi hijo o hija y con qué frecuencia?",
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42659544). El registro no tiene DOI, por lo que se enlaza a PubMed." },
+    "etiquetas": ["distrofia muscular congénita", "revisión", "español", "diagnóstico genético"]
+  },
+  {
+    "id": "2026-09-celulas-satelite-preservadas-dy2j",
+    "condicion": "lama2",
+    "semana": "2026-W40",
+    "fecha_publicacion": "2026-09-30",
+    "categoria": "descubrimientos",
+    "titulo": "En la distrofia LAMA2, las células madre del músculo no se agotan: falla la etapa final de la regeneración",
+    "titulo_original": "Preserved satellite cell pool in a laminin-α2-deficient model of congenital muscular dystrophy",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "no_aplica",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Disease Models & Mechanisms",
+      "autores": "Coelho LA, Ribeiro Junior AF, Nogueira Feitosa L, … Vainzof M",
+      "url": "https://doi.org/10.1242/dmm.052782",
+      "doi": "10.1242/dmm.052782",
+      "pmid": "42813235"
+    },
+    "resumen_tecnico": "Estudio en el gastrocnemio de ratones dy2J (modelo de distrofia LAMA2) a distintas edades. La proporción de células satélite por fibra fue significativamente mayor que en los ratones control y no disminuyó con la progresión. También aumentaron las células satélite activadas y la expresión de Myog y Tgfb. Sin embargo, el porcentaje y el diámetro de las fibras recién regeneradas disminuyeron progresivamente, junto con una atrofia de fibras. Los autores concluyen que el deterioro de la regeneración no se debe al agotamiento de las células satélite, sino a una falla en las etapas tardías de su diferenciación.",
+    "puntos_clave": [
+      "El reservorio de células satélite se conserva e incluso aumenta.",
+      "La falla está en la maduración de las fibras nuevas, no en el número de células madre.",
+      "Sugiere nuevos blancos terapéuticos en la diferenciación muscular."
+    ],
+    "limitaciones": "Modelo murino leve (dy2J), un solo músculo y sin intervención terapéutica.",
+    "resumen_familias": "El músculo tiene células madre (células satélite) que lo reparan cuando se daña. Un equipo de Brasil estudió ratones con distrofia LAMA2 y vio que estas células no se acaban: están ahí y se activan, pero las fibras nuevas que forman no terminan de madurar. Entender dónde se traba la reparación puede ayudar a diseñar tratamientos futuros. Es un estudio en animales.",
+    "pregunta_equipo": null,
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42813235)." },
+    "etiquetas": ["células satélite", "regeneración muscular", "modelo murino", "Brasil"]
+  },
+  {
+    "id": "2026-10-estres-oxidativo-multiorgano",
+    "condicion": "lama2",
+    "semana": "2026-W43",
+    "fecha_publicacion": "2026-10-21",
+    "categoria": "descubrimientos",
+    "titulo": "La falta de laminina α2 altera el equilibrio oxidativo del corazón, el riñón y el hígado desde la etapa fetal en ratones",
+    "titulo_original": "Laminin-α2 deficiency is associated with altered multiorgan redox signatures",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "no_aplica",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Free Radical Biology and Medicine",
+      "autores": "Martins SG, Pita M, Naidu SD, … Carlos AR",
+      "url": "https://doi.org/10.1016/j.freeradbiomed.2026.10.042",
+      "doi": "10.1016/j.freeradbiomed.2026.10.042",
+      "pmid": "42906646"
+    },
+    "resumen_tecnico": "En el modelo murino dyW, que presenta compromiso muscular desde la etapa fetal, la deficiencia de Lama2 se asoció a respuestas antioxidantes alteradas en el corazón, el riñón y el hígado fetales, con aumento de la proteína NRF2 y cambios específicos de cada órgano en sus genes diana. El riñón mostró además alteraciones de marcadores mitocondriales. Las células epiteliales de túbulo proximal aisladas presentaron defectos de proliferación y del metabolismo mitocondrial in vitro (un efecto propio de la célula), sin alteraciones de NRF2 en ese contexto. Los autores lo presentan como la primera evidencia de compromiso multiorgánico desde el inicio de la enfermedad.",
+    "puntos_clave": [
+      "Sugiere que la distrofia LAMA2 podría afectar órganos más allá del músculo desde etapas tempranas.",
+      "El riñón muestra alteraciones mitocondriales propias.",
+      "Por ahora es un hallazgo en ratones; no se ha estudiado en pacientes."
+    ],
+    "limitaciones": "Modelo animal en etapa fetal; se desconoce su relevancia clínica en humanos.",
+    "resumen_familias": "Hasta ahora se pensaba que la distrofia LAMA2 afectaba sobre todo al músculo y a los nervios. Este estudio en ratones encontró que, ya antes de nacer, la falta de laminina α2 también cambia el funcionamiento de otros órganos, como el corazón, el riñón y el hígado. Todavía no se sabe si ocurre lo mismo en personas, pero abre preguntas para investigar.",
+    "pregunta_equipo": null,
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42906646)." },
+    "etiquetas": ["estrés oxidativo", "NRF2", "riñón", "corazón", "modelo murino"]
+  },
+  {
+    "id": "2026-11-modelo-muscular-3d-ipsc",
+    "condicion": "lama2",
+    "semana": "2026-W45",
+    "fecha_publicacion": "2026-08-05",
+    "categoria": "descubrimientos",
+    "titulo": "Músculo humano en 3D creado a partir de células de una paciente: un modelo para probar tratamientos para la distrofia LAMA2",
+    "titulo_original": "Human iPSC-based skeletal muscle model of LAMA2-related congenital muscular dystrophy",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "no_aplica",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Skeletal Muscle",
+      "autores": "Villalba JM, Canahui A, Malit FI, … Allen-Sharpley MR",
+      "url": "https://doi.org/10.1186/s13395-026-00438-1",
+      "doi": "10.1186/s13395-026-00438-1",
+      "pmid": "42972446"
+    },
+    "resumen_tecnico": "A partir de células iPSC de una paciente con distrofia muscular congénita LAMA2 y de sus padres no afectados (como controles), se derivaron progenitores musculares, mioblastos y tejido muscular 3D en hidrogel, con o sin fibroblastos de soporte. En comparación con los controles, las células de la paciente mostraron menor fusión celular. En los tejidos 3D anclados a micropilares hubo mala adhesión, menor remodelación en haces compactos y menor resistencia a las contracciones inducidas por acetilcolina, y las fibras se rompían de forma constante al contraerse. Los autores lo proponen como plataforma humana para la investigación traslacional y el desarrollo de terapias.",
+    "puntos_clave": [
+      "Primer modelo 3D de músculo humano derivado de una paciente que reproduce la fragilidad de la distrofia LAMA2.",
+      "Puede complementar a los modelos animales, que no reproducen bien la enfermedad humana.",
+      "Útil para probar terapias antes de los ensayos clínicos."
+    ],
+    "limitaciones": "Basado en una sola paciente; aún no se valida con otras variantes ni con terapias de referencia.",
+    "resumen_familias": "Investigadores tomaron células de una niña con distrofia LAMA2, las transformaron en células madre y luego en pequeños músculos en 3D que se contraen en el laboratorio. Estos «mini músculos» se rompían al contraerse, igual que ocurre en la enfermedad. Esto sirve para probar posibles tratamientos en tejido humano antes de llegar a los pacientes. No es un tratamiento, sino una herramienta de investigación.",
+    "pregunta_equipo": null,
+    "conflictos": null,
+    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42972446). Publicado en línea en agosto e indexado en PubMed en noviembre de 2026." },
+    "etiquetas": ["iPSC", "modelo 3D", "músculo humano", "investigación traslacional"]
+  }
+]

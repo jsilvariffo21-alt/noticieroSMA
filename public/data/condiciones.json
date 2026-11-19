@@ -84,6 +84,14 @@
       "descripcion": "Grupo de neuropatías hereditarias que afectan a los nervios periféricos y producen debilidad distal, pie cavo y alteraciones de la sensibilidad.",
       "noticias": "data/cmt/noticias.json",
       "semanas": "data/cmt/semanas.json"
+    },
+    {
+      "id": "lama2",
+      "nombre": "Distrofia por déficit de merosina",
+      "sigla": "LAMA2",
+      "descripcion": "Distrofia muscular congénita causada por la falta de laminina α2 (merosina), una proteína que sostiene las fibras musculares y los nervios.",
+      "noticias": "data/lama2/noticias.json",
+      "semanas": "data/lama2/semanas.json"
     }
   ]
 }

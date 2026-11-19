@@ -1,0 +1,35 @@
+{
+  "id": "lama2",
+  "nombre": "Distrofia muscular relacionada con LAMA2",
+  "sigla": "LAMA2",
+  "sigla_en": "LAMA2-RD",
+  "activa": true,
+  "descripcion": "Distrofia muscular congénita causada por la falta de la proteína laminina α2 (merosina), que sostiene la membrana de las fibras musculares y de los nervios.",
+  "busqueda": {
+    "pubmed": [
+      "LAMA2[Title/Abstract] OR merosin[Title/Abstract] OR \"laminin alpha2\"[Title/Abstract] OR \"laminin-alpha2\"[Title/Abstract] OR \"laminin alpha 2\"[Title/Abstract] OR \"laminin-211\"[Title/Abstract]",
+      "MDC1A[Title/Abstract] OR \"LAMA2-related\"[Title/Abstract] OR \"LAMA2-RD\"[Title/Abstract] OR \"LAMA2-CMD\"[Title/Abstract] OR \"LAMA2-MD\"[Title/Abstract]",
+      "\"congenital muscular dystrophy\"[Title/Abstract] AND (therapy OR trial OR \"gene therapy\" OR \"natural history\" OR guideline OR consensus)",
+      "(LAMA2 OR merosin OR \"congenital muscular dystrophy\") AND (scoliosis OR \"spinal fusion\" OR hip OR contracture OR orthosis OR brace OR surgery)",
+      "(LAMA2 OR merosin OR \"congenital muscular dystrophy\") AND (physiotherapy OR rehabilitation OR exercise OR respiratory OR ventilation)"
+    ],
+    "excluir": "Muchos artículos con 'LAMA2' son de oncología, veterinaria o biología de matriz sin relación con la distrofia: descártalos.",
+    "clinicaltrials_gov": "LAMA2 OR merosin OR \"congenital muscular dystrophy type 1A\"",
+    "web": [
+      "LAMA2 muscular dystrophy gene therapy trial",
+      "merosin-deficient congenital muscular dystrophy news",
+      "distrofia muscular congénita LAMA2 merosina"
+    ],
+    "fuentes_web_preferidas": [
+      "curecmd.org",
+      "lama2.org",
+      "voorsara.nl",
+      "treat-nmd.org",
+      "clinicaltrials.gov"
+    ]
+  },
+  "terminos_clave": [
+    "LAMA2", "merosina", "laminina α2", "laminina-211", "MDC1A", "distrofia muscular congénita",
+    "terapia génica", "proteínas enlazadoras", "escoliosis", "contracturas", "ventilación no invasiva"
+  ]
+}

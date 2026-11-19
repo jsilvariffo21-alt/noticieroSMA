@@ -4,7 +4,7 @@ Este archivo guía a Claude Code en cada **edición semanal automática** y en c
 
 ## Misión
 
-Recopilar, revisar, verificar y resumir en español las novedades mundiales sobre cada condición activa (hoy: **atrofia muscular espinal (AME/SMA)** y **Charcot-Marie-Tooth (CMT)**), con dos capas de lectura:
+Recopilar, revisar, verificar y resumir en español las novedades mundiales sobre cada condición activa (hoy: **atrofia muscular espinal (AME/SMA)**, **Charcot-Marie-Tooth (CMT)** y **distrofia muscular relacionada con LAMA2 (merosina o laminina α2)**), con dos capas de lectura:
 
 1. una capa técnica para profesionales de la salud;
 2. una capa en lenguaje simple para padres y cuidadores.
@@ -38,6 +38,7 @@ Repite los pasos 1 a 6 **para cada condición activa** y luego valida y publica 
    - En PubMed (herramienta MCP), ejecuta cada consulta de `condiciones/<id>.json` → `busqueda.pubmed` con `datetype: "edat"`, limitada a la semana. Obtén los metadatos y el resumen.
    - En la web (WebSearch), busca aprobaciones regulatorias (FDA, EMA, ISP, ANMAT, COFEPRIS y otras agencias), resultados de ensayos y comunicados de organizaciones de pacientes de esa semana.
 2. **Filtrar**
+   - Si `condiciones/<id>.json` tiene un campo `excluir`, aplícalo (por ejemplo, en LAMA2 hay muchos artículos de oncología o veterinaria que no corresponden).
    - Descarta duplicados: compara el DOI, el PMID y el `id` con `noticias.json`. Descarta también las fe de erratas, los textos fuera de tema y los estudios en que la condición es solo una mención menor. Un mismo artículo puede publicarse en dos condiciones solo si es relevante para ambas (por ejemplo, una guía de cirugía neuromuscular); en ese caso usa un `id` distinto en cada una.
    - Prioriza el impacto clínico en este orden: regulatorio > ensayos aleatorizados > guías, consensos y revisiones sistemáticas > cohortes > cirugía y reportes de caso > ciencia básica.
    - Siempre incluye lo relacionado con cirugía de **columna, cadera, pie o partes blandas** y con **rehabilitación**, aunque el nivel de evidencia sea bajo.
@@ -69,7 +70,7 @@ Para mantener el mismo rigor en todas las condiciones:
 1. Crea `condiciones/<id>.json` copiando la estructura de `ame.json`. Define consultas de PubMed que cubran: la condición (MeSH y texto libre), las terapias en desarrollo, la cirugía relevante para esa condición y la rehabilitación.
 2. Agrega la condición a `public/data/condiciones.json` con `id`, `nombre`, `sigla`, `descripcion` (una frase en lenguaje simple) y las rutas de datos.
 3. Crea `public/data/<id>/noticias.json` y `semanas.json`.
-4. **Carga inicial:** cubre al menos las últimas 8 a 12 semanas, con el mismo proceso de verificación que la edición semanal, para que la pestaña no parta vacía.
+4. **Carga inicial:** cubre al menos las últimas 8 a 12 semanas (en condiciones muy raras, como LAMA2, amplía la ventana hasta unos 6 meses), con el mismo proceso de verificación que la edición semanal, para que la pestaña no parta vacía.
 5. Ejecuta `python3 scripts/validar.py` y revisa la web localmente (`python3 -m http.server 8000 --directory public`) antes de publicar.
 
 ## Esquema de una noticia

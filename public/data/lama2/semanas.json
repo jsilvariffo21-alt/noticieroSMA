@@ -1,0 +1,56 @@
+[
+  {
+    "semana": "2026-W45",
+    "desde": "2026-11-02",
+    "hasta": "2026-11-08",
+    "titular": "Músculo humano en 3D para probar terapias",
+    "resumen_tecnico": "Se publicó un modelo de músculo esquelético 3D derivado de células iPSC de una paciente con distrofia muscular congénita LAMA2. Reproduce la menor fusión celular, la mala adhesión y la ruptura de las fibras con la contracción. Es una plataforma humana para la investigación traslacional.",
+    "resumen_familias": "Investigadores crearon pequeños músculos en el laboratorio a partir de células de una niña con distrofia LAMA2. Servirán para probar tratamientos en tejido humano.",
+    "destacados": ["2026-11-modelo-muscular-3d-ipsc"]
+  },
+  {
+    "semana": "2026-W43",
+    "desde": "2026-10-19",
+    "hasta": "2026-10-25",
+    "titular": "¿Más allá del músculo? Señales en otros órganos",
+    "resumen_tecnico": "En ratones dyW, la deficiencia de laminina α2 alteró las respuestas antioxidantes (NRF2) en el corazón, el riñón y el hígado fetales, con defectos mitocondriales propios del riñón. Es la primera evidencia de compromiso multiorgánico desde etapas tempranas; falta saber si ocurre en humanos.",
+    "resumen_familias": "Un estudio en ratones sugiere que la falta de laminina α2 podría afectar también otros órganos desde antes de nacer. Aún no se sabe si pasa en personas.",
+    "destacados": ["2026-10-estres-oxidativo-multiorgano"]
+  },
+  {
+    "semana": "2026-W40",
+    "desde": "2026-09-28",
+    "hasta": "2026-10-04",
+    "titular": "La regeneración muscular se traba al final, no al inicio",
+    "resumen_tecnico": "En ratones dy2J, el reservorio de células satélite se conservó y se activó, pero la proporción y el tamaño de las fibras regeneradas disminuyeron con la edad. La falla estaría en la diferenciación tardía y no en el agotamiento de las células madre.",
+    "resumen_familias": "Las células que reparan el músculo siguen presentes en la distrofia LAMA2, pero no logran formar fibras maduras. Entender esto ayuda a buscar nuevos tratamientos.",
+    "destacados": ["2026-09-celulas-satelite-preservadas-dy2j"]
+  },
+  {
+    "semana": "2026-W35",
+    "desde": "2026-08-24",
+    "hasta": "2026-08-30",
+    "titular": "Una revisión en español sobre las distrofias congénitas",
+    "resumen_tecnico": "Especialistas en enfermedades neuromusculares pediátricas publicaron en Medicina (Buenos Aires) una revisión de los fenotipos de las distrofias musculares congénitas, incluida la deficiencia de laminina α2. Destacan el continuo con las distrofias de cinturas y el papel del diagnóstico genético en la vigilancia respiratoria y cardíaca.",
+    "resumen_familias": "Se publicó en español una revisión que explica las distrofias musculares congénitas, entre ellas la distrofia LAMA2, y qué controles son importantes.",
+    "destacados": ["2026-08-fenotipos-distrofias-congenitas-revision"]
+  },
+  {
+    "semana": "2026-W31",
+    "desde": "2026-07-27",
+    "hasta": "2026-08-02",
+    "titular": "Terapia génica en tres partes e historia natural para preparar ensayos",
+    "resumen_tecnico": "Una terapia génica con tres AAV e inteínas divididas reconstituyó la laminina α2 completa (9,3 kb) y mejoró la histopatología en ratones dy2J (hay patentes registradas). El estudio de historia natural LAST STRONG (27 pacientes con distrofia LAMA2, 1,5 años) mostró una evolución mayormente estable, con medidas que detectaron poco cambio: un desafío para diseñar ensayos.",
+    "resumen_familias": "Investigadores lograron, en ratones, entregar el gen LAMA2 completo dividiéndolo en tres partes. Además, un estudio en Países Bajos siguió a 27 personas con distrofia LAMA2 durante un año y medio para preparar futuros ensayos.",
+    "destacados": ["2026-07-terapia-genica-triple-aav-inteinas", "2026-08-historia-natural-last-strong"]
+  },
+  {
+    "semana": "2026-W25",
+    "desde": "2026-06-15",
+    "hasta": "2026-06-21",
+    "titular": "Corsé de tronco y función respiratoria",
+    "resumen_tecnico": "En un reporte de caso, una niña de 6 años con distrofia LAMA2 y escoliosis de 37° usó una TLSO en sedestación durante 6 semanas. Su MFM pasó de 27 a 42, su HFMSE de 5 a 9 y su CVF del 40 % al 64 %. Es evidencia de certeza muy baja.",
+    "resumen_familias": "Una niña con distrofia LAMA2 y escoliosis mejoró su movimiento y su respiración usando un corsé mientras estaba sentada. Es un solo caso.",
+    "destacados": ["2026-06-corse-toracolumbar-lama2"]
+  }
+]
