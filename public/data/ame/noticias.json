@@ -603,5 +603,286 @@
       "comparación indirecta",
       "conflicto de interés"
     ]
+  },
+  {
+    "id": "2026-11-fda-alerta-tumores-zolgensma",
+    "condicion": "ame",
+    "semana": "2026-W45",
+    "fecha_publicacion": "2026-11-06",
+    "categoria": "medicamentos",
+    "titulo": "La FDA investiga casos de tumores relacionados con la terapia génica Zolgensma; el riesgo se extiende a Itvisma",
+    "titulo_original": "FDA Investigating Serious Risk of Malignancy Linked to Zolgensma Gene Therapy",
+    "tipo_fuente": "regulatorio",
+    "certeza": "no_aplica",
+    "destacado": true,
+    "fuente": {
+      "nombre": "FDA · Comunicación de seguridad (CBER)",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-investigating-serious-risk-malignancy-linked-zolgensma-gene-therapy"
+    },
+    "resumen_tecnico": "La FDA comunicó que recibió reportes poscomercialización de tumores en pacientes tratados con Zolgensma (onasemnogén abeparvovec), con casos confirmados de oncogénesis por inserción relacionada con el producto que involucran al oncogén GLI1. Los reportes incluyen tumores del sistema nervioso central y periférico, de la región espinal o paraespinal y del riñón. Tres casos se asociaron a GLI1: en dos, el análisis molecular del tumor mostró integración del ADN del vector, con el promotor del constructo insertado antes o dentro de GLI1; el tercero sigue en investigación. La FDA considera que el riesgo se aplica también a Itvisma (vía intratecal), que usa el mismo vector y constructo, aunque no hay casos reportados tras Itvisma. Mantiene que los beneficios superan los riesgos en los usos aprobados, evalúa si la ficha técnica y el seguimiento a largo plazo son suficientes y recomienda vigilar la aparición de tumores.",
+    "puntos_clave": [
+      "Hay casos confirmados de integración del vector junto al oncogén GLI1 (2 de 3 casos asociados a GLI1).",
+      "El riesgo aplica a Zolgensma (vía intravenosa) y a Itvisma (vía intratecal); no hay casos reportados con Itvisma.",
+      "Para la FDA, el balance beneficio-riesgo sigue siendo favorable, pero evalúa medidas regulatorias.",
+      "Recomienda vigilar la aparición de tumores en todos los pacientes tratados."
+    ],
+    "limitaciones": "El comunicado no informa el número total de reportes ni la frecuencia del riesgo. La causalidad está confirmada a nivel molecular solo en dos casos. La cifra de 9 tumores que circuló en la prensa no aparece en el comunicado oficial y no se incluye aquí.",
+    "resumen_familias": "La agencia de medicamentos de Estados Unidos (FDA) informó que algunos niños tratados con la terapia génica Zolgensma desarrollaron tumores, y que en dos casos se comprobó que el material de la terapia se insertó junto a un gen que puede causar cáncer. Esto también podría aplicar a Itvisma, aunque ahí no hay casos. La FDA sigue considerando que los beneficios superan los riesgos, y recomienda controles para detectar tumores a tiempo. Si su hijo o hija recibió terapia génica, no hay que suspender ni cambiar nada por cuenta propia: lo importante es conversar con el equipo tratante sobre el plan de seguimiento.",
+    "pregunta_equipo": "Si mi hijo o hija recibió Zolgensma o Itvisma, ¿qué controles debemos hacer para detectar tumores y cada cuánto?",
+    "conflictos": null,
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-23",
+      "nota": "Verificado en el comunicado oficial de la FDA del 6 de noviembre de 2026. Agregada tarde, en la edición del 23 de noviembre, a la semana en que se publicó."
+    },
+    "etiquetas": [
+      "Zolgensma",
+      "Itvisma",
+      "terapia génica",
+      "seguridad",
+      "GLI1",
+      "FDA"
+    ]
+  },
+  {
+    "id": "2026-11-nusinersen-adultos-5-anos",
+    "condicion": "ame",
+    "semana": "2026-W47",
+    "fecha_publicacion": "2026-11-20",
+    "categoria": "medicamentos",
+    "titulo": "Nusinersen en adultos con AME hasta 5 años: estabilidad motora y respiratoria, sin eventos graves atribuibles",
+    "titulo_original": "Safety, tolerability, and effect of nusinersen in ambulatory and non-ambulatory adults with 5q-SMA treated up to five years",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "baja",
+    "destacado": true,
+    "fuente": {
+      "nombre": "Journal of Neuromuscular Diseases",
+      "autores": "Allen MD, Jaworek A, Jira K, … Elsheikh B",
+      "url": "https://doi.org/10.1177/22143602261474303",
+      "doi": "10.1177/22143602261474303",
+      "pmid": "43063507"
+    },
+    "resumen_tecnico": "Estudio observacional de 32 adultos con AME 5q (17 mujeres) tratados con nusinersen durante al menos 24 meses (promedio: 53,3 meses; rango: 24 a 60). Diecinueve no eran ambulantes (edad media: 38,3 años) y 13 eran ambulantes (32,9 años). Con modelos lineales mixtos, el grupo ambulante se mantuvo estable en la prueba de marcha de 6 minutos y en la HFMSE respecto del inicio. En los no ambulantes, el RULM y la capacidad vital forzada se mantuvieron estables. No se reportaron eventos adversos graves atribuibles a nusinersen. Los autores interpretan la estabilidad como una mejoría relativa frente a la progresión natural.",
+    "puntos_clave": [
+      "Seguimiento de hasta 5 años en adultos, ambulantes y no ambulantes.",
+      "Función motora y respiratoria estables, sin eventos adversos graves atribuibles al fármaco.",
+      "Sin grupo control: la comparación con la historia natural es indirecta."
+    ],
+    "limitaciones": "Diseño observacional sin grupo control, muestra pequeña y posible sesgo de supervivencia (solo se incluyen quienes completaron al menos 24 meses).",
+    "resumen_familias": "Este estudio siguió durante 2 a 5 años a 32 adultos con AME tratados con nusinersen (Spinraza). En general se mantuvieron estables, tanto en su movimiento como en su respiración, y no hubo efectos graves causados por el medicamento. En la AME, mantenerse estable es un buen resultado, porque sin tratamiento la fuerza suele disminuir con los años. Es un estudio pequeño y sin grupo de comparación.",
+    "pregunta_equipo": "¿Qué evaluaciones usamos para saber si el tratamiento está manteniendo estable a mi hijo o hija a largo plazo?",
+    "conflictos": null,
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-23",
+      "nota": "Resumen verificado en PubMed (PMID 43063507)."
+    },
+    "etiquetas": [
+      "nusinersen",
+      "adultos",
+      "largo plazo",
+      "seguridad"
+    ]
+  },
+  {
+    "id": "2026-11-delphi-resultados-significativos-adultos",
+    "condicion": "ame",
+    "semana": "2026-W47",
+    "fecha_publicacion": "2026-11-03",
+    "categoria": "evidencia",
+    "titulo": "Consenso de expertos y pacientes: en adultos con AME, la estabilización es un resultado significativo del tratamiento",
+    "titulo_original": "Defining meaningful treatment outcomes in adults with spinal muscular atrophy: an expert consensus approach",
+    "tipo_fuente": "revision_consenso",
+    "certeza": "baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Frontiers in Neurology",
+      "autores": "Vázquez-Costa JF, Chiriboga CA, Cochrane J, … Sully K",
+      "url": "https://doi.org/10.3389/fneur.2026.1819127",
+      "doi": "10.3389/fneur.2026.1819127",
+      "pmid": "43047903"
+    },
+    "resumen_tecnico": "Delphi modificado (dos rondas en línea y una reunión final; consenso ≥80 %) con neurólogos, profesionales de salud y representantes de organizaciones de pacientes de Estados Unidos, Francia, Alemania, Italia, España y Reino Unido. Hubo consenso en que las principales necesidades de los adultos con AME son la independencia en las actividades diarias, el acceso a tratamientos que preserven la función y logren estabilización, la preservación respiratoria y el acceso a equipamiento. Un resultado significativo puede ser una mejoría física, la estabilización o mantenimiento de la función, o cualquier mejoría en la calidad de vida, y su definición depende de la clase funcional y cambia con la progresión. Los autores advierten que las escalas motoras por sí solas pueden no captar beneficios relevantes en adultos.",
+    "puntos_clave": [
+      "La estabilización se reconoce como un resultado importante en todas las dimensiones.",
+      "Lo que es significativo depende de la clase funcional de cada persona.",
+      "Las escalas motoras por sí solas pueden subestimar el beneficio en adultos."
+    ],
+    "limitaciones": "Consenso de expertos (nivel bajo de evidencia). La investigación fue realizada por una consultora contratada por Roche, y varios autores son empleados de Roche o Genentech.",
+    "resumen_familias": "Médicos, terapeutas y representantes de pacientes de varios países se pusieron de acuerdo sobre qué significa que un tratamiento «funcione» en adultos con AME. Concluyeron que mantenerse estable, sin perder fuerza ni capacidad respiratoria, ya es un resultado valioso, y que cada persona puede tener metas distintas según su situación. Esto puede ayudar a que no se suspendan tratamientos solo porque no hay mejoras en las escalas de movimiento.",
+    "pregunta_equipo": "¿Qué metas concretas y realistas podemos fijar para evaluar si el tratamiento está ayudando?",
+    "conflictos": "Investigación encargada por F. Hoffmann-La Roche a Adelphi Values PROVE. Varios autores son empleados de Roche o Genentech, y otros reportan honorarios de la industria.",
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-23",
+      "nota": "Resumen y declaración de conflictos verificados en PubMed (PMID 43047903)."
+    },
+    "etiquetas": [
+      "consenso Delphi",
+      "adultos",
+      "estabilización",
+      "calidad de vida"
+    ]
+  },
+  {
+    "id": "2026-11-proteinas-musculo-ninos-ame",
+    "condicion": "ame",
+    "semana": "2026-W47",
+    "fecha_publicacion": "2026-11-20",
+    "categoria": "estudios",
+    "titulo": "En niños con AME, comer más proteínas no se asoció con más músculo",
+    "titulo_original": "Protein intake scaling and muscle status in children with Spinal Muscular Atrophy: implications for protein prescription",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Clinical Nutrition ESPEN",
+      "autores": "De Amicis R, Gallosti S, Sevim M, … Bertoli S",
+      "url": "https://doi.org/10.1016/j.clnesp.2026.105261",
+      "doi": "10.1016/j.clnesp.2026.105261",
+      "pmid": "43064350"
+    },
+    "resumen_tecnico": "Análisis longitudinal observacional de 248 evaluaciones en 114 niños de 24 a 159 meses con AME tipos 1 y 2. La ingesta proteica (registro de 3 días revisado por nutricionista) por kilo de peso no se asoció con el área muscular del brazo (β = −0,001; IC 95 %: −0,204 a 0,202), sin interacción por tipo de AME ni por tratamiento. La proteína por kilo de masa libre de grasa se asoció de forma transversal (β = 0,189), pero la asociación no se mantuvo longitudinalmente ni tras ajustar por el balance energético. El 75,5 % de las evaluaciones tenía al menos el doble de la ingesta recomendada para la población general. Los autores no recomiendan aumentar las proteínas de forma rutinaria.",
+    "puntos_clave": [
+      "La mayoría de los niños ya consumía mucha más proteína que la recomendada para su edad.",
+      "Más proteína no se tradujo en más músculo, ni según el tipo de AME ni con tratamiento.",
+      "El foco debe estar en la adecuación, el balance energético y la composición corporal."
+    ],
+    "limitaciones": "Diseño observacional con registros alimentarios autorreportados, población de un solo país y solo AME tipos 1 y 2.",
+    "resumen_familias": "Muchas familias se preguntan si dar más proteína ayuda a que su hijo o hija con AME tenga más músculo. Este estudio en Italia, con más de 100 niños, encontró que la mayoría ya comía bastante más proteína de la recomendada, y que comer aún más no se asoció con más músculo. Los autores sugieren no aumentar las proteínas por rutina, sino ajustar la alimentación de cada niño con su nutricionista, cuidando las calorías y el crecimiento.",
+    "pregunta_equipo": "¿La cantidad de proteínas y calorías que recibe mi hijo o hija es la adecuada para su composición corporal?",
+    "conflictos": null,
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-23",
+      "nota": "Resumen verificado en PubMed (PMID 43064350)."
+    },
+    "etiquetas": [
+      "nutrición",
+      "proteínas",
+      "composición corporal",
+      "pediatría"
+    ]
+  },
+  {
+    "id": "2026-11-perfil-metabolico-ninos-ame-argentina",
+    "condicion": "ame",
+    "semana": "2026-W47",
+    "fecha_publicacion": "2026-11-19",
+    "categoria": "estudios",
+    "titulo": "Sobrepeso y alteraciones metabólicas frecuentes en niños con AME tipos 1 y 2 en un centro de Argentina",
+    "titulo_original": "Nutritional and metabolic profile of children with type 1 and 2 spinal muscular atrophy managed at a referral center",
+    "tipo_fuente": "revisado_por_pares",
+    "certeza": "muy_baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Archivos Argentinos de Pediatría",
+      "autores": "Venditti A, Busaniche J, Muntadas J, … Squitín Tasende M",
+      "url": "https://doi.org/10.5546/aap.2026-11045.eng",
+      "doi": "10.5546/aap.2026-11045.eng",
+      "pmid": "43042777"
+    },
+    "resumen_tecnico": "Estudio transversal descriptivo en un hospital de alta complejidad de Buenos Aires (2020–2023), con 17 niños menores de 12 años con AME tipos 1 y 2, evaluados en su primera consulta. Se observó una alta prevalencia de sobrepeso y de alteraciones del metabolismo lipídico y de la glucosa, incluida resistencia a la insulina. En una comparación exploratoria, el HDL bajo y el IMC alto fueron más comunes en el tipo 1, y la insulina elevada en el tipo 2, sin conclusiones definitivas. El único paciente tratado en etapa presintomática tenía un perfil normal. Los autores recomiendan incluir la evaluación nutricional y metabólica en el seguimiento.",
+    "puntos_clave": [
+      "Sobrepeso, dislipidemia y resistencia a la insulina son frecuentes en esta muestra.",
+      "Con los nuevos tratamientos aparecen nuevos fenotipos que requieren vigilancia metabólica.",
+      "Muestra muy pequeña: los hallazgos son descriptivos."
+    ],
+    "limitaciones": "Solo 17 pacientes, en un único centro y con diseño transversal; no permite comparar entre tipos ni establecer causas.",
+    "resumen_familias": "Un hospital de Buenos Aires revisó la nutrición y el metabolismo de 17 niños con AME tipos 1 y 2. Muchos tenían sobrepeso y alteraciones en el colesterol, el azúcar o la insulina. Ahora que los tratamientos permiten vivir más y mejor, aparecen estos nuevos desafíos. Por eso conviene que el seguimiento incluya a nutricionistas y exámenes de sangre periódicos.",
+    "pregunta_equipo": "¿Deberíamos controlar el colesterol, la glucosa y la insulina de mi hijo o hija como parte de su seguimiento?",
+    "conflictos": null,
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-23",
+      "nota": "Resumen verificado en PubMed (PMID 43042777)."
+    },
+    "etiquetas": [
+      "nutrición",
+      "metabolismo",
+      "sobrepeso",
+      "Argentina",
+      "Latinoamérica"
+    ]
+  },
+  {
+    "id": "2026-11-fatiga-hoja-de-ruta",
+    "condicion": "ame",
+    "semana": "2026-W47",
+    "fecha_publicacion": "2026-11-18",
+    "categoria": "rehabilitacion",
+    "titulo": "Una hoja de ruta para estudiar la fatiga en la AME: distinguir el cansancio percibido de la fatigabilidad medible",
+    "titulo_original": "From Burden to Breakthrough: A Roadmap to Disentangle Fatigue in Spinal Muscular Atrophy",
+    "tipo_fuente": "revision_consenso",
+    "certeza": "no_aplica",
+    "destacado": false,
+    "fuente": {
+      "nombre": "Muscle & Nerve",
+      "autores": "Rodriguez-Torres R, Kanner CH, Coratti G, … Montes J",
+      "url": "https://doi.org/10.1002/mus.70448",
+      "doi": "10.1002/mus.70448",
+      "pmid": "43046887"
+    },
+    "resumen_tecnico": "Revisión que reconoce la fatiga como una de las principales necesidades no resueltas de la comunidad AME, pese a los beneficios de los tratamientos actuales. Propone distinguir dos constructos: la fatiga percibida (una experiencia subjetiva y multidimensional) y la fatigabilidad (la disminución medible del rendimiento motor o de la actividad sostenida). Ambos son prominentes en la AME y sus causas biológicas no están claras. A partir de la evidencia y de la perspectiva de expertos, cuidadores y pacientes, plantea una metodología común para armonizar la terminología y los instrumentos de evaluación, y para investigar los mecanismos biológicos.",
+    "puntos_clave": [
+      "La fatiga persiste a pesar del tratamiento y es prioritaria para la comunidad.",
+      "Distinguir la fatiga percibida de la fatigabilidad mejora la evaluación clínica.",
+      "Propone instrumentos armonizados para investigación y práctica."
+    ],
+    "limitaciones": "Revisión con propuesta metodológica; no aporta datos nuevos ni evalúa intervenciones.",
+    "resumen_familias": "Muchas personas con AME cuentan que el cansancio es uno de sus mayores problemas, incluso con tratamiento. Expertos y familias propusieron una forma común de estudiarlo, separando dos cosas: la sensación de cansancio y la pérdida medible de fuerza cuando se repite un movimiento. Ordenar esto ayudará a medirlo mejor y a buscar tratamientos específicos. Es una propuesta para la investigación; todavía no cambia el manejo diario.",
+    "pregunta_equipo": "¿Cómo podemos medir y manejar el cansancio de mi hijo o hija en sus actividades diarias y en la terapia?",
+    "conflictos": null,
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-23",
+      "nota": "Resumen verificado en PubMed (PMID 43046887)."
+    },
+    "etiquetas": [
+      "fatiga",
+      "fatigabilidad",
+      "evaluación",
+      "calidad de vida"
+    ]
+  },
+  {
+    "id": "2026-11-miocinas-minerales-revision",
+    "condicion": "ame",
+    "semana": "2026-W47",
+    "fecha_publicacion": "2026-11-17",
+    "categoria": "evidencia",
+    "titulo": "Revisión sistemática: miostatina, IL-6 y minerales como posibles marcadores en la AME",
+    "titulo_original": "Role of Selected Myokines and Mineral Metabolism in Spinal Muscular Atrophy: A Systematic Review",
+    "tipo_fuente": "revision_consenso",
+    "certeza": "baja",
+    "destacado": false,
+    "fuente": {
+      "nombre": "FASEB Journal",
+      "autores": "Gryczyńska W, Gajewska E, Steinborn B, … Skrypnik D",
+      "url": "https://doi.org/10.1096/fj.202604994R",
+      "doi": "10.1096/fj.202604994R",
+      "pmid": "43042771"
+    },
+    "resumen_tecnico": "Revisión sistemática registrada en PROSPERO, con 25 estudios sobre miocinas (miostatina, folistatina, IL-6 e IGF-1) y minerales (cobre, zinc, calcio, hierro y magnesio) en la AME, con calidad metodológica heterogénea. Los niveles bajos de miostatina se asociaron con el subtipo y el estado funcional, pero no con la edad ni con 30 meses de nusinersen. La evidencia clínica sobre folistatina fue inconsistente. La IL-6 alterada se vinculó a neuroinflamación y actividad de la enfermedad. La IGF-1 exógena mejoró la atrofia en modelos preclínicos. Se describieron densidad mineral ósea reducida, déficit de magnesio y hierro, y relaciones entre el cobre y la composición corporal.",
+    "puntos_clave": [
+      "La miostatina se relaciona con el subtipo y la función, en línea con las terapias anti-miostatina.",
+      "La IL-6 podría servir como marcador de respuesta al tratamiento.",
+      "Destaca la baja densidad ósea y los déficits de minerales: relevante para el cuidado óseo."
+    ],
+    "limitaciones": "Estudios incluidos heterogéneos, de calidad variable y en gran parte preclínicos; no hay metaanálisis.",
+    "resumen_familias": "Esta revisión reunió 25 estudios sobre sustancias que produce el músculo y sobre minerales del cuerpo en la AME. Algunas, como la miostatina, se relacionan con la gravedad, y podrían ayudar en el futuro a medir cómo responde cada persona al tratamiento. También recuerda que en la AME son frecuentes los huesos frágiles y la falta de algunos minerales, por lo que es útil revisarlos en los controles.",
+    "pregunta_equipo": "¿Deberíamos revisar la densidad ósea, la vitamina D y los minerales de mi hijo o hija?",
+    "conflictos": null,
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-23",
+      "nota": "Resumen verificado en PubMed (PMID 43042771)."
+    },
+    "etiquetas": [
+      "miostatina",
+      "biomarcadores",
+      "minerales",
+      "hueso"
+    ]
   }
 ]

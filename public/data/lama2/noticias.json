@@ -27,8 +27,18 @@
     "resumen_familias": "Muchos niños con distrofia LAMA2 desarrollan escoliosis, es decir, una curva en la columna. En este caso, una niña de 6 años usó un corsé de tronco unas 4 horas al día mientras estaba sentada, junto con su kinesiología habitual. A las 6 semanas se movía mejor y respiraba mejor en las pruebas de pulmón. Es una sola niña y por poco tiempo, así que no se puede asegurar que funcione igual para todos, pero es una idea útil para conversar con el equipo.",
     "pregunta_equipo": "¿Podría un corsé de tronco en posición sentada ayudar a mi hijo o hija con su postura y su respiración?",
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42290440)." },
-    "etiquetas": ["escoliosis", "corsé", "TLSO", "función pulmonar", "órtesis"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-19",
+      "nota": "Resumen verificado en PubMed (PMID 42290440)."
+    },
+    "etiquetas": [
+      "escoliosis",
+      "corsé",
+      "TLSO",
+      "función pulmonar",
+      "órtesis"
+    ]
   },
   {
     "id": "2026-07-terapia-genica-triple-aav-inteinas",
@@ -58,8 +68,18 @@
     "resumen_familias": "El gen LAMA2 es demasiado grande para caber en los «vehículos» que se usan en terapia génica (virus AAV). Investigadores en España lo dividieron en tres partes, cada una en un vehículo distinto, que dentro de la célula se unen y forman la proteína completa. En ratones, el músculo mejoró. Es un avance importante en el laboratorio, pero todavía falta mucho camino (seguridad, dosis, estudios en animales más grandes) antes de probarlo en niños.",
     "pregunta_equipo": null,
     "conflictos": "Hay patentes registradas sobre parte de este trabajo; dos autores son cofundadores de SpliceBio.",
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen y declaración de intereses verificados en PubMed (PMID 42528140). Existe una fe de erratas publicada (PMID 42805186)." },
-    "etiquetas": ["terapia génica", "AAV", "inteínas", "modelo murino", "laminina α2"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-19",
+      "nota": "Resumen y declaración de intereses verificados en PubMed (PMID 42528140). Existe una fe de erratas publicada (PMID 42805186)."
+    },
+    "etiquetas": [
+      "terapia génica",
+      "AAV",
+      "inteínas",
+      "modelo murino",
+      "laminina α2"
+    ]
   },
   {
     "id": "2026-08-historia-natural-last-strong",
@@ -89,8 +109,17 @@
     "resumen_familias": "Para poder probar tratamientos nuevos, primero hay que saber cómo evoluciona la condición sin tratamiento y con qué pruebas medirla. Este estudio en Países Bajos siguió durante un año y medio a 27 personas con distrofia LAMA2. En ese tiempo, la mayoría se mantuvo estable. Esto ayuda a los investigadores a elegir las mejores pruebas para futuros ensayos clínicos.",
     "pregunta_equipo": "¿Existe algún registro o estudio de historia natural de LAMA2 en el que podamos participar?",
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42541386)." },
-    "etiquetas": ["historia natural", "medidas de resultado", "preparación para ensayos", "SELENON"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-19",
+      "nota": "Resumen verificado en PubMed (PMID 42541386)."
+    },
+    "etiquetas": [
+      "historia natural",
+      "medidas de resultado",
+      "preparación para ensayos",
+      "SELENON"
+    ]
   },
   {
     "id": "2026-08-fenotipos-distrofias-congenitas-revision",
@@ -119,8 +148,17 @@
     "resumen_familias": "Especialistas en enfermedades neuromusculares infantiles escribieron, en español, una revisión sobre las distrofias musculares congénitas, el grupo al que pertenece la distrofia LAMA2. Explican cómo se presentan, qué complicaciones vigilar (contracturas, columna, respiración, corazón) y por qué es tan importante conocer el gen exacto: ayuda a planificar los controles y a acceder a estudios de nuevos tratamientos.",
     "pregunta_equipo": "¿Qué controles respiratorios y cardíacos le corresponden a mi hijo o hija y con qué frecuencia?",
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42659544). El registro no tiene DOI, por lo que se enlaza a PubMed." },
-    "etiquetas": ["distrofia muscular congénita", "revisión", "español", "diagnóstico genético"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-19",
+      "nota": "Resumen verificado en PubMed (PMID 42659544). El registro no tiene DOI, por lo que se enlaza a PubMed."
+    },
+    "etiquetas": [
+      "distrofia muscular congénita",
+      "revisión",
+      "español",
+      "diagnóstico genético"
+    ]
   },
   {
     "id": "2026-09-celulas-satelite-preservadas-dy2j",
@@ -150,8 +188,17 @@
     "resumen_familias": "El músculo tiene células madre (células satélite) que lo reparan cuando se daña. Un equipo de Brasil estudió ratones con distrofia LAMA2 y vio que estas células no se acaban: están ahí y se activan, pero las fibras nuevas que forman no terminan de madurar. Entender dónde se traba la reparación puede ayudar a diseñar tratamientos futuros. Es un estudio en animales.",
     "pregunta_equipo": null,
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42813235)." },
-    "etiquetas": ["células satélite", "regeneración muscular", "modelo murino", "Brasil"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-19",
+      "nota": "Resumen verificado en PubMed (PMID 42813235)."
+    },
+    "etiquetas": [
+      "células satélite",
+      "regeneración muscular",
+      "modelo murino",
+      "Brasil"
+    ]
   },
   {
     "id": "2026-10-estres-oxidativo-multiorgano",
@@ -181,8 +228,18 @@
     "resumen_familias": "Hasta ahora se pensaba que la distrofia LAMA2 afectaba sobre todo al músculo y a los nervios. Este estudio en ratones encontró que, ya antes de nacer, la falta de laminina α2 también cambia el funcionamiento de otros órganos, como el corazón, el riñón y el hígado. Todavía no se sabe si ocurre lo mismo en personas, pero abre preguntas para investigar.",
     "pregunta_equipo": null,
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42906646)." },
-    "etiquetas": ["estrés oxidativo", "NRF2", "riñón", "corazón", "modelo murino"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-19",
+      "nota": "Resumen verificado en PubMed (PMID 42906646)."
+    },
+    "etiquetas": [
+      "estrés oxidativo",
+      "NRF2",
+      "riñón",
+      "corazón",
+      "modelo murino"
+    ]
   },
   {
     "id": "2026-11-modelo-muscular-3d-ipsc",
@@ -212,7 +269,57 @@
     "resumen_familias": "Investigadores tomaron células de una niña con distrofia LAMA2, las transformaron en células madre y luego en pequeños músculos en 3D que se contraen en el laboratorio. Estos «mini músculos» se rompían al contraerse, igual que ocurre en la enfermedad. Esto sirve para probar posibles tratamientos en tejido humano antes de llegar a los pacientes. No es un tratamiento, sino una herramienta de investigación.",
     "pregunta_equipo": null,
     "conflictos": null,
-    "verificacion": { "estado": "verificado", "fecha": "2026-11-19", "nota": "Resumen verificado en PubMed (PMID 42972446). Publicado en línea en agosto e indexado en PubMed en noviembre de 2026." },
-    "etiquetas": ["iPSC", "modelo 3D", "músculo humano", "investigación traslacional"]
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-19",
+      "nota": "Resumen verificado en PubMed (PMID 42972446). Publicado en línea en agosto e indexado en PubMed en noviembre de 2026."
+    },
+    "etiquetas": [
+      "iPSC",
+      "modelo 3D",
+      "músculo humano",
+      "investigación traslacional"
+    ]
+  },
+  {
+    "id": "2026-11-preprint-nervio-calcio-inflamacion",
+    "condicion": "lama2",
+    "semana": "2026-W47",
+    "fecha_publicacion": "2026-11-02",
+    "categoria": "descubrimientos",
+    "titulo": "Preprint: en ratones con distrofia LAMA2, el nervio periférico pierde el equilibrio de calcio y se inflama con la edad",
+    "titulo_original": "LAMA2-related muscular dystrophy alters Schwann cell calcium homeostasis and increases peripheral nerve inflammation",
+    "tipo_fuente": "preprint",
+    "certeza": "no_aplica",
+    "destacado": true,
+    "fuente": {
+      "nombre": "bioRxiv (preprint, sin revisión por pares)",
+      "autores": "Wang J, Khati M, Heron M, … Kemaladewi DU",
+      "url": "https://doi.org/10.64898/2026.10.27.762325",
+      "doi": "10.64898/2026.10.27.762325",
+      "pmid": "43060301"
+    },
+    "resumen_tecnico": "Estudio preclínico del nervio ciático de ratones Lama2 dy2J/dy2J a lo largo de la vida posnatal. Los nervios deficientes en LAMA2 mostraron zonas sin axones mielinizados desde etapas tempranas hasta la adultez, haces de Remak expandidos y axones sin envoltura normal por células de Schwann. En la adultez hubo pliegues anómalos de mielina. La secuenciación de ARN mostró alteraciones en la señalización de calcio y firmas inmunes. En cultivos de células de Schwann, el calcio intracelular estaba reducido, aunque la respuesta a ATP se conservaba. En nervios de ratones mayores aumentó la infiltración de células mieloides CD45+CD11b+.",
+    "puntos_clave": [
+      "Extiende la caracterización de la neuropatía de LAMA2 hasta la adultez.",
+      "Identifica el calcio de las células de Schwann y la inflamación como posibles blancos.",
+      "Es un preprint: aún no ha pasado revisión por pares."
+    ],
+    "limitaciones": "Preprint sin revisión por pares, en un modelo murino leve; los hallazgos pueden cambiar en la versión publicada.",
+    "resumen_familias": "La distrofia LAMA2 afecta los músculos y también los nervios. Este estudio en ratones, que aún no ha sido revisado por otros científicos (es un borrador o «preprint»), encontró que en los nervios las células que forman su cubierta tienen menos calcio del normal, y que con la edad aparece inflamación. Entender esto podría abrir nuevas ideas de tratamiento, pero todavía es investigación inicial.",
+    "pregunta_equipo": null,
+    "conflictos": null,
+    "verificacion": {
+      "estado": "verificado",
+      "fecha": "2026-11-23",
+      "nota": "Resumen verificado en PubMed (PMID 43060301). Es un preprint de bioRxiv sin revisión por pares."
+    },
+    "etiquetas": [
+      "preprint",
+      "nervio periférico",
+      "células de Schwann",
+      "inflamación",
+      "modelo murino"
+    ]
   }
 ]
