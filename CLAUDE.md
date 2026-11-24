@@ -61,7 +61,10 @@ Repite los pasos 1 a 6 **para cada condición activa** y luego valida y publica 
    - Si no hubo novedades, crea igualmente la semana con el titular "Semana sin novedades relevantes" y `destacados: []`.
 7. **Validar y publicar**
    - Ejecuta `python3 scripts/validar.py` y corrige los errores que aparezcan.
-   - Haz un solo commit para todas las condiciones con el mensaje `Edición semanal AAAA-Www` en la rama `main` y luego push. Cloudflare Pages despliega automáticamente.
+   - Haz un solo commit para todas las condiciones con el mensaje `Edición semanal AAAA-Www` en la rama `main` y luego push. Cloudflare despliega automáticamente desde GitHub.
+8. **Comprobar la publicación**
+   - Espera unos minutos y comprueba que `https://noticierosma.neurorehab-academy.workers.dev/data/<id>/semanas.json` incluya la semana nueva (agrega `?v=<algo>` a la URL para evitar la caché).
+   - Si después de 10 minutos no aparece, la conexión entre Cloudflare y GitHub probablemente se cortó. Avisa al usuario que revise **Cloudflare → noticierosma → Settings → Build** (aviso "disconnected from your Git account") y que reconecte el repositorio. No reportes la edición como publicada hasta comprobarlo.
 
 ## Agregar una condición nueva
 
